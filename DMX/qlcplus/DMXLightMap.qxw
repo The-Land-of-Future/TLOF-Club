@@ -1,0 +1,1961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>C0D3 M4513R</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="Universe 1" ID="0">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 2" ID="1">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 3" ID="2">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 4" ID="3">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 5" ID="4">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 6" ID="5">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 7" ID="6">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 8" ID="7">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+   <Universe Name="Universe 9" ID="8">
+    <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>0</ID>
+   <Name>Standard Mover Spotlight #01</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>1</ID>
+   <Name>Standard Mover Spotlight #02</Name>
+   <Universe>0</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>2</ID>
+   <Name>Standard Mover Spotlight #03</Name>
+   <Universe>0</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>3</ID>
+   <Name>Standard Mover Spotlight #04</Name>
+   <Universe>0</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>4</ID>
+   <Name>Standard Mover Spotlight #05</Name>
+   <Universe>0</Universe>
+   <Address>52</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>5</ID>
+   <Name>Standard Mover Spotlight #06</Name>
+   <Universe>0</Universe>
+   <Address>65</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>6</ID>
+   <Name>Standard Mover Spotlight #07</Name>
+   <Universe>0</Universe>
+   <Address>78</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>7</ID>
+   <Name>Standard Mover Spotlight #08</Name>
+   <Universe>0</Universe>
+   <Address>91</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>8</ID>
+   <Name>Standard Mover Spotlight #09</Name>
+   <Universe>0</Universe>
+   <Address>104</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>9</ID>
+   <Name>Standard Mover Spotlight #10</Name>
+   <Universe>0</Universe>
+   <Address>117</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>10</ID>
+   <Name>Standard Mover Spotlight #11</Name>
+   <Universe>0</Universe>
+   <Address>130</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>11</ID>
+   <Name>Standard Mover Spotlight #12</Name>
+   <Universe>0</Universe>
+   <Address>143</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>12</ID>
+   <Name>Standard Mover Spotlight #13</Name>
+   <Universe>0</Universe>
+   <Address>156</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>13</ID>
+   <Name>Standard Mover Spotlight #14</Name>
+   <Universe>0</Universe>
+   <Address>169</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>14</ID>
+   <Name>Standard Mover Spotlight #15</Name>
+   <Universe>0</Universe>
+   <Address>182</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>15</ID>
+   <Name>Standard Mover Spotlight #16</Name>
+   <Universe>0</Universe>
+   <Address>195</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>16</ID>
+   <Name>Standard Mover Spotlight #17</Name>
+   <Universe>0</Universe>
+   <Address>208</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>17</ID>
+   <Name>Standard Mover Spotlight #18</Name>
+   <Universe>0</Universe>
+   <Address>221</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>18</ID>
+   <Name>Standard Mover Spotlight #19</Name>
+   <Universe>0</Universe>
+   <Address>234</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>19</ID>
+   <Name>Standard Mover Spotlight #20</Name>
+   <Universe>0</Universe>
+   <Address>247</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>20</ID>
+   <Name>Standard Mover Spotlight #21</Name>
+   <Universe>0</Universe>
+   <Address>260</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>21</ID>
+   <Name>Standard Mover Spotlight #22</Name>
+   <Universe>0</Universe>
+   <Address>273</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>22</ID>
+   <Name>Standard Mover Spotlight #23</Name>
+   <Universe>0</Universe>
+   <Address>286</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>23</ID>
+   <Name>Standard Mover Spotlight #24</Name>
+   <Universe>0</Universe>
+   <Address>299</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>24</ID>
+   <Name>Standard Mover Spotlight #25</Name>
+   <Universe>0</Universe>
+   <Address>312</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>25</ID>
+   <Name>Standard Mover Spotlight #26</Name>
+   <Universe>0</Universe>
+   <Address>325</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>26</ID>
+   <Name>Standard Mover Spotlight #27</Name>
+   <Universe>0</Universe>
+   <Address>338</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>27</ID>
+   <Name>Standard Mover Spotlight #28</Name>
+   <Universe>0</Universe>
+   <Address>351</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>28</ID>
+   <Name>Standard Mover Spotlight #29</Name>
+   <Universe>0</Universe>
+   <Address>364</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>29</ID>
+   <Name>Standard Mover Spotlight #30</Name>
+   <Universe>0</Universe>
+   <Address>377</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>30</ID>
+   <Name>Standard Mover Spotlight #31</Name>
+   <Universe>0</Universe>
+   <Address>390</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>31</ID>
+   <Name>Standard Mover Spotlight #32</Name>
+   <Universe>0</Universe>
+   <Address>403</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>32</ID>
+   <Name>Standard Mover Spotlight #33</Name>
+   <Universe>0</Universe>
+   <Address>416</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>33</ID>
+   <Name>Standard Mover Spotlight #34</Name>
+   <Universe>0</Universe>
+   <Address>429</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>34</ID>
+   <Name>Standard Mover Spotlight #35</Name>
+   <Universe>0</Universe>
+   <Address>442</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>35</ID>
+   <Name>Standard Mover Spotlight #36</Name>
+   <Universe>0</Universe>
+   <Address>455</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>36</ID>
+   <Name>Standard Mover Spotlight #37</Name>
+   <Universe>0</Universe>
+   <Address>468</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>37</ID>
+   <Name>Standard Mover Spotlight #38</Name>
+   <Universe>0</Universe>
+   <Address>481</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>38</ID>
+   <Name>Standard Mover Spotlight #39</Name>
+   <Universe>0</Universe>
+   <Address>494</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>39</ID>
+   <Name>Standard Mover Spotlight #01</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>40</ID>
+   <Name>Standard Mover Spotlight #02</Name>
+   <Universe>1</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>41</ID>
+   <Name>Standard Mover Spotlight #03</Name>
+   <Universe>1</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>42</ID>
+   <Name>Standard Mover Spotlight #04</Name>
+   <Universe>1</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>43</ID>
+   <Name>Standard Mover Spotlight #05</Name>
+   <Universe>1</Universe>
+   <Address>52</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>44</ID>
+   <Name>Standard Mover Spotlight #06</Name>
+   <Universe>1</Universe>
+   <Address>65</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>45</ID>
+   <Name>Standard Mover Spotlight #07</Name>
+   <Universe>1</Universe>
+   <Address>78</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>46</ID>
+   <Name>Standard Mover Spotlight #08</Name>
+   <Universe>1</Universe>
+   <Address>91</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>47</ID>
+   <Name>Standard Mover Spotlight #09</Name>
+   <Universe>1</Universe>
+   <Address>104</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>48</ID>
+   <Name>Standard Mover Spotlight #10</Name>
+   <Universe>1</Universe>
+   <Address>117</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>49</ID>
+   <Name>Standard Mover Spotlight #11</Name>
+   <Universe>1</Universe>
+   <Address>130</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>50</ID>
+   <Name>Standard Mover Spotlight #12</Name>
+   <Universe>1</Universe>
+   <Address>143</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>51</ID>
+   <Name>Standard Mover Spotlight #13</Name>
+   <Universe>1</Universe>
+   <Address>156</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>52</ID>
+   <Name>Standard Mover Spotlight #14</Name>
+   <Universe>1</Universe>
+   <Address>169</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>53</ID>
+   <Name>Standard Mover Spotlight #15</Name>
+   <Universe>1</Universe>
+   <Address>182</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>54</ID>
+   <Name>Standard Mover Spotlight #16</Name>
+   <Universe>1</Universe>
+   <Address>195</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>55</ID>
+   <Name>Standard Mover Spotlight #17</Name>
+   <Universe>1</Universe>
+   <Address>208</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>56</ID>
+   <Name>Standard Mover Spotlight #18</Name>
+   <Universe>1</Universe>
+   <Address>221</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>57</ID>
+   <Name>Standard Mover Spotlight #19</Name>
+   <Universe>1</Universe>
+   <Address>234</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>58</ID>
+   <Name>Standard Mover Spotlight #20</Name>
+   <Universe>1</Universe>
+   <Address>247</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>59</ID>
+   <Name>Standard Mover Spotlight #21</Name>
+   <Universe>1</Universe>
+   <Address>260</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>60</ID>
+   <Name>Standard Mover Spotlight #22</Name>
+   <Universe>1</Universe>
+   <Address>273</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>61</ID>
+   <Name>Standard Mover Spotlight #23</Name>
+   <Universe>1</Universe>
+   <Address>286</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>62</ID>
+   <Name>Standard Mover Spotlight #24</Name>
+   <Universe>1</Universe>
+   <Address>299</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>63</ID>
+   <Name>Standard Mover Spotlight #25</Name>
+   <Universe>1</Universe>
+   <Address>312</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>64</ID>
+   <Name>Standard Mover Spotlight #26</Name>
+   <Universe>1</Universe>
+   <Address>325</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>65</ID>
+   <Name>Standard Mover Spotlight #27</Name>
+   <Universe>1</Universe>
+   <Address>338</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>66</ID>
+   <Name>Standard Mover Spotlight #28</Name>
+   <Universe>1</Universe>
+   <Address>351</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>67</ID>
+   <Name>Standard Mover Spotlight #29</Name>
+   <Universe>1</Universe>
+   <Address>364</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>68</ID>
+   <Name>Standard Mover Spotlight #30</Name>
+   <Universe>1</Universe>
+   <Address>377</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>69</ID>
+   <Name>Standard Mover Spotlight #31</Name>
+   <Universe>1</Universe>
+   <Address>390</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Blinder</Model>
+   <Mode>5CH - Mode</Mode>
+   <ID>70</ID>
+   <Name>Standard Blinder</Name>
+   <Universe>0</Universe>
+   <Address>507</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Blinder</Model>
+   <Mode>5CH - Mode</Mode>
+   <ID>71</ID>
+   <Name>Standard Blinder #1</Name>
+   <Universe>1</Universe>
+   <Address>507</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Blinder</Model>
+   <Mode>5CH - Mode</Mode>
+   <ID>72</ID>
+   <Name>Standard Blinder #2</Name>
+   <Universe>2</Universe>
+   <Address>507</Address>
+   <Channels>5</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>73</ID>
+   <Name>Co2 Jet #01</Name>
+   <Universe>2</Universe>
+   <Address>130</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>74</ID>
+   <Name>Co2 Jet #02</Name>
+   <Universe>2</Universe>
+   <Address>131</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>75</ID>
+   <Name>Co2 Jet #03</Name>
+   <Universe>2</Universe>
+   <Address>132</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>76</ID>
+   <Name>Co2 Jet #04</Name>
+   <Universe>2</Universe>
+   <Address>133</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>77</ID>
+   <Name>Co2 Jet #05</Name>
+   <Universe>2</Universe>
+   <Address>134</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>78</ID>
+   <Name>Co2 Jet #06</Name>
+   <Universe>2</Universe>
+   <Address>135</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>79</ID>
+   <Name>Standard Mover Wash #1</Name>
+   <Universe>1</Universe>
+   <Address>403</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>80</ID>
+   <Name>Standard Mover Wash #2</Name>
+   <Universe>1</Universe>
+   <Address>416</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>81</ID>
+   <Name>Standard Mover Wash #3</Name>
+   <Universe>1</Universe>
+   <Address>429</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>82</ID>
+   <Name>Standard Mover Wash #4</Name>
+   <Universe>1</Universe>
+   <Address>442</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>83</ID>
+   <Name>Standard Mover Wash #5</Name>
+   <Universe>1</Universe>
+   <Address>455</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>84</ID>
+   <Name>Standard Mover Wash #6</Name>
+   <Universe>1</Universe>
+   <Address>468</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>85</ID>
+   <Name>Standard Mover Wash #7</Name>
+   <Universe>1</Universe>
+   <Address>481</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>86</ID>
+   <Name>Standard Mover Wash #8</Name>
+   <Universe>1</Universe>
+   <Address>494</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>87</ID>
+   <Name>Standard Mover Wash #01</Name>
+   <Universe>2</Universe>
+   <Address>0</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>88</ID>
+   <Name>Standard Mover Wash #02</Name>
+   <Universe>2</Universe>
+   <Address>13</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>89</ID>
+   <Name>Standard Mover Wash #03</Name>
+   <Universe>2</Universe>
+   <Address>26</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>90</ID>
+   <Name>Standard Mover Wash #04</Name>
+   <Universe>2</Universe>
+   <Address>39</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>91</ID>
+   <Name>Standard Mover Wash #05</Name>
+   <Universe>2</Universe>
+   <Address>52</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>92</ID>
+   <Name>Standard Mover Wash #06</Name>
+   <Universe>2</Universe>
+   <Address>65</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>93</ID>
+   <Name>Standard Mover Wash #07</Name>
+   <Universe>2</Universe>
+   <Address>78</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>94</ID>
+   <Name>Standard Mover Wash #08</Name>
+   <Universe>2</Universe>
+   <Address>91</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>95</ID>
+   <Name>Standard Mover Wash #09</Name>
+   <Universe>2</Universe>
+   <Address>104</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Wash</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>96</ID>
+   <Name>Standard Mover Wash #10</Name>
+   <Universe>2</Universe>
+   <Address>117</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>97</ID>
+   <Name>Co2 Jet #07</Name>
+   <Universe>2</Universe>
+   <Address>136</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>98</ID>
+   <Name>Co2 Jet #08</Name>
+   <Universe>2</Universe>
+   <Address>137</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>99</ID>
+   <Name>Co2 Jet #09</Name>
+   <Universe>2</Universe>
+   <Address>138</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>100</ID>
+   <Name>Co2 Jet #10</Name>
+   <Universe>2</Universe>
+   <Address>139</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>101</ID>
+   <Name>Co2 Jet #11</Name>
+   <Universe>2</Universe>
+   <Address>140</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>102</ID>
+   <Name>Co2 Jet #12</Name>
+   <Universe>2</Universe>
+   <Address>141</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>103</ID>
+   <Name>Co2 Jet #13</Name>
+   <Universe>2</Universe>
+   <Address>142</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>104</ID>
+   <Name>Co2 Jet #14</Name>
+   <Universe>2</Universe>
+   <Address>143</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>105</ID>
+   <Name>Co2 Jet #15</Name>
+   <Universe>2</Universe>
+   <Address>144</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>106</ID>
+   <Name>Co2 Jet #16</Name>
+   <Universe>2</Universe>
+   <Address>145</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>107</ID>
+   <Name>Fire #1</Name>
+   <Universe>2</Universe>
+   <Address>146</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>108</ID>
+   <Name>Fire #2</Name>
+   <Universe>2</Universe>
+   <Address>149</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>109</ID>
+   <Name>Fire #3</Name>
+   <Universe>2</Universe>
+   <Address>152</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>110</ID>
+   <Name>Fire #4</Name>
+   <Universe>2</Universe>
+   <Address>155</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>111</ID>
+   <Name>Fire #5</Name>
+   <Universe>2</Universe>
+   <Address>158</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Fire</Model>
+   <Mode>3Ch - Mode</Mode>
+   <ID>112</ID>
+   <Name>Fire #6</Name>
+   <Universe>2</Universe>
+   <Address>161</Address>
+   <Channels>3</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Confetti</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>113</ID>
+   <Name>Confetti #1</Name>
+   <Universe>2</Universe>
+   <Address>164</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Confetti</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>114</ID>
+   <Name>Confetti #2</Name>
+   <Universe>2</Universe>
+   <Address>165</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>115</ID>
+   <Name>Standard Laser #01</Name>
+   <Universe>2</Universe>
+   <Address>166</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>116</ID>
+   <Name>Standard Laser #02</Name>
+   <Universe>2</Universe>
+   <Address>179</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>117</ID>
+   <Name>Standard Laser #03</Name>
+   <Universe>2</Universe>
+   <Address>192</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>118</ID>
+   <Name>Standard Laser #04</Name>
+   <Universe>2</Universe>
+   <Address>205</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>119</ID>
+   <Name>Standard Laser #05</Name>
+   <Universe>2</Universe>
+   <Address>218</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>120</ID>
+   <Name>Standard Laser #06</Name>
+   <Universe>2</Universe>
+   <Address>231</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>121</ID>
+   <Name>Standard Laser #07</Name>
+   <Universe>2</Universe>
+   <Address>244</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>122</ID>
+   <Name>Standard Laser #08</Name>
+   <Universe>2</Universe>
+   <Address>257</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>123</ID>
+   <Name>Standard Laser #09</Name>
+   <Universe>2</Universe>
+   <Address>270</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>124</ID>
+   <Name>Standard Laser #10</Name>
+   <Universe>2</Universe>
+   <Address>283</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>125</ID>
+   <Name>Standard Laser #11</Name>
+   <Universe>2</Universe>
+   <Address>296</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>126</ID>
+   <Name>Standard Laser #12</Name>
+   <Universe>2</Universe>
+   <Address>309</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>127</ID>
+   <Name>Flasher #01</Name>
+   <Universe>2</Universe>
+   <Address>322</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>128</ID>
+   <Name>Flasher #02</Name>
+   <Universe>2</Universe>
+   <Address>323</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>129</ID>
+   <Name>Flasher #03</Name>
+   <Universe>2</Universe>
+   <Address>324</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>130</ID>
+   <Name>Flasher #04</Name>
+   <Universe>2</Universe>
+   <Address>325</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>131</ID>
+   <Name>Flasher #05</Name>
+   <Universe>2</Universe>
+   <Address>326</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>132</ID>
+   <Name>Flasher #06</Name>
+   <Universe>2</Universe>
+   <Address>327</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>133</ID>
+   <Name>Flasher #07</Name>
+   <Universe>2</Universe>
+   <Address>328</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>134</ID>
+   <Name>Flasher #08</Name>
+   <Universe>2</Universe>
+   <Address>329</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>135</ID>
+   <Name>Flasher #09</Name>
+   <Universe>2</Universe>
+   <Address>330</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>136</ID>
+   <Name>Flasher #10</Name>
+   <Universe>2</Universe>
+   <Address>331</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>137</ID>
+   <Name>Flasher #11</Name>
+   <Universe>2</Universe>
+   <Address>332</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>138</ID>
+   <Name>Flasher #12</Name>
+   <Universe>2</Universe>
+   <Address>333</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>139</ID>
+   <Name>Flasher #13</Name>
+   <Universe>2</Universe>
+   <Address>334</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>140</ID>
+   <Name>Flasher #14</Name>
+   <Universe>2</Universe>
+   <Address>335</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>141</ID>
+   <Name>Flasher #15</Name>
+   <Universe>2</Universe>
+   <Address>336</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>142</ID>
+   <Name>Flasher #16</Name>
+   <Universe>2</Universe>
+   <Address>337</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>143</ID>
+   <Name>Flasher #17</Name>
+   <Universe>2</Universe>
+   <Address>338</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>144</ID>
+   <Name>Flasher #18</Name>
+   <Universe>2</Universe>
+   <Address>339</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>145</ID>
+   <Name>Flasher #19</Name>
+   <Universe>2</Universe>
+   <Address>340</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>146</ID>
+   <Name>Flasher #20</Name>
+   <Universe>2</Universe>
+   <Address>341</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>147</ID>
+   <Name>Flasher #21</Name>
+   <Universe>2</Universe>
+   <Address>342</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>148</ID>
+   <Name>Flasher #22</Name>
+   <Universe>2</Universe>
+   <Address>343</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>149</ID>
+   <Name>Flasher #23</Name>
+   <Universe>2</Universe>
+   <Address>344</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>150</ID>
+   <Name>Flasher #24</Name>
+   <Universe>2</Universe>
+   <Address>345</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>151</ID>
+   <Name>Flasher #25</Name>
+   <Universe>2</Universe>
+   <Address>346</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>152</ID>
+   <Name>Flasher #26</Name>
+   <Universe>2</Universe>
+   <Address>347</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>153</ID>
+   <Name>Flasher #27</Name>
+   <Universe>2</Universe>
+   <Address>348</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>154</ID>
+   <Name>Flasher #28</Name>
+   <Universe>2</Universe>
+   <Address>349</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>155</ID>
+   <Name>Flasher #29</Name>
+   <Universe>2</Universe>
+   <Address>350</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>156</ID>
+   <Name>Flasher #30</Name>
+   <Universe>2</Universe>
+   <Address>351</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>157</ID>
+   <Name>Flasher #31</Name>
+   <Universe>2</Universe>
+   <Address>352</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>158</ID>
+   <Name>Flasher #32</Name>
+   <Universe>2</Universe>
+   <Address>353</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>159</ID>
+   <Name>Flasher #33</Name>
+   <Universe>2</Universe>
+   <Address>354</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>160</ID>
+   <Name>Flasher #34</Name>
+   <Universe>2</Universe>
+   <Address>355</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>161</ID>
+   <Name>Flasher #35</Name>
+   <Universe>2</Universe>
+   <Address>356</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>162</ID>
+   <Name>Flasher #36</Name>
+   <Universe>2</Universe>
+   <Address>357</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>163</ID>
+   <Name>Flasher #37</Name>
+   <Universe>2</Universe>
+   <Address>358</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>164</ID>
+   <Name>Flasher #38</Name>
+   <Universe>2</Universe>
+   <Address>359</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>165</ID>
+   <Name>Flasher #39</Name>
+   <Universe>2</Universe>
+   <Address>360</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>166</ID>
+   <Name>Flasher #40</Name>
+   <Universe>2</Universe>
+   <Address>361</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>167</ID>
+   <Name>Flasher #41</Name>
+   <Universe>2</Universe>
+   <Address>362</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>168</ID>
+   <Name>Flasher #42</Name>
+   <Universe>2</Universe>
+   <Address>363</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>169</ID>
+   <Name>Flasher #43</Name>
+   <Universe>2</Universe>
+   <Address>364</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>170</ID>
+   <Name>Flasher #44</Name>
+   <Universe>2</Universe>
+   <Address>365</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>171</ID>
+   <Name>Flasher #45</Name>
+   <Universe>2</Universe>
+   <Address>366</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>172</ID>
+   <Name>Flasher #46</Name>
+   <Universe>2</Universe>
+   <Address>367</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>173</ID>
+   <Name>Flasher #47</Name>
+   <Universe>2</Universe>
+   <Address>368</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>174</ID>
+   <Name>Standard Mover Spotlight #1</Name>
+   <Universe>2</Universe>
+   <Address>369</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>175</ID>
+   <Name>Standard Mover Spotlight #2</Name>
+   <Universe>2</Universe>
+   <Address>382</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <FixtureGroup ID="0">
+   <Name>Side Wall Top Left</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="36">0</Head>
+   <Head X="1" Y="0" Fixture="37">0</Head>
+   <Head X="2" Y="0" Fixture="38">0</Head>
+   <Head X="0" Y="1" Fixture="39">0</Head>
+   <Head X="1" Y="1" Fixture="40">0</Head>
+   <Head X="2" Y="1" Fixture="41">0</Head>
+   <Head X="0" Y="2" Fixture="42">0</Head>
+   <Head X="1" Y="2" Fixture="43">0</Head>
+   <Head X="2" Y="2" Fixture="83">0</Head>
+   <Head X="0" Y="3" Fixture="84">0</Head>
+   <Head X="1" Y="3" Fixture="85">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="1">
+   <Name>Side Wall Top Right</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="5">0</Head>
+   <Head X="1" Y="0" Fixture="6">0</Head>
+   <Head X="2" Y="0" Fixture="7">0</Head>
+   <Head X="0" Y="1" Fixture="8">0</Head>
+   <Head X="1" Y="1" Fixture="9">0</Head>
+   <Head X="2" Y="1" Fixture="10">0</Head>
+   <Head X="0" Y="2" Fixture="11">0</Head>
+   <Head X="1" Y="2" Fixture="12">0</Head>
+   <Head X="2" Y="2" Fixture="88">0</Head>
+   <Head X="0" Y="3" Fixture="87">0</Head>
+   <Head X="1" Y="3" Fixture="86">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="2">
+   <Name>Dancefloor</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="13">0</Head>
+   <Head X="1" Y="0" Fixture="14">0</Head>
+   <Head X="0" Y="1" Fixture="15">0</Head>
+   <Head X="1" Y="1" Fixture="16">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="3">
+   <Name>CenterScreen Top</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="56">0</Head>
+   <Head X="1" Y="0" Fixture="57">0</Head>
+   <Head X="0" Y="1" Fixture="58">0</Head>
+   <Head X="1" Y="1" Fixture="59">0</Head>
+   <Head X="0" Y="2" Fixture="70">0</Head>
+   <Head X="1" Y="2" Fixture="72">0</Head>
+   <Head X="0" Y="3" Fixture="71">0</Head>
+   <Head X="1" Y="3" Fixture="91">0</Head>
+   <Head X="0" Y="4" Fixture="92">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="4">
+   <Name>CenterScreen Sides</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="60">0</Head>
+   <Head X="1" Y="0" Fixture="61">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="5">
+   <Name>CenterScreen In-Screen</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="62">0</Head>
+   <Head X="1" Y="0" Fixture="63">0</Head>
+   <Head X="0" Y="1" Fixture="64">0</Head>
+   <Head X="1" Y="1" Fixture="65">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="6">
+   <Name>Truss Outer</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="6">0</Head>
+   <Head X="1" Y="0" Fixture="7">0</Head>
+   <Head X="2" Y="0" Fixture="8">0</Head>
+   <Head X="0" Y="1" Fixture="9">0</Head>
+   <Head X="1" Y="1" Fixture="10">0</Head>
+   <Head X="2" Y="1" Fixture="11">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="7">
+   <Name>Truss Inner</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="0">0</Head>
+   <Head X="1" Y="0" Fixture="1">0</Head>
+   <Head X="2" Y="0" Fixture="2">0</Head>
+   <Head X="0" Y="1" Fixture="3">0</Head>
+   <Head X="1" Y="1" Fixture="4">0</Head>
+   <Head X="2" Y="1" Fixture="5">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="8">
+   <Name>Dancer Podium Left</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="12">0</Head>
+   <Head X="1" Y="0" Fixture="13">0</Head>
+   <Head X="0" Y="1" Fixture="14">0</Head>
+   <Head X="1" Y="1" Fixture="15">0</Head>
+   <Head X="0" Y="2" Fixture="89">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="9">
+   <Name>Dancer Podium Right</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="16">0</Head>
+   <Head X="1" Y="0" Fixture="17">0</Head>
+   <Head X="0" Y="1" Fixture="18">0</Head>
+   <Head X="1" Y="1" Fixture="19">0</Head>
+   <Head X="0" Y="2" Fixture="90">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="10">
+   <Name>Side Screen Bottom Left</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="20">0</Head>
+   <Head X="1" Y="0" Fixture="21">0</Head>
+   <Head X="2" Y="0" Fixture="22">0</Head>
+   <Head X="0" Y="1" Fixture="23">0</Head>
+   <Head X="1" Y="1" Fixture="24">0</Head>
+   <Head X="2" Y="1" Fixture="25">0</Head>
+   <Head X="0" Y="2" Fixture="26">0</Head>
+   <Head X="1" Y="2" Fixture="27">0</Head>
+   <Head X="2" Y="2" Fixture="79">0</Head>
+   <Head X="0" Y="3" Fixture="80">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="11">
+   <Name>Side Screen Bottom Right</Name>
+   <Size X="3" Y="3"/>
+   <Head X="0" Y="0" Fixture="28">0</Head>
+   <Head X="1" Y="0" Fixture="29">0</Head>
+   <Head X="2" Y="0" Fixture="30">0</Head>
+   <Head X="0" Y="1" Fixture="31">0</Head>
+   <Head X="1" Y="1" Fixture="32">0</Head>
+   <Head X="2" Y="1" Fixture="33">0</Head>
+   <Head X="0" Y="2" Fixture="34">0</Head>
+   <Head X="1" Y="2" Fixture="35">0</Head>
+   <Head X="2" Y="2" Fixture="81">0</Head>
+   <Head X="0" Y="3" Fixture="82">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="12">
+   <Name>CenterScreen Bottom</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="66">0</Head>
+   <Head X="1" Y="0" Fixture="67">0</Head>
+   <Head X="0" Y="1" Fixture="68">0</Head>
+   <Head X="1" Y="1" Fixture="69">0</Head>
+   <Head X="0" Y="2" Fixture="93">0</Head>
+   <Head X="1" Y="2" Fixture="94">0</Head>
+   <Head X="0" Y="3" Fixture="95">0</Head>
+   <Head X="1" Y="3" Fixture="96">0</Head>
+  </FixtureGroup>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>None</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

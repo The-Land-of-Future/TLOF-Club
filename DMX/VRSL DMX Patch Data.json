@@ -1,0 +1,4912 @@
+{
+    "fixtures": [
+        {
+            "id": 1,
+            "name": "Side Wall Right 5",
+            "channel": 118,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 13.64222526550293,
+                "z": -28.586885452270509
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Right Wash 3",
+            "channel": 14,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 13.892655372619629,
+                "z": -30.555208206176759
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 90.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 7",
+            "channel": 144,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 14.41566276550293,
+                "z": -31.22587776184082
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "DJBooth Spot 1",
+            "channel": 1,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.507816314697266,
+                "y": 17.389759063720704,
+                "z": -30.881210327148439
+            },
+            "rotation": {
+                "x": 66.70001220703125,
+                "y": 270.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 3",
+            "channel": 92,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 13.126226425170899,
+                "z": -25.925874710083009
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Left Wash 2",
+            "channel": 469,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.314151763916016,
+                "y": 13.26722526550293,
+                "z": -27.911209106445314
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 270.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 2",
+            "channel": 378,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.4158477783203127,
+                "y": 8.25722599029541,
+                "z": -29.67120933532715
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 281.033447265625,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 2",
+            "channel": 14,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 9.256152153015137,
+                "y": 16.2252254486084,
+                "z": -25.08220863342285
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 269.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenSide Right Flasher 2",
+            "channel": 350,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 0.7751893997192383,
+                "y": 9.743034362792969,
+                "z": -35.8245735168457
+            },
+            "rotation": {
+                "x": -0.000005122642050991999,
+                "y": 290.806396484375,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.10",
+            "channel": 334,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 2.0161895751953127,
+                "y": 17.159034729003908,
+                "z": -35.89457321166992
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 14.444368362426758,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 7",
+            "channel": 339,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.665151596069336,
+                "y": 8.24422550201416,
+                "z": -29.693208694458009
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 80.99998474121094,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Top 3",
+            "channel": 248,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.151151657104492,
+                "y": 14.10722541809082,
+                "z": -35.22020721435547
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 355.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Screen Bottom Left Wash 2",
+            "channel": 417,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.70415210723877,
+                "y": 7.944225311279297,
+                "z": -30.071208953857423
+            },
+            "rotation": {
+                "x": -1.013852966025297e-7,
+                "y": 260.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenSide Left Laser 2",
+            "channel": 245,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 10.998189926147461,
+                "y": 8.944034576416016,
+                "z": -35.24657440185547
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 334.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 2",
+            "channel": 482,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 12.658226013183594,
+                "z": -24.607208251953126
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen In-Screen 3",
+            "channel": 326,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 3.3141520023345949,
+                "y": 9.10722541809082,
+                "z": -34.931209564208987
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 1 ",
+            "channel": 79,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 9.199185371398926,
+                "y": 16.064226150512697,
+                "z": -20.20209503173828
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 218.00001525878907,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.6",
+            "channel": 330,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 7.41418981552124,
+                "y": 17.156034469604493,
+                "z": -36.27557373046875
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 353.10302734375,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Right Flasher 3",
+            "channel": 367,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -3.026810646057129,
+                "y": 10.514034271240235,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenSide Left Flasher 1",
+            "channel": 347,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 10.62479019165039,
+                "y": 10.67203426361084,
+                "z": -35.8228759765625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 273.4403991699219,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Left 3",
+            "channel": 183,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 11.364151954650879,
+                "y": 8.830225944519043,
+                "z": -33.29121017456055
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 125.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 4",
+            "channel": 1,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 13.39222526550293,
+                "z": -27.260208129882814
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 8",
+            "channel": 157,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 14.925657272338868,
+                "z": -32.53288269042969
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancefloor 2",
+            "channel": 183,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 8.178152084350586,
+                "y": 4.573225021362305,
+                "z": -32.4292106628418
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 0.00001931868973770179,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Left 1",
+            "channel": 157,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.512151718139649,
+                "y": 8.827225685119629,
+                "z": -32.57720947265625
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 197.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 1",
+            "channel": 1,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 6.89415168762207,
+                "y": 16.237224578857423,
+                "z": -21.69120979309082
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 200.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "DancerPodium Up Right Laser 1",
+            "channel": 232,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.6048107147216799,
+                "y": 12.304033279418946,
+                "z": -32.66957473754883
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 42.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.15",
+            "channel": 339,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.3608102798461916,
+                "y": 16.675033569335939,
+                "z": -27.06257438659668
+            },
+            "rotation": {
+                "x": 276.709716796875,
+                "y": 359.5955505371094,
+                "z": 91.72443389892578
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Right Poster Flasher 2",
+            "channel": 358,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -1.7410850524902344,
+                "y": 10.409034729003907,
+                "z": -34.81343078613281
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 52.4765739440918,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Top 4",
+            "channel": 261,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 2.29415225982666,
+                "y": 14.114225387573243,
+                "z": -35.51520919799805
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 347.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Right Up Flasher 1",
+            "channel": 346,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.4888105392456056,
+                "y": 12.425033569335938,
+                "z": -32.905574798583987
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 41.570003509521487,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenTop Flasher 1",
+            "channel": 341,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 9.423189163208008,
+                "y": 14.027534484863282,
+                "z": -35.56037521362305
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 11.999999046325684,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenTop Wash 1",
+            "channel": 53,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 6.614151954650879,
+                "y": 14.35722541809082,
+                "z": -35.14120864868164
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 3.9999988079071047,
+                "z": 0.0
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenBottom Wash 2",
+            "channel": 92,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 7.464151859283447,
+                "y": 8.297224998474121,
+                "z": -35.16120910644531
+            },
+            "rotation": {
+                "x": 4.129367781047222e-8,
+                "y": 5.000001430511475,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.5",
+            "channel": 329,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 9.261889457702637,
+                "y": 17.15453338623047,
+                "z": -35.91517639160156
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 345.7247619628906,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 2",
+            "channel": 274,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.9651517868042,
+                "y": 6.772225379943848,
+                "z": -25.36920928955078
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 110.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.13",
+            "channel": 337,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.312809944152832,
+                "y": 17.159034729003908,
+                "z": -32.00957489013672
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 71.57026672363281,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Top 2",
+            "channel": 235,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 7.077152252197266,
+                "y": 14.10722541809082,
+                "z": -35.22020721435547
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 4.999997138977051,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 3,
+            "name": "ScreenTop Blinder 1",
+            "channel": 508,
+            "universe": 1,
+            "fixtureDefintion": "Blinder 5CH",
+            "channelNames": [
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "Strobe"
+            ],
+            "position": {
+                "x": 8.414152145385743,
+                "y": 14.147225379943848,
+                "z": -35.48120880126953
+            },
+            "rotation": {
+                "x": 315.0,
+                "y": 10.000003814697266,
+                "z": 3.0185452715159047e-7
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.8",
+            "channel": 332,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 5.086989879608154,
+                "y": 17.159034729003908,
+                "z": -36.36057662963867
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 2.0779917240142824,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenBottom Laser 1",
+            "channel": 258,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 7.065189838409424,
+                "y": 8.514034271240235,
+                "z": -35.09957504272461
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 355.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 3,
+            "name": "ScreenTop Blinder 3",
+            "channel": 508,
+            "universe": 3,
+            "fixtureDefintion": "Blinder 5CH",
+            "channelNames": [
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "Strobe"
+            ],
+            "position": {
+                "x": 2.7641520500183107,
+                "y": 14.147225379943848,
+                "z": -35.48120880126953
+            },
+            "rotation": {
+                "x": 315.0,
+                "y": 350.0,
+                "z": -3.0185452715159047e-7
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Right Flasher 5",
+            "channel": 369,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -3.026810646057129,
+                "y": 9.22203254699707,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 5",
+            "channel": 131,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -0.4457530975341797,
+                "y": 15.99422550201416,
+                "z": -25.072647094726564
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 89.99999237060547,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 1",
+            "channel": 261,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 6.772225379943848,
+                "z": -24.5902099609375
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 110.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "DJBooth Spot 2",
+            "channel": 1,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.17935848236084,
+                "y": 17.351299285888673,
+                "z": -30.881210327148439
+            },
+            "rotation": {
+                "x": 69.0000228881836,
+                "y": 90.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Side Left 1",
+            "channel": 274,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 10.634151458740235,
+                "y": 11.407225608825684,
+                "z": -35.61920928955078
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 6",
+            "channel": 27,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.321151733398438,
+                "y": 14.00722599029541,
+                "z": -29.906208038330079
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 6",
+            "channel": 131,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 14.021657943725586,
+                "z": -29.906877517700197
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.9",
+            "channel": 333,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 3.8421897888183595,
+                "y": 17.159034729003908,
+                "z": -36.25557327270508
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 7.0766377449035648,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Left Up Flasher 1",
+            "channel": 345,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.649189949035645,
+                "y": 12.443033218383789,
+                "z": -32.899574279785159
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 318.1130065917969,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Left Wash 3",
+            "channel": 482,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.314151763916016,
+                "y": 13.937225341796875,
+                "z": -30.571208953857423
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 270.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Left 4",
+            "channel": 196,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 11.015151977539063,
+                "y": 8.824225425720215,
+                "z": -34.35920715332031
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Side Right 1",
+            "channel": 287,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.5941519737243652,
+                "y": 11.407225608825684,
+                "z": -35.61920928955078
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 6",
+            "channel": 326,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.574151992797852,
+                "y": 7.762225151062012,
+                "z": -28.833209991455079
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenTop Laser 2",
+            "channel": 180,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 3.165189743041992,
+                "y": 14.134033203125,
+                "z": -35.25957489013672
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Right 2",
+            "channel": 222,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -0.7714338302612305,
+                "y": 8.76722526550293,
+                "z": -32.690773010253909
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 208.19998168945313,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.16",
+            "channel": 340,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.239809989929199,
+                "y": 16.389034271240236,
+                "z": -24.57557487487793
+            },
+            "rotation": {
+                "x": 276.709716796875,
+                "y": 359.5955505371094,
+                "z": 91.72443389892578
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenTop Laser 1",
+            "channel": 167,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 8.015190124511719,
+                "y": 14.134033203125,
+                "z": -35.24957275390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 355.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Screen Bottom Right Wash 2",
+            "channel": 443,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.825847625732422,
+                "y": 6.51722526550293,
+                "z": -25.011207580566408
+            },
+            "rotation": {
+                "x": 0.0000011537957789187204,
+                "y": 69.6560287475586,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 7",
+            "channel": 443,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.715847969055176,
+                "y": 6.817225456237793,
+                "z": -25.381208419799806
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 250.656005859375,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Top 1",
+            "channel": 222,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 8.934151649475098,
+                "y": 14.114225387573243,
+                "z": -35.51520919799805
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 13.00000286102295,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Bottom 2",
+            "channel": 365,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 6.471151828765869,
+                "y": 8.564225196838379,
+                "z": -35.081207275390628
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 182.99996948242188,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 3",
+            "channel": 495,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 13.112225532531739,
+                "z": -25.927209854125978
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenSide Left Laser 1",
+            "channel": 206,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 11.035189628601075,
+                "y": 11.37403392791748,
+                "z": -35.11957550048828
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 332.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenBottom Flasher 1",
+            "channel": 351,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 8.565189361572266,
+                "y": 8.44532585144043,
+                "z": -35.39020919799805
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 11.500004768371582,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancefloor 3",
+            "channel": 196,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 3.050152063369751,
+                "y": 4.568225383758545,
+                "z": -32.4292106628418
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 0.00001931868973770179,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenSide Left Flasher 2",
+            "channel": 349,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 10.62479019165039,
+                "y": 9.743034362792969,
+                "z": -35.8228759765625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 273.4403991699219,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 6",
+            "channel": 144,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 2.099832057952881,
+                "y": 16.064226150512697,
+                "z": -20.18795394897461
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 144.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Left 2",
+            "channel": 170,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 12.323152542114258,
+                "y": 8.838225364685059,
+                "z": -32.57920837402344
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 160.00001525878907,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 3",
+            "channel": 287,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.777152061462403,
+                "y": 7.227225303649902,
+                "z": -26.27920913696289
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 100.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenBottom Flasher 3",
+            "channel": 353,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 2.551152229309082,
+                "y": 8.44532585144043,
+                "z": -35.39020919799805
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 348.5,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Left Flasher 4",
+            "channel": 363,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 14.293190002441407,
+                "y": 11.213033676147461,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "StageFloor Laser 2",
+            "channel": 310,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 2.435190200805664,
+                "y": 6.557225227355957,
+                "z": -32.73120880126953
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 10.00000286102295,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.1",
+            "channel": 325,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.786190032958985,
+                "y": 16.953033447265626,
+                "z": -29.55157470703125
+            },
+            "rotation": {
+                "x": 276.9127197265625,
+                "y": 1.5315994024276734,
+                "z": 266.5867919921875
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 8",
+            "channel": 53,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.321151733398438,
+                "y": 14.907225608825684,
+                "z": -32.543209075927737
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 7",
+            "channel": 40,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.321151733398438,
+                "y": 14.407225608825684,
+                "z": -31.222209930419923
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 5",
+            "channel": 313,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.574151992797852,
+                "y": 7.762225151062012,
+                "z": -27.999208450317384
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Left Poster Flasher 1",
+            "channel": 354,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 12.102190971374512,
+                "y": 10.409034729003907,
+                "z": -35.658573150634769
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 325.011962890625,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Right Poster Flasher 1",
+            "channel": 359,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -1.0676822662353516,
+                "y": 10.409034729003907,
+                "z": -35.530357360839847
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 37.88876724243164,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Right 1",
+            "channel": 209,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -1.9688529968261719,
+                "y": 8.76722526550293,
+                "z": -32.449127197265628
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 175.1999969482422,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 3",
+            "channel": 105,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 8.994123458862305,
+                "y": 16.00422477722168,
+                "z": -30.10866355895996
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 325.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH",
+            "channel": 323,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.56658935546875,
+                "y": 16.399333953857423,
+                "z": -24.609275817871095
+            },
+            "rotation": {
+                "x": 276.9127197265625,
+                "y": 1.5315994024276734,
+                "z": 266.5867919921875
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Right 4",
+            "channel": 248,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.19536113739013673,
+                "y": 8.76722526550293,
+                "z": -34.7510986328125
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 285.20001220703127,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Left Wash 1",
+            "channel": 456,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.214152336120606,
+                "y": 12.64222526550293,
+                "z": -25.23120880126953
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 270.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Right Flasher 4",
+            "channel": 368,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -3.026810646057129,
+                "y": 9.842035293579102,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "StageFloor Laser 1",
+            "channel": 297,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 8.79415225982666,
+                "y": 6.557225227355957,
+                "z": -32.73120880126953
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 347.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 4",
+            "channel": 404,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.31984806060791,
+                "y": 7.786225318908691,
+                "z": -27.9442081451416
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 271.1000061035156,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenSide Right Laser 1",
+            "channel": 219,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.12518978118896485,
+                "y": 11.37403392791748,
+                "z": -35.09957504272461
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 21.99999237060547,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 4",
+            "channel": 300,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.636152267456055,
+                "y": 7.227225303649902,
+                "z": -27.074209213256837
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 100.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 4",
+            "channel": 40,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.43342399597168,
+                "y": 16.28722381591797,
+                "z": -28.52812957763672
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 16.999998092651368,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenTop Flasher 4",
+            "channel": 344,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 1.8024892807006837,
+                "y": 14.027534484863282,
+                "z": -35.56377410888672
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 345.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Right Poster Flasher 3",
+            "channel": 357,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.3427658081054689,
+                "y": 10.409034729003907,
+                "z": -34.03546905517578
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 56.59904479980469,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancer Podium Right 3",
+            "channel": 235,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.0639047622680664,
+                "y": 8.76722526550293,
+                "z": -33.57999801635742
+            },
+            "rotation": {
+                "x": 89.98021697998047,
+                "y": 245.1999969482422,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen In-Screen 1",
+            "channel": 300,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 9.308152198791504,
+                "y": 9.842226028442383,
+                "z": -35.216209411621097
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 1",
+            "channel": 365,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.575847625732422,
+                "y": 8.25722599029541,
+                "z": -30.48120880126953
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 281.033447265625,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Left Flasher 2",
+            "channel": 361,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 14.293190002441407,
+                "y": 9.861034393310547,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Bottom 1",
+            "channel": 352,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 10.264152526855469,
+                "y": 8.564229011535645,
+                "z": -35.831207275390628
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 196.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 2",
+            "channel": 79,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 12.673223495483399,
+                "z": -24.596879959106447
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenTop Flasher 2",
+            "channel": 342,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 6.140989780426025,
+                "y": 14.027534484863282,
+                "z": -35.051673889160159
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 2.000004529953003,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Left Poster Flasher 3",
+            "channel": 356,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.561189651489258,
+                "y": 10.409034729003907,
+                "z": -34.34257507324219
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 306.3016662597656,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Bottom 3",
+            "channel": 378,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.757152080535889,
+                "y": 8.564225196838379,
+                "z": -35.081207275390628
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 176.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 6",
+            "channel": 66,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.307151794433594,
+                "y": 16.28722381591797,
+                "z": -21.679208755493165
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 160.00001525878907,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenTop Flasher 3",
+            "channel": 343,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 5.085789680480957,
+                "y": 14.027534484863282,
+                "z": -35.08847427368164
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 358.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenBottom Flasher 2",
+            "channel": 352,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 5.612189769744873,
+                "y": 8.440033912658692,
+                "z": -35.093772888183597
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen In-Screen 2",
+            "channel": 313,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 7.914152145385742,
+                "y": 9.10722541809082,
+                "z": -34.931209564208987
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 2",
+            "channel": 92,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 11.617488861083985,
+                "y": 15.99422550201416,
+                "z": -25.066991806030275
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Outer 4",
+            "channel": 118,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 2.2695374488830568,
+                "y": 15.980225563049317,
+                "z": -30.101591110229493
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 34.999996185302737,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenTop Wash 2",
+            "channel": 66,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.614151954650879,
+                "y": 14.35722541809082,
+                "z": -35.14120864868164
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 356.0,
+                "z": 0.0
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 5",
+            "channel": 53,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 1.9711520671844483,
+                "y": 16.213226318359376,
+                "z": -25.087209701538087
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 1",
+            "channel": 469,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 11.910225868225098,
+                "z": -23.294208526611329
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "DancePodium Left Up Wash 1",
+            "channel": 27,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.510151863098145,
+                "y": 12.081225395202637,
+                "z": -32.95021057128906
+            },
+            "rotation": {
+                "x": -4.907499118189662e-8,
+                "y": 354.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 6",
+            "channel": 430,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.530848503112793,
+                "y": 7.278224945068359,
+                "z": -26.234209060668947
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 260.77880859375,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.3",
+            "channel": 327,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 12.6041898727417,
+                "y": 17.151033401489259,
+                "z": -34.22457504272461
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 309.0972900390625,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.14",
+            "channel": 338,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -2.457810401916504,
+                "y": 16.951034545898439,
+                "z": -29.542573928833009
+            },
+            "rotation": {
+                "x": 276.709716796875,
+                "y": 359.5955505371094,
+                "z": 91.72443389892578
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenBottom Wash 1",
+            "channel": 79,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 10.70415210723877,
+                "y": 8.747225761413575,
+                "z": -35.69120788574219
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 4",
+            "channel": 105,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 13.404226303100586,
+                "z": -27.258882522583009
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Right Flasher 1",
+            "channel": 365,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -3.026810646057129,
+                "y": 11.82303237915039,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 0,
+            "name": "VRSL-DMX-Static-DiscoBall-H-1CH",
+            "channel": 1,
+            "universe": 1,
+            "fixtureDefintion": "DiscoBall 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 5.614151954650879,
+                "y": 12.938225746154786,
+                "z": -25.08820343017578
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.7",
+            "channel": 331,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 6.142189979553223,
+                "y": 17.159034729003908,
+                "z": -36.360572814941409
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 358.1170654296875,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen Bottom 4",
+            "channel": 391,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.9441518783569336,
+                "y": 8.564225196838379,
+                "z": -35.7512092590332
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 163.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant",
+            "channel": 324,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.660189628601075,
+                "y": 16.677034378051759,
+                "z": -27.079574584960939
+            },
+            "rotation": {
+                "x": 276.9127197265625,
+                "y": 1.5315994024276734,
+                "z": 266.5867919921875
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Screen Bottom Left Wash 1",
+            "channel": 404,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.104151725769043,
+                "y": 6.51722526550293,
+                "z": -24.991209030151368
+            },
+            "rotation": {
+                "x": 0.0000016710994259483414,
+                "y": 289.9999694824219,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Screen Bottom Right Wash 1",
+            "channel": 430,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.505847930908203,
+                "y": 8.007225036621094,
+                "z": -30.071208953857423
+            },
+            "rotation": {
+                "x": -0.0000018445263094690745,
+                "y": 101.03343200683594,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 3",
+            "channel": 391,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.3708481788635256,
+                "y": 7.786225318908691,
+                "z": -28.750207901000978
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 271.1000061035156,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Right Wash 1",
+            "channel": 495,
+            "universe": 2,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 12.602662086486817,
+                "z": -25.239213943481447
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 90.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancefloor 1",
+            "channel": 170,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 12.630151748657227,
+                "y": 4.388225078582764,
+                "z": -31.341209411621095
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 334.0000305175781,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenBottom Laser 2",
+            "channel": 271,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 4.165189743041992,
+                "y": 8.514034271240235,
+                "z": -35.129573822021487
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 357.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Left 5",
+            "channel": 14,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 14.248151779174805,
+                "y": 13.629225730895996,
+                "z": -28.58220863342285
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Left Flasher 1",
+            "channel": 360,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 14.293190002441407,
+                "y": 9.232034683227539,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Left Flasher 5",
+            "channel": 364,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 14.293190002441407,
+                "y": 11.83303451538086,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Left Flasher 3",
+            "channel": 362,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 14.293190002441407,
+                "y": 10.541034698486329,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.11",
+            "channel": 335,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 0.2661895751953125,
+                "y": 17.159034729003908,
+                "z": -35.289573669433597
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 22.973726272583009,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 5",
+            "channel": 417,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.396847724914551,
+                "y": 7.278224945068359,
+                "z": -27.057209014892579
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 260.77880859375,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "Side Wall Right Wash 2",
+            "channel": 1,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 13.222657203674317,
+                "z": -27.895204544067384
+            },
+            "rotation": {
+                "x": -0.0000010694911907194183,
+                "y": 90.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.2",
+            "channel": 326,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 13.62498950958252,
+                "y": 17.153133392333986,
+                "z": -32.02007293701172
+            },
+            "rotation": {
+                "x": 272.2356262207031,
+                "y": 311.57281494140627,
+                "z": 336.1086120605469
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.4",
+            "channel": 328,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 11.075189590454102,
+                "y": 17.154033660888673,
+                "z": -35.29257583618164
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 336.3663330078125,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenBottom Wash 4",
+            "channel": 118,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.5241518020629883,
+                "y": 8.747225761413575,
+                "z": -35.69120788574219
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "DancerPodium Up Left Laser 1",
+            "channel": 193,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.758190155029297,
+                "y": 12.284034729003907,
+                "z": -32.742576599121097
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 315.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Left 8",
+            "channel": 352,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 13.788151741027832,
+                "y": 8.24422550201416,
+                "z": -30.475208282470704
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 80.99998474121094,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "CenterScreen In-Screen 4",
+            "channel": 339,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 1.920151710510254,
+                "y": 9.842226028442383,
+                "z": -35.216209411621097
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 179.99998474121095,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "ScreenSide Right Flasher 1",
+            "channel": 348,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 0.7751893997192383,
+                "y": 10.67203426361084,
+                "z": -35.8245735168457
+            },
+            "rotation": {
+                "x": -0.000005122642050991999,
+                "y": 290.806396484375,
+                "z": 90.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 3,
+            "name": "ScreenTop Blinder 2",
+            "channel": 508,
+            "universe": 2,
+            "fixtureDefintion": "Blinder 5CH",
+            "channelNames": [
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "Strobe"
+            ],
+            "position": {
+                "x": 5.614151954650879,
+                "y": 14.147225379943848,
+                "z": -35.2512092590332
+            },
+            "rotation": {
+                "x": 315.0000915527344,
+                "y": 0.00014184045721776783,
+                "z": -0.000016704752852092497
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "DancePodium Left Poster Flasher 2",
+            "channel": 355,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": 12.863189697265625,
+                "y": 10.409034729003907,
+                "z": -35.03557586669922
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 320.88946533203127,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "ScreenBottom Wash 3",
+            "channel": 105,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 3.7641520500183107,
+                "y": 8.297224998474121,
+                "z": -35.16120910644531
+            },
+            "rotation": {
+                "x": -4.129367781047222e-8,
+                "y": 355.0,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Dancefloor 4",
+            "channel": 209,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -1.3358478546142579,
+                "y": 4.36822509765625,
+                "z": -31.37120819091797
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 27.000019073486329,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 2,
+            "name": "DancePodium Right Up Wash 1",
+            "channel": 40,
+            "universe": 3,
+            "fixtureDefintion": "WashLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Red",
+                "Green",
+                "Blue",
+                "None",
+                "None",
+                "None",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.2858481407165529,
+                "y": 12.081225395202637,
+                "z": -32.98720932006836
+            },
+            "rotation": {
+                "x": 1.0930848759471701e-7,
+                "y": 21.99999237060547,
+                "z": 180.00001525878907
+            },
+            "invertPan": true,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "SideWall_DancerPodium Right Flasher 2",
+            "channel": 366,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -3.026810646057129,
+                "y": 11.194034576416016,
+                "z": -32.444576263427737
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 270.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 4,
+            "name": "VRSL-DMX-Static-Flasher-H-1CH Variant.12",
+            "channel": 336,
+            "universe": 3,
+            "fixtureDefintion": "Flasher 1CH",
+            "channelNames": [
+                "Dimmer"
+            ],
+            "position": {
+                "x": -1.1968107223510743,
+                "y": 17.159034729003908,
+                "z": -34.32157516479492
+            },
+            "rotation": {
+                "x": 270.0,
+                "y": 50.23928451538086,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Wall Right 1",
+            "channel": 66,
+            "universe": 2,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -3.066847801208496,
+                "y": 11.906225204467774,
+                "z": -23.284883499145509
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 270.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Truss Inner 3",
+            "channel": 27,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 6.858151912689209,
+                "y": 16.28722381591797,
+                "z": -28.51120948791504
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 340.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 5,
+            "name": "ScreenSide Right Laser 2",
+            "channel": 284,
+            "universe": 3,
+            "fixtureDefintion": "Laser 13CH",
+            "channelNames": [
+                "Pan",
+                "Tilt",
+                "Length",
+                "Width",
+                "Flatness",
+                "Beam Count",
+                "Spin Speed",
+                "Red",
+                "Green",
+                "Blue",
+                "Dimmer",
+                "Beam Thickness",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": 0.2341899871826172,
+                "y": 8.984033584594727,
+                "z": -35.18357467651367
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 20.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 1,
+            "name": "Side Screen Bottom Right 8",
+            "channel": 456,
+            "universe": 1,
+            "fixtureDefintion": "SpotLight 13CH",
+            "channelNames": [
+                "Pan",
+                "Fine Pan",
+                "Tilt",
+                "Fine Tilt",
+                "Zoom",
+                "Dimmer",
+                "Strobe",
+                "Red",
+                "Green",
+                "Blue",
+                "GOBO Spin",
+                "GOBO Select",
+                "Movement Speed"
+            ],
+            "position": {
+                "x": -2.9758481979370119,
+                "y": 6.817225456237793,
+                "z": -24.64120864868164
+            },
+            "rotation": {
+                "x": 90.0,
+                "y": 250.656005859375,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": true,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.7</Version>
+  <Author>C0D3 M4513R</Author>
+ </Creator>
+ <Manufacturer>The Land of Future</Manufacturer>
+ <Model>Co2 Jet</Model>
+ <Type>Effect</Type>
+ <Channel Name="Co2">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="63">Event Reset</Capability>
+  <Capability Min="64" Max="189">Nothing</Capability>
+  <Capability Min="190" Max="255">Shoot Co2</Capability>
+ </Channel>
+ <Mode Name="1CH - Mode">
+  <Channel Number="0" ActsOn="0">Co2</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
