@@ -1220,16 +1220,6 @@
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Laser</Model>
    <Mode>13 CH Laser</Mode>
-   <ID>118</ID>
-   <Name>Standard Laser #04</Name>
-   <Universe>2</Universe>
-   <Address>205</Address>
-   <Channels>13</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Laser</Model>
-   <Mode>13 CH Laser</Mode>
    <ID>119</ID>
    <Name>Standard Laser #05</Name>
    <Universe>2</Universe>
@@ -1531,7 +1521,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>149</ID>
-   <Name>Flasher #23</Name>
+   <Name>DancePodium Left Up Flasher 1</Name>
    <Universe>2</Universe>
    <Address>344</Address>
    <Channels>1</Channels>
@@ -1541,7 +1531,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>150</ID>
-   <Name>Flasher #24</Name>
+   <Name>DancePodium Right Up Flasher 1</Name>
    <Universe>2</Universe>
    <Address>345</Address>
    <Channels>1</Channels>
@@ -1601,7 +1591,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>156</ID>
-   <Name>Flasher #30</Name>
+   <Name>DancePodium Left Poster Flasher 1</Name>
    <Universe>2</Universe>
    <Address>351</Address>
    <Channels>1</Channels>
@@ -1611,7 +1601,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>157</ID>
-   <Name>Flasher #31</Name>
+   <Name>DancePodium Left Poster Flasher 2</Name>
    <Universe>2</Universe>
    <Address>352</Address>
    <Channels>1</Channels>
@@ -1621,7 +1611,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>158</ID>
-   <Name>Flasher #32</Name>
+   <Name>DancePodium Left Poster Flasher 3</Name>
    <Universe>2</Universe>
    <Address>353</Address>
    <Channels>1</Channels>
@@ -1651,7 +1641,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>161</ID>
-   <Name>Flasher #35</Name>
+   <Name>DancePodium Right Poster Flasher 3</Name>
    <Universe>2</Universe>
    <Address>356</Address>
    <Channels>1</Channels>
@@ -1661,7 +1651,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>162</ID>
-   <Name>Flasher #36</Name>
+   <Name>DancePodium Right Poster Flasher 2</Name>
    <Universe>2</Universe>
    <Address>357</Address>
    <Channels>1</Channels>
@@ -1671,7 +1661,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>163</ID>
-   <Name>Flasher #37</Name>
+   <Name>DancePodium Right Poster Flasher 1</Name>
    <Universe>2</Universe>
    <Address>358</Address>
    <Channels>1</Channels>
@@ -1681,7 +1671,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>164</ID>
-   <Name>Flasher #38</Name>
+   <Name>SideWall_DancerPodium Left Flasher 1</Name>
    <Universe>2</Universe>
    <Address>359</Address>
    <Channels>1</Channels>
@@ -1691,7 +1681,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>165</ID>
-   <Name>Flasher #39</Name>
+   <Name>SideWall_DancerPodium Left Flasher 2</Name>
    <Universe>2</Universe>
    <Address>360</Address>
    <Channels>1</Channels>
@@ -1701,7 +1691,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>166</ID>
-   <Name>Flasher #40</Name>
+   <Name>SideWall_DancerPodium Left Flasher 3</Name>
    <Universe>2</Universe>
    <Address>361</Address>
    <Channels>1</Channels>
@@ -1711,7 +1701,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>167</ID>
-   <Name>Flasher #41</Name>
+   <Name>SideWall_DancerPodium Left Flasher 4</Name>
    <Universe>2</Universe>
    <Address>362</Address>
    <Channels>1</Channels>
@@ -1721,7 +1711,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>168</ID>
-   <Name>Flasher #42</Name>
+   <Name>SideWall_DancerPodium Left Flasher 5</Name>
    <Universe>2</Universe>
    <Address>363</Address>
    <Channels>1</Channels>
@@ -1731,7 +1721,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>169</ID>
-   <Name>Flasher #43</Name>
+   <Name>SideWall_DancerPodium Right Flasher 1</Name>
    <Universe>2</Universe>
    <Address>364</Address>
    <Channels>1</Channels>
@@ -1741,7 +1731,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>170</ID>
-   <Name>Flasher #44</Name>
+   <Name>SideWall_DancerPodium Right Flasher 2</Name>
    <Universe>2</Universe>
    <Address>365</Address>
    <Channels>1</Channels>
@@ -1751,7 +1741,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>171</ID>
-   <Name>Flasher #45</Name>
+   <Name>SideWall_DancerPodium Right Flasher 3</Name>
    <Universe>2</Universe>
    <Address>366</Address>
    <Channels>1</Channels>
@@ -1761,7 +1751,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>172</ID>
-   <Name>Flasher #46</Name>
+   <Name>SideWall_DancerPodium Right Flasher 4</Name>
    <Universe>2</Universe>
    <Address>367</Address>
    <Channels>1</Channels>
@@ -1771,7 +1761,7 @@
    <Model>Generic</Model>
    <Mode>1 Channel</Mode>
    <ID>173</ID>
-   <Name>Flasher #47</Name>
+   <Name>SideWall_DancerPodium Right Flasher 5</Name>
    <Universe>2</Universe>
    <Address>368</Address>
    <Channels>1</Channels>
@@ -1794,6 +1784,16 @@
    <Name>Standard Mover Spotlight #2</Name>
    <Universe>2</Universe>
    <Address>382</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Laser</Model>
+   <Mode>13 CH Laser</Mode>
+   <ID>176</ID>
+   <Name>Standard Laser</Name>
+   <Universe>2</Universe>
+   <Address>205</Address>
    <Channels>13</Channels>
   </Fixture>
   <FixtureGroup ID="0">
@@ -1846,12 +1846,28 @@
    <Head X="0" Y="3" Fixture="71">0</Head>
    <Head X="1" Y="3" Fixture="91">0</Head>
    <Head X="0" Y="4" Fixture="92">0</Head>
+   <Head X="1" Y="4" Fixture="107">0</Head>
+   <Head X="0" Y="5" Fixture="108">0</Head>
+   <Head X="1" Y="5" Fixture="115">0</Head>
+   <Head X="0" Y="6" Fixture="116">0</Head>
+   <Head X="1" Y="6" Fixture="145">0</Head>
+   <Head X="0" Y="7" Fixture="146">0</Head>
+   <Head X="1" Y="7" Fixture="147">0</Head>
+   <Head X="0" Y="8" Fixture="148">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="4">
    <Name>CenterScreen Sides</Name>
    <Size X="2" Y="2"/>
    <Head X="0" Y="0" Fixture="60">0</Head>
    <Head X="1" Y="0" Fixture="61">0</Head>
+   <Head X="0" Y="1" Fixture="117">0</Head>
+   <Head X="1" Y="1" Fixture="176">0</Head>
+   <Head X="0" Y="2" Fixture="121">0</Head>
+   <Head X="1" Y="2" Fixture="124">0</Head>
+   <Head X="0" Y="3" Fixture="151">0</Head>
+   <Head X="1" Y="3" Fixture="152">0</Head>
+   <Head X="0" Y="4" Fixture="153">0</Head>
+   <Head X="1" Y="4" Fixture="154">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="5">
    <Name>CenterScreen In-Screen</Name>
@@ -1889,6 +1905,17 @@
    <Head X="0" Y="1" Fixture="14">0</Head>
    <Head X="1" Y="1" Fixture="15">0</Head>
    <Head X="0" Y="2" Fixture="89">0</Head>
+   <Head X="1" Y="2" Fixture="109">0</Head>
+   <Head X="0" Y="3" Fixture="117">0</Head>
+   <Head X="1" Y="3" Fixture="149">0</Head>
+   <Head X="0" Y="4" Fixture="156">0</Head>
+   <Head X="1" Y="4" Fixture="157">0</Head>
+   <Head X="0" Y="5" Fixture="158">0</Head>
+   <Head X="1" Y="5" Fixture="164">0</Head>
+   <Head X="0" Y="6" Fixture="165">0</Head>
+   <Head X="1" Y="6" Fixture="166">0</Head>
+   <Head X="0" Y="7" Fixture="167">0</Head>
+   <Head X="1" Y="7" Fixture="168">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="9">
    <Name>Dancer Podium Right</Name>
@@ -1898,6 +1925,17 @@
    <Head X="0" Y="1" Fixture="18">0</Head>
    <Head X="1" Y="1" Fixture="19">0</Head>
    <Head X="0" Y="2" Fixture="90">0</Head>
+   <Head X="1" Y="2" Fixture="110">0</Head>
+   <Head X="0" Y="3" Fixture="119">0</Head>
+   <Head X="1" Y="3" Fixture="150">0</Head>
+   <Head X="0" Y="4" Fixture="161">0</Head>
+   <Head X="1" Y="4" Fixture="162">0</Head>
+   <Head X="0" Y="5" Fixture="163">0</Head>
+   <Head X="1" Y="5" Fixture="173">0</Head>
+   <Head X="0" Y="6" Fixture="172">0</Head>
+   <Head X="1" Y="6" Fixture="171">0</Head>
+   <Head X="0" Y="7" Fixture="170">0</Head>
+   <Head X="1" Y="7" Fixture="169">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="10">
    <Name>Side Screen Bottom Left</Name>
@@ -1938,6 +1976,43 @@
    <Head X="1" Y="2" Fixture="94">0</Head>
    <Head X="0" Y="3" Fixture="95">0</Head>
    <Head X="1" Y="3" Fixture="96">0</Head>
+   <Head X="0" Y="4" Fixture="122">0</Head>
+   <Head X="1" Y="4" Fixture="123">0</Head>
+   <Head X="0" Y="5" Fixture="155">0</Head>
+   <Head X="1" Y="5" Fixture="156">0</Head>
+   <Head X="0" Y="6" Fixture="157">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="13">
+   <Name>StageFloor</Name>
+   <Size X="2" Y="2"/>
+   <Head X="0" Y="0" Fixture="111">0</Head>
+   <Head X="1" Y="0" Fixture="112">0</Head>
+   <Head X="0" Y="1" Fixture="113">0</Head>
+   <Head X="1" Y="1" Fixture="114">0</Head>
+   <Head X="0" Y="2" Fixture="125">0</Head>
+   <Head X="1" Y="2" Fixture="126">0</Head>
+  </FixtureGroup>
+  <FixtureGroup ID="14">
+   <Name>TopRim</Name>
+   <Size X="5" Y="5"/>
+   <Head X="0" Y="0" Fixture="127">0</Head>
+   <Head X="1" Y="0" Fixture="128">0</Head>
+   <Head X="2" Y="0" Fixture="129">0</Head>
+   <Head X="3" Y="0" Fixture="130">0</Head>
+   <Head X="4" Y="0" Fixture="131">0</Head>
+   <Head X="0" Y="1" Fixture="132">0</Head>
+   <Head X="1" Y="1" Fixture="133">0</Head>
+   <Head X="2" Y="1" Fixture="134">0</Head>
+   <Head X="3" Y="1" Fixture="135">0</Head>
+   <Head X="4" Y="1" Fixture="136">0</Head>
+   <Head X="0" Y="2" Fixture="137">0</Head>
+   <Head X="1" Y="2" Fixture="138">0</Head>
+   <Head X="2" Y="2" Fixture="139">0</Head>
+   <Head X="3" Y="2" Fixture="140">0</Head>
+   <Head X="4" Y="2" Fixture="141">0</Head>
+   <Head X="0" Y="3" Fixture="142">0</Head>
+   <Head X="1" Y="3" Fixture="143">0</Head>
+   <Head X="2" Y="3" Fixture="144">0</Head>
   </FixtureGroup>
  </Engine>
  <VirtualConsole>
