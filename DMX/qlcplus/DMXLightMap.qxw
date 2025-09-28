@@ -1217,6 +1217,16 @@
    <Channels>13</Channels>
   </Fixture>
   <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH - Mode</Mode>
+   <ID>118</ID>
+   <Name>Wall Line History</Name>
+   <Universe>2</Universe>
+   <Address>395</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Laser</Model>
    <Mode>13 CH Laser</Mode>
@@ -1795,6 +1805,16 @@
    <Universe>2</Universe>
    <Address>205</Address>
    <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Lines</Model>
+   <Mode>3CH - Mode</Mode>
+   <ID>177</ID>
+   <Name>Wall Lines</Name>
+   <Universe>2</Universe>
+   <Address>399</Address>
+   <Channels>3</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Side Wall Top Left</Name>
