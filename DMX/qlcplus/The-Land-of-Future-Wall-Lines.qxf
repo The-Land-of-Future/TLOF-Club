@@ -11,14 +11,12 @@
  <Type>Other</Type>
  <Channel Name="State">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="31">Fix</Capability>
-  <Capability Min="32" Max="63">AudioLink</Capability>
-  <Capability Min="64" Max="95">Wave Forward</Capability>
-  <Capability Min="96" Max="127">Wave Center</Capability>
-  <Capability Min="128" Max="159">Wave Up</Capability>
-  <Capability Min="160" Max="191">Wave Down</Capability>
-  <Capability Min="192" Max="223">Flash</Capability>
-  <Capability Min="224" Max="255"></Capability>
+  <Capability Min="0" Max="42">Fix</Capability>
+  <Capability Min="43" Max="84">Wave Forward</Capability>
+  <Capability Min="85" Max="127">Wave Center</Capability>
+  <Capability Min="128" Max="169">Wave Up</Capability>
+  <Capability Min="170" Max="212">Wave Down</Capability>
+  <Capability Min="213" Max="255">Flash</Capability>
  </Channel>
  <Channel Name="Emission Strength">
   <Group Byte="0">Intensity</Group>
