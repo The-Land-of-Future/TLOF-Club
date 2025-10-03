@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.12.7</Version>
@@ -1775,26 +1775,6 @@
    <Universe>2</Universe>
    <Address>368</Address>
    <Channels>1</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
-   <ID>174</ID>
-   <Name>Standard Mover Spotlight #1</Name>
-   <Universe>2</Universe>
-   <Address>369</Address>
-   <Channels>13</Channels>
-  </Fixture>
-  <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
-   <ID>175</ID>
-   <Name>Standard Mover Spotlight #2</Name>
-   <Universe>2</Universe>
-   <Address>382</Address>
-   <Channels>13</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
