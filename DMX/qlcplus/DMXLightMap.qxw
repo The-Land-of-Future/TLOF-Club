@@ -1777,6 +1777,16 @@
    <Channels>1</Channels>
   </Fixture>
   <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Very Poor Sign</Model>
+   <Mode>1CH</Mode>
+   <ID>174</ID>
+   <Name>Very Poor Sign</Name>
+   <Universe>2</Universe>
+   <Address>402</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Laser</Model>
    <Mode>13 CH Laser</Mode>
