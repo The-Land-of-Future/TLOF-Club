@@ -7,7 +7,7 @@
   <Author>C0D3 M4513R</Author>
  </Creator>
  <Manufacturer>The Land of Future</Manufacturer>
- <Model>Very Poor Sign</Model>
+ <Model>Toggle</Model>
  <Type>Dimmer</Type>
  <Channel Name="Sign Enable">
   <Group Byte="0">Intensity</Group>
