@@ -1976,6 +1976,26 @@
    <Address>384</Address>
    <Channels>1</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>194</ID>
+   <Name>CenterScreen Side Left 2</Name>
+   <Universe>2</Universe>
+   <Address>404</Address>
+   <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>VRSL</Manufacturer>
+   <Model>Standard Mover Spotlight</Model>
+   <Mode>13CH - Mode</Mode>
+   <ID>195</ID>
+   <Name>CenterScreen Side Right 2</Name>
+   <Universe>2</Universe>
+   <Address>417</Address>
+   <Channels>13</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>Side Wall Top Left</Name>
    <Size X="3" Y="3"/>
@@ -2048,6 +2068,8 @@
    <Head X="1" Y="3" Fixture="152">0</Head>
    <Head X="0" Y="4" Fixture="153">0</Head>
    <Head X="1" Y="4" Fixture="154">0</Head>
+   <Head X="0" Y="5" Fixture="194">0</Head>
+   <Head X="1" Y="5" Fixture="195">0</Head>
   </FixtureGroup>
   <FixtureGroup ID="5">
    <Name>CenterScreen In-Screen</Name>
