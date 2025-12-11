@@ -1816,6 +1816,166 @@
    <Address>399</Address>
    <Channels>3</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>178</ID>
+   <Name>Flasher #01</Name>
+   <Universe>2</Universe>
+   <Address>369</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>179</ID>
+   <Name>Flasher #02</Name>
+   <Universe>2</Universe>
+   <Address>370</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>180</ID>
+   <Name>Flasher #03</Name>
+   <Universe>2</Universe>
+   <Address>371</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>181</ID>
+   <Name>Flasher #04</Name>
+   <Universe>2</Universe>
+   <Address>372</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>182</ID>
+   <Name>Flasher #05</Name>
+   <Universe>2</Universe>
+   <Address>373</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>183</ID>
+   <Name>Flasher #06</Name>
+   <Universe>2</Universe>
+   <Address>374</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>184</ID>
+   <Name>Flasher #07</Name>
+   <Universe>2</Universe>
+   <Address>375</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>185</ID>
+   <Name>Flasher #08</Name>
+   <Universe>2</Universe>
+   <Address>376</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>186</ID>
+   <Name>Flasher #09</Name>
+   <Universe>2</Universe>
+   <Address>377</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>187</ID>
+   <Name>Flasher #10</Name>
+   <Universe>2</Universe>
+   <Address>378</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>188</ID>
+   <Name>Co2 Jet #1</Name>
+   <Universe>2</Universe>
+   <Address>379</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>189</ID>
+   <Name>Co2 Jet #2</Name>
+   <Universe>2</Universe>
+   <Address>380</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>190</ID>
+   <Name>Co2 Jet #3</Name>
+   <Universe>2</Universe>
+   <Address>381</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>191</ID>
+   <Name>Co2 Jet #4</Name>
+   <Universe>2</Universe>
+   <Address>382</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>192</ID>
+   <Name>Co2 Jet #5</Name>
+   <Universe>2</Universe>
+   <Address>383</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH - Mode</Mode>
+   <ID>193</ID>
+   <Name>Co2 Jet #6</Name>
+   <Universe>2</Universe>
+   <Address>384</Address>
+   <Channels>1</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>Side Wall Top Left</Name>
    <Size X="3" Y="3"/>
