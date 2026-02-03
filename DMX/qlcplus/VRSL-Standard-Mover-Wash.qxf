@@ -24,7 +24,7 @@
  <Channel Name="Green" Preset="IntensityGreen"/>
  <Channel Name="Blue" Preset="IntensityBlue"/>
  <Channel Name="GOBO Spin Speed">
-  <Group Byte="0">Prism</Group>
+  <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="9">No Spin</Capability>
   <Capability Min="10" Max="126">Spin Left - Speed Increases</Capability>
   <Capability Min="127" Max="255">Spin Right - Speed Increases</Capability>
@@ -39,7 +39,7 @@
   <Capability Min="213" Max="255">Gobo 5</Capability>
  </Channel>
  <Channel Name="Pan/Tilt Speed/Smoothing" Preset="SpeedPanTiltSlowFast"/>
- <Mode Name="13CH - Mode">
+ <Mode Name="13CH">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1">Fine Pan</Channel>
   <Channel Number="2">Tilt</Channel>

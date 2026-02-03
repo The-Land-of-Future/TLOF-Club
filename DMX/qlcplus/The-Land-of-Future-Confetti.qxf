@@ -15,8 +15,8 @@
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Shoot Confetti</Capability>
  </Channel>
- <Mode Name="1CH - Mode">
-  <Channel Number="0" ActsOn="0">Confetti</Channel>
+ <Mode Name="1CH">
+  <Channel Number="0">Confetti</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>

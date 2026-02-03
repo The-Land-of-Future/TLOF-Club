@@ -26,10 +26,10 @@
   <Group Byte="0">Speed</Group>
   <Capability Min="0" Max="255">Pulse Speed (0-100%)</Capability>
  </Channel>
- <Mode Name="3CH - Mode">
-  <Channel Number="0" ActsOn="0">State</Channel>
-  <Channel Number="1" ActsOn="1">PulseSpeed</Channel>
-  <Channel Number="2" ActsOn="2">Emission Strength</Channel>
+ <Mode Name="3CH">
+  <Channel Number="0">State</Channel>
+  <Channel Number="1">PulseSpeed</Channel>
+  <Channel Number="2">Emission Strength</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>

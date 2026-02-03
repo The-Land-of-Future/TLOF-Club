@@ -13,11 +13,11 @@
  <Channel Name="Green" Preset="IntensityGreen"/>
  <Channel Name="Blue" Preset="IntensityBlue"/>
  <Channel Name="Intensity" Preset="IntensityDimmer"/>
- <Mode Name="4CH - Mode">
-  <Channel Number="0" ActsOn="0">Red</Channel>
-  <Channel Number="1" ActsOn="1">Green</Channel>
-  <Channel Number="2" ActsOn="2">Blue</Channel>
-  <Channel Number="3" ActsOn="3">Intensity</Channel>
+ <Mode Name="4CH">
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+  <Channel Number="3">Intensity</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>

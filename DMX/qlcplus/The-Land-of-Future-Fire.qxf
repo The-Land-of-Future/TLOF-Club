@@ -27,10 +27,10 @@
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Fire</Capability>
  </Channel>
- <Mode Name="3Ch - Mode">
-  <Channel Number="0" ActsOn="0">Fire Left</Channel>
-  <Channel Number="1" ActsOn="1">Fire Middle</Channel>
-  <Channel Number="2" ActsOn="2">Fire Right</Channel>
+ <Mode Name="3Ch">
+  <Channel Number="0">Fire Left</Channel>
+  <Channel Number="1">Fire Middle</Channel>
+  <Channel Number="2">Fire Right</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>

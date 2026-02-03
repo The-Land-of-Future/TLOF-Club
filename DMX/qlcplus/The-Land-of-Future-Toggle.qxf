@@ -15,7 +15,7 @@
   <Capability Min="128" Max="255">On</Capability>
  </Channel>
  <Mode Name="1CH">
-  <Channel Number="0" ActsOn="0">Sign Enable</Channel>
+  <Channel Number="0">Sign Enable</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
