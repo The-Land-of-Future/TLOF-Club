@@ -39,7 +39,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>0</ID>
    <Name>Standard Mover Spotlight #01</Name>
    <Universe>0</Universe>
@@ -49,7 +49,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>1</ID>
    <Name>Standard Mover Spotlight #02</Name>
    <Universe>0</Universe>
@@ -59,7 +59,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>2</ID>
    <Name>Standard Mover Spotlight #03</Name>
    <Universe>0</Universe>
@@ -69,7 +69,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>3</ID>
    <Name>Standard Mover Spotlight #04</Name>
    <Universe>0</Universe>
@@ -79,7 +79,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>4</ID>
    <Name>Standard Mover Spotlight #05</Name>
    <Universe>0</Universe>
@@ -89,7 +89,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>5</ID>
    <Name>Standard Mover Spotlight #06</Name>
    <Universe>0</Universe>
@@ -99,7 +99,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>6</ID>
    <Name>Standard Mover Spotlight #07</Name>
    <Universe>0</Universe>
@@ -109,7 +109,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>7</ID>
    <Name>Standard Mover Spotlight #08</Name>
    <Universe>0</Universe>
@@ -119,7 +119,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>8</ID>
    <Name>Standard Mover Spotlight #09</Name>
    <Universe>0</Universe>
@@ -129,7 +129,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>9</ID>
    <Name>Standard Mover Spotlight #10</Name>
    <Universe>0</Universe>
@@ -139,7 +139,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>10</ID>
    <Name>Standard Mover Spotlight #11</Name>
    <Universe>0</Universe>
@@ -149,7 +149,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>11</ID>
    <Name>Standard Mover Spotlight #12</Name>
    <Universe>0</Universe>
@@ -159,7 +159,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>12</ID>
    <Name>Standard Mover Spotlight #13</Name>
    <Universe>0</Universe>
@@ -169,7 +169,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>13</ID>
    <Name>Standard Mover Spotlight #14</Name>
    <Universe>0</Universe>
@@ -179,7 +179,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>14</ID>
    <Name>Standard Mover Spotlight #15</Name>
    <Universe>0</Universe>
@@ -189,7 +189,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>15</ID>
    <Name>Standard Mover Spotlight #16</Name>
    <Universe>0</Universe>
@@ -199,7 +199,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>16</ID>
    <Name>Standard Mover Spotlight #17</Name>
    <Universe>0</Universe>
@@ -209,7 +209,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>17</ID>
    <Name>Standard Mover Spotlight #18</Name>
    <Universe>0</Universe>
@@ -219,7 +219,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>18</ID>
    <Name>Standard Mover Spotlight #19</Name>
    <Universe>0</Universe>
@@ -229,7 +229,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>19</ID>
    <Name>Standard Mover Spotlight #20</Name>
    <Universe>0</Universe>
@@ -239,7 +239,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>20</ID>
    <Name>Standard Mover Spotlight #21</Name>
    <Universe>0</Universe>
@@ -249,7 +249,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>21</ID>
    <Name>Standard Mover Spotlight #22</Name>
    <Universe>0</Universe>
@@ -259,7 +259,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>22</ID>
    <Name>Standard Mover Spotlight #23</Name>
    <Universe>0</Universe>
@@ -269,7 +269,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>23</ID>
    <Name>Standard Mover Spotlight #24</Name>
    <Universe>0</Universe>
@@ -279,7 +279,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>24</ID>
    <Name>Standard Mover Spotlight #25</Name>
    <Universe>0</Universe>
@@ -289,7 +289,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>25</ID>
    <Name>Standard Mover Spotlight #26</Name>
    <Universe>0</Universe>
@@ -299,7 +299,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>26</ID>
    <Name>Standard Mover Spotlight #27</Name>
    <Universe>0</Universe>
@@ -309,7 +309,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>27</ID>
    <Name>Standard Mover Spotlight #28</Name>
    <Universe>0</Universe>
@@ -319,7 +319,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>28</ID>
    <Name>Standard Mover Spotlight #29</Name>
    <Universe>0</Universe>
@@ -329,7 +329,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>29</ID>
    <Name>Standard Mover Spotlight #30</Name>
    <Universe>0</Universe>
@@ -339,7 +339,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>30</ID>
    <Name>Standard Mover Spotlight #31</Name>
    <Universe>0</Universe>
@@ -349,7 +349,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>31</ID>
    <Name>Standard Mover Spotlight #32</Name>
    <Universe>0</Universe>
@@ -359,7 +359,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>32</ID>
    <Name>Standard Mover Spotlight #33</Name>
    <Universe>0</Universe>
@@ -369,7 +369,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>33</ID>
    <Name>Standard Mover Spotlight #34</Name>
    <Universe>0</Universe>
@@ -379,7 +379,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>34</ID>
    <Name>Standard Mover Spotlight #35</Name>
    <Universe>0</Universe>
@@ -389,7 +389,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>35</ID>
    <Name>Standard Mover Spotlight #36</Name>
    <Universe>0</Universe>
@@ -399,7 +399,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>36</ID>
    <Name>Standard Mover Spotlight #37</Name>
    <Universe>0</Universe>
@@ -409,7 +409,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>37</ID>
    <Name>Standard Mover Spotlight #38</Name>
    <Universe>0</Universe>
@@ -419,7 +419,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>38</ID>
    <Name>Standard Mover Spotlight #39</Name>
    <Universe>0</Universe>
@@ -429,7 +429,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>39</ID>
    <Name>Standard Mover Spotlight #01</Name>
    <Universe>1</Universe>
@@ -439,7 +439,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>40</ID>
    <Name>Standard Mover Spotlight #02</Name>
    <Universe>1</Universe>
@@ -449,7 +449,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>41</ID>
    <Name>Standard Mover Spotlight #03</Name>
    <Universe>1</Universe>
@@ -459,7 +459,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>42</ID>
    <Name>Standard Mover Spotlight #04</Name>
    <Universe>1</Universe>
@@ -469,7 +469,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>43</ID>
    <Name>Standard Mover Spotlight #05</Name>
    <Universe>1</Universe>
@@ -479,7 +479,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>44</ID>
    <Name>Standard Mover Spotlight #06</Name>
    <Universe>1</Universe>
@@ -489,7 +489,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>45</ID>
    <Name>Standard Mover Spotlight #07</Name>
    <Universe>1</Universe>
@@ -499,7 +499,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>46</ID>
    <Name>Standard Mover Spotlight #08</Name>
    <Universe>1</Universe>
@@ -509,7 +509,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>47</ID>
    <Name>Standard Mover Spotlight #09</Name>
    <Universe>1</Universe>
@@ -519,7 +519,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>48</ID>
    <Name>Standard Mover Spotlight #10</Name>
    <Universe>1</Universe>
@@ -529,7 +529,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>49</ID>
    <Name>Standard Mover Spotlight #11</Name>
    <Universe>1</Universe>
@@ -539,7 +539,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>50</ID>
    <Name>Standard Mover Spotlight #12</Name>
    <Universe>1</Universe>
@@ -549,7 +549,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>51</ID>
    <Name>Standard Mover Spotlight #13</Name>
    <Universe>1</Universe>
@@ -559,7 +559,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>52</ID>
    <Name>Standard Mover Spotlight #14</Name>
    <Universe>1</Universe>
@@ -569,7 +569,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>53</ID>
    <Name>Standard Mover Spotlight #15</Name>
    <Universe>1</Universe>
@@ -579,7 +579,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>54</ID>
    <Name>Standard Mover Spotlight #16</Name>
    <Universe>1</Universe>
@@ -589,7 +589,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>55</ID>
    <Name>Standard Mover Spotlight #17</Name>
    <Universe>1</Universe>
@@ -599,7 +599,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>56</ID>
    <Name>Standard Mover Spotlight #18</Name>
    <Universe>1</Universe>
@@ -609,7 +609,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>57</ID>
    <Name>Standard Mover Spotlight #19</Name>
    <Universe>1</Universe>
@@ -619,7 +619,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>58</ID>
    <Name>Standard Mover Spotlight #20</Name>
    <Universe>1</Universe>
@@ -629,7 +629,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>59</ID>
    <Name>Standard Mover Spotlight #21</Name>
    <Universe>1</Universe>
@@ -639,7 +639,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>60</ID>
    <Name>Standard Mover Spotlight #22</Name>
    <Universe>1</Universe>
@@ -649,7 +649,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>61</ID>
    <Name>Standard Mover Spotlight #23</Name>
    <Universe>1</Universe>
@@ -659,7 +659,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>62</ID>
    <Name>Standard Mover Spotlight #24</Name>
    <Universe>1</Universe>
@@ -669,7 +669,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>63</ID>
    <Name>Standard Mover Spotlight #25</Name>
    <Universe>1</Universe>
@@ -679,7 +679,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>64</ID>
    <Name>Standard Mover Spotlight #26</Name>
    <Universe>1</Universe>
@@ -689,7 +689,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>65</ID>
    <Name>Standard Mover Spotlight #27</Name>
    <Universe>1</Universe>
@@ -699,7 +699,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>66</ID>
    <Name>Standard Mover Spotlight #28</Name>
    <Universe>1</Universe>
@@ -709,7 +709,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>67</ID>
    <Name>Standard Mover Spotlight #29</Name>
    <Universe>1</Universe>
@@ -719,7 +719,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>68</ID>
    <Name>Standard Mover Spotlight #30</Name>
    <Universe>1</Universe>
@@ -729,7 +729,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>69</ID>
    <Name>Standard Mover Spotlight #31</Name>
    <Universe>1</Universe>
@@ -739,7 +739,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Blinder</Model>
-   <Mode>5CH - Mode</Mode>
+   <Mode>5CH</Mode>
    <ID>70</ID>
    <Name>Standard Blinder</Name>
    <Universe>0</Universe>
@@ -749,7 +749,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Blinder</Model>
-   <Mode>5CH - Mode</Mode>
+   <Mode>5CH</Mode>
    <ID>71</ID>
    <Name>Standard Blinder #1</Name>
    <Universe>1</Universe>
@@ -759,7 +759,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Blinder</Model>
-   <Mode>5CH - Mode</Mode>
+   <Mode>5CH</Mode>
    <ID>72</ID>
    <Name>Standard Blinder #2</Name>
    <Universe>2</Universe>
@@ -769,7 +769,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>73</ID>
    <Name>Co2 Jet #01</Name>
    <Universe>2</Universe>
@@ -779,7 +779,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>74</ID>
    <Name>Co2 Jet #02</Name>
    <Universe>2</Universe>
@@ -789,7 +789,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>75</ID>
    <Name>Co2 Jet #03</Name>
    <Universe>2</Universe>
@@ -799,7 +799,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>76</ID>
    <Name>Co2 Jet #04</Name>
    <Universe>2</Universe>
@@ -809,7 +809,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>77</ID>
    <Name>Co2 Jet #05</Name>
    <Universe>2</Universe>
@@ -819,7 +819,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>78</ID>
    <Name>Co2 Jet #06</Name>
    <Universe>2</Universe>
@@ -829,7 +829,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>79</ID>
    <Name>Standard Mover Wash #1</Name>
    <Universe>1</Universe>
@@ -839,7 +839,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>80</ID>
    <Name>Standard Mover Wash #2</Name>
    <Universe>1</Universe>
@@ -849,7 +849,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>81</ID>
    <Name>Standard Mover Wash #3</Name>
    <Universe>1</Universe>
@@ -859,7 +859,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>82</ID>
    <Name>Standard Mover Wash #4</Name>
    <Universe>1</Universe>
@@ -869,7 +869,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>83</ID>
    <Name>Standard Mover Wash #5</Name>
    <Universe>1</Universe>
@@ -879,7 +879,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>84</ID>
    <Name>Standard Mover Wash #6</Name>
    <Universe>1</Universe>
@@ -889,7 +889,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>85</ID>
    <Name>Standard Mover Wash #7</Name>
    <Universe>1</Universe>
@@ -899,7 +899,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>86</ID>
    <Name>Standard Mover Wash #8</Name>
    <Universe>1</Universe>
@@ -909,7 +909,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>87</ID>
    <Name>Standard Mover Wash #01</Name>
    <Universe>2</Universe>
@@ -919,7 +919,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>88</ID>
    <Name>Standard Mover Wash #02</Name>
    <Universe>2</Universe>
@@ -929,7 +929,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>89</ID>
    <Name>Standard Mover Wash #03</Name>
    <Universe>2</Universe>
@@ -939,7 +939,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>90</ID>
    <Name>Standard Mover Wash #04</Name>
    <Universe>2</Universe>
@@ -949,7 +949,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>91</ID>
    <Name>Standard Mover Wash #05</Name>
    <Universe>2</Universe>
@@ -959,7 +959,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>92</ID>
    <Name>Standard Mover Wash #06</Name>
    <Universe>2</Universe>
@@ -969,7 +969,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>93</ID>
    <Name>Standard Mover Wash #07</Name>
    <Universe>2</Universe>
@@ -979,7 +979,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>94</ID>
    <Name>Standard Mover Wash #08</Name>
    <Universe>2</Universe>
@@ -989,7 +989,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>95</ID>
    <Name>Standard Mover Wash #09</Name>
    <Universe>2</Universe>
@@ -999,7 +999,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Wash</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>96</ID>
    <Name>Standard Mover Wash #10</Name>
    <Universe>2</Universe>
@@ -1009,7 +1009,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>97</ID>
    <Name>Co2 Jet #07</Name>
    <Universe>2</Universe>
@@ -1019,7 +1019,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>98</ID>
    <Name>Co2 Jet #08</Name>
    <Universe>2</Universe>
@@ -1029,7 +1029,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>99</ID>
    <Name>Co2 Jet #09</Name>
    <Universe>2</Universe>
@@ -1039,7 +1039,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>100</ID>
    <Name>Co2 Jet #10</Name>
    <Universe>2</Universe>
@@ -1049,7 +1049,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>101</ID>
    <Name>Co2 Jet #11</Name>
    <Universe>2</Universe>
@@ -1059,7 +1059,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>102</ID>
    <Name>Co2 Jet #12</Name>
    <Universe>2</Universe>
@@ -1069,7 +1069,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>103</ID>
    <Name>Co2 Jet #13</Name>
    <Universe>2</Universe>
@@ -1079,7 +1079,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>104</ID>
    <Name>Co2 Jet #14</Name>
    <Universe>2</Universe>
@@ -1089,7 +1089,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>105</ID>
    <Name>Co2 Jet #15</Name>
    <Universe>2</Universe>
@@ -1099,7 +1099,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>106</ID>
    <Name>Co2 Jet #16</Name>
    <Universe>2</Universe>
@@ -1109,7 +1109,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>107</ID>
    <Name>Fire #1</Name>
    <Universe>2</Universe>
@@ -1119,7 +1119,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>108</ID>
    <Name>Fire #2</Name>
    <Universe>2</Universe>
@@ -1129,7 +1129,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>109</ID>
    <Name>Fire #3</Name>
    <Universe>2</Universe>
@@ -1139,7 +1139,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>110</ID>
    <Name>Fire #4</Name>
    <Universe>2</Universe>
@@ -1149,7 +1149,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>111</ID>
    <Name>Fire #5</Name>
    <Universe>2</Universe>
@@ -1159,7 +1159,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Fire</Model>
-   <Mode>3Ch - Mode</Mode>
+   <Mode>3Ch</Mode>
    <ID>112</ID>
    <Name>Fire #6</Name>
    <Universe>2</Universe>
@@ -1169,7 +1169,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Confetti</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>113</ID>
    <Name>Confetti #1</Name>
    <Universe>2</Universe>
@@ -1179,7 +1179,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Confetti</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>114</ID>
    <Name>Confetti #2</Name>
    <Universe>2</Universe>
@@ -1219,7 +1219,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Wall Line History</Model>
-   <Mode>4CH - Mode</Mode>
+   <Mode>4CH</Mode>
    <ID>118</ID>
    <Name>Wall Line History</Name>
    <Universe>2</Universe>
@@ -1809,7 +1809,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Wall Lines</Model>
-   <Mode>3CH - Mode</Mode>
+   <Mode>3CH</Mode>
    <ID>177</ID>
    <Name>Wall Lines</Name>
    <Universe>2</Universe>
@@ -1919,7 +1919,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>188</ID>
    <Name>Co2 Jet #1</Name>
    <Universe>2</Universe>
@@ -1929,7 +1929,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>189</ID>
    <Name>Co2 Jet #2</Name>
    <Universe>2</Universe>
@@ -1939,7 +1939,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>190</ID>
    <Name>Co2 Jet #3</Name>
    <Universe>2</Universe>
@@ -1949,7 +1949,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>191</ID>
    <Name>Co2 Jet #4</Name>
    <Universe>2</Universe>
@@ -1959,7 +1959,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>192</ID>
    <Name>Co2 Jet #5</Name>
    <Universe>2</Universe>
@@ -1969,7 +1969,7 @@
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
    <Model>Co2 Jet</Model>
-   <Mode>1CH - Mode</Mode>
+   <Mode>1CH</Mode>
    <ID>193</ID>
    <Name>Co2 Jet #6</Name>
    <Universe>2</Universe>
@@ -1979,7 +1979,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>194</ID>
    <Name>CenterScreen Side Left 2</Name>
    <Universe>2</Universe>
@@ -1989,7 +1989,7 @@
   <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Mover Spotlight</Model>
-   <Mode>13CH - Mode</Mode>
+   <Mode>13CH</Mode>
    <ID>195</ID>
    <Name>CenterScreen Side Right 2</Name>
    <Universe>2</Universe>
