@@ -737,9 +737,9 @@
    <Channels>13</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Blinder</Model>
-   <Mode>5CH</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>5 Channel</Mode>
    <ID>70</ID>
    <Name>Standard Blinder</Name>
    <Universe>0</Universe>
@@ -747,9 +747,9 @@
    <Channels>5</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Blinder</Model>
-   <Mode>5CH</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>5 Channel</Mode>
    <ID>71</ID>
    <Name>Standard Blinder #1</Name>
    <Universe>1</Universe>
@@ -757,9 +757,9 @@
    <Channels>5</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>VRSL</Manufacturer>
-   <Model>Standard Blinder</Model>
-   <Mode>5CH</Mode>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>5 Channel</Mode>
    <ID>72</ID>
    <Name>Standard Blinder #2</Name>
    <Universe>2</Universe>
@@ -1995,6 +1995,16 @@
    <Universe>2</Universe>
    <Address>417</Address>
    <Channels>13</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Generic</Manufacturer>
+   <Model>Generic</Model>
+   <Mode>1 Channel</Mode>
+   <ID>196</ID>
+   <Name>Disco Ball</Name>
+   <Universe>2</Universe>
+   <Address>385</Address>
+   <Channels>1</Channels>
   </Fixture>
   <FixtureGroup ID="0">
    <Name>Side Wall Top Left</Name>
