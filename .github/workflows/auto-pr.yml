@@ -1,9 +1,9 @@
-name: Ensure PR for auto-pr branches
+name: Ensure PR for autopr branches
 
 on:
   push:
     branches:
-      - "auto-pr/**"
+      - "autopr/**"
 
 jobs:
   ensure-pr:
@@ -20,12 +20,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const { owner, repo } = context.repo;
-            // ref is like "refs/heads/auto-pr/smth-1"
+            // ref is like "refs/heads/autopr/smth-1"
             const ref = context.ref;
             const branchName = ref.replace("refs/heads/", "");
 
-            if (!branchName.startsWith("auto-pr/")) {
-              core.info(`Branch ${branchName} does not match auto-pr/ prefix, skipping.`);
+            if (!branchName.startsWith("autopr/")) {
+              core.info(`Branch ${branchName} does not match autopr/ prefix, skipping.`);
               return;
             }
 
