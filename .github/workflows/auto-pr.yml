@@ -1,0 +1,63 @@
+name: Ensure PR for auto-pr branches
+
+on:
+  push:
+    branches:
+      - "auto-pr/**"
+
+jobs:
+  ensure-pr:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: Ensure PR exists for this branch
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo } = context.repo;
+            // ref is like "refs/heads/auto-pr/smth-1"
+            const ref = context.ref;
+            const branchName = ref.replace("refs/heads/", "");
+
+            if (!branchName.startsWith("auto-pr/")) {
+              core.info(`Branch ${branchName} does not match auto-pr/ prefix, skipping.`);
+              return;
+            }
+
+            const baseBranch = "main";
+
+            // List existing open PRs for this head/base
+            // ref. https://octokit.github.io/rest.js/v22/#pulls-list
+            const pulls = await github.rest.pulls.list({
+              owner,
+              repo,
+              state: "open",
+              head: `${owner}:${branchName}`,
+              base: baseBranch,
+            });
+
+            if (pulls.data.length > 0) {
+              core.info(`PR already exists: #${pulls.data[0].number}`);
+              return;
+            }
+
+            const title = `Auto PR from ${branchName}`;
+            const body = `This PR was automatically created for branch \`${branchName}\`.`;
+
+            //https://octokit.github.io/rest.js/v22/#pulls-create
+            const pr = await github.rest.pulls.create({
+              owner,
+              repo,
+              head: branchName,
+              base: baseBranch,
+              title,
+              body,
+              draft: false, // set true if you prefer draft PRs
+            });
+
+            core.info(`Created PR #${pr.data.number} for ${branchName}`);
