@@ -17,28 +17,45 @@
  <Channel Name="Master Dimmer" Preset="IntensityMasterDimmer"/>
  <Channel Name="Strobe">
   <Group Byte="0">Shutter</Group>
-  <Capability Min="0" Max="9">No Action</Capability>
-  <Capability Min="10" Max="255">Strobe Effect (1hz - 25hz)</Capability>
+  <Capability Min="0" Max="62">No Action</Capability>
+  <Capability Min="63" Max="255">Strobe Effect (1hz - 25hz)</Capability>
  </Channel>
  <Channel Name="Red" Preset="IntensityRed"/>
  <Channel Name="Green" Preset="IntensityGreen"/>
  <Channel Name="Blue" Preset="IntensityBlue"/>
  <Channel Name="GOBO Spin Speed">
-  <Group Byte="0">Speed</Group>
+  <Group Byte="0">Prism</Group>
   <Capability Min="0" Max="9">No Spin</Capability>
   <Capability Min="10" Max="126">Spin Left - Speed Increases</Capability>
   <Capability Min="127" Max="255">Spin Right - Speed Increases</Capability>
  </Channel>
  <Channel Name="GOBO Selection">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="42">Blank (GOBO 0)</Capability>
-  <Capability Min="43" Max="85">Gobo 1</Capability>
-  <Capability Min="86" Max="127">Gobo 2</Capability>
-  <Capability Min="128" Max="170">Gobo 3</Capability>
-  <Capability Min="171" Max="212">Gobo 4</Capability>
-  <Capability Min="213" Max="255">Gobo 5</Capability>
+  <Capability Min="0" Max="46" Preset="GoboMacro">Blank/Default</Capability>
+  <Capability Min="47" Max="76" Preset="GoboMacro" Res1="GLP/gobo00011.png">Swooshes</Capability>
+  <Capability Min="77" Max="106" Preset="GoboMacro" Res1="claypaky/gobo00039.png">Sticks</Capability>
+  <Capability Min="107" Max="134" Preset="GoboMacro" Res1="SGM/gobo00124.png">5 Point Star</Capability>
+  <Capability Min="135" Max="165" Preset="GoboMacro" Res1="SGM/gobo00014.png">Triangles</Capability>
+  <Capability Min="166" Max="195" Preset="GoboMacro" Res1="SGM/gobo00290.png">8 Point Star</Capability>
+  <Capability Min="196" Max="224" Preset="GoboMacro" Res1="SGM/gobo00027.svg">Spiral</Capability>
+  <Capability Min="225" Max="255" Preset="GoboMacro" Res1="SGM/gobo00006.png">Apollo Orb</Capability>
  </Channel>
  <Channel Name="Pan/Tilt Speed/Smoothing" Preset="SpeedPanTiltSlowFast"/>
+ <Mode Name="13CH - Mode">
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Fine Pan</Channel>
+  <Channel Number="2">Tilt</Channel>
+  <Channel Number="3">Fine Tilt</Channel>
+  <Channel Number="4">Radius/Zoom (Cone Width)</Channel>
+  <Channel Number="5">Master Dimmer</Channel>
+  <Channel Number="6">Strobe</Channel>
+  <Channel Number="7">Red</Channel>
+  <Channel Number="8">Green</Channel>
+  <Channel Number="9">Blue</Channel>
+  <Channel Number="10">GOBO Spin Speed</Channel>
+  <Channel Number="11">GOBO Selection</Channel>
+  <Channel Number="12">Pan/Tilt Speed/Smoothing</Channel>
+ </Mode>
  <Mode Name="13CH">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1">Fine Pan</Channel>
@@ -55,10 +72,10 @@
   <Channel Number="12">Pan/Tilt Speed/Smoothing</Channel>
  </Mode>
  <Physical>
-  <Bulb Type="Yes" Lumens="0" ColourTemperature="0"/>
+  <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
   <Dimensions Weight="1" Width="1000" Height="1000" Depth="1000"/>
   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
-  <Focus Type="Fixed" PanMax="180" TiltMax="180"/>
+  <Focus Type="Head" PanMax="180" TiltMax="180"/>
   <Technical PowerConsumption="1" DmxConnector="5-pin"/>
  </Physical>
 </FixtureDefinition>
