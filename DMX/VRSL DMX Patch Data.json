@@ -1,822 +1,6 @@
 {
     "fixtures": [
         {
-            "id": 105,
-            "name": "Balcony - Staff Only",
-            "channel": 404,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 5.052736759185791,
-                "y": -0.8034970760345459,
-                "z": -22.573087692260743
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 105,
-            "name": "Very-Poor Sign",
-            "channel": 403,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 5.052736759185791,
-                "y": -0.8034970760345459,
-                "z": -22.573087692260743
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 104,
-            "name": "Bubbles",
-            "channel": 388,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -1.861029028892517,
-                "y": 9.387300491333008,
-                "z": -31.0244140625
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 49.94999313354492,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 104,
-            "name": "Bubbles",
-            "channel": 387,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 11.86478042602539,
-                "y": 9.38523006439209,
-                "z": -31.329425811767579
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 319.95001220703127,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 103,
-            "name": "Confetti Cannon",
-            "channel": 166,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -0.002565479138866067,
-                "y": 5.802330493927002,
-                "z": -31.798845291137697
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 24.999996185302736,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 103,
-            "name": "Confetti Cannon",
-            "channel": 165,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 10.149717330932618,
-                "y": 5.818531036376953,
-                "z": -31.646574020385743
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 335.0,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 382,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 4.788478374481201,
-                "y": 8.317619323730469,
-                "z": -15.29817008972168
-            },
-            "rotation": {
-                "x": 319.38592529296877,
-                "y": 28.00054168701172,
-                "z": 358.5517578125
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 137,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 10.78409481048584,
-                "y": 7.805091381072998,
-                "z": -29.81866455078125
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 172.03550720214845,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 136,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 0.8870095014572144,
-                "y": 12.360262870788575,
-                "z": -30.992183685302736
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 385,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 4.843898773193359,
-                "y": 8.321206092834473,
-                "z": -15.303852081298829
-            },
-            "rotation": {
-                "x": 319.38592529296877,
-                "y": 28.00054168701172,
-                "z": 358.5517578125
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 132,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 0.8202297687530518,
-                "y": 12.356660842895508,
-                "z": -31.238967895507814
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 133,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 9.364768028259278,
-                "y": 12.356660842895508,
-                "z": -30.86742401123047
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 195.76492309570313,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 131,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 9.401668548583985,
-                "y": 12.356660842895508,
-                "z": -31.097824096679689
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 195.76492309570313,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 145,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 0.35475367307662966,
-                "y": 5.813661575317383,
-                "z": -28.942577362060548
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 237.764892578125,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 384,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -2.0863707065582277,
-                "y": 9.614702224731446,
-                "z": -23.23270034790039
-            },
-            "rotation": {
-                "x": 310.4053649902344,
-                "y": 287.28265380859377,
-                "z": 352.2921447753906
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 141,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 10.039291381835938,
-                "y": 5.813661575317383,
-                "z": -28.85794448852539
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 193.76490783691407,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 144,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 3.3059756755828859,
-                "y": 6.503061294555664,
-                "z": -29.199996948242189
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 35.7649040222168,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 381,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -2.0779385566711427,
-                "y": 9.611486434936524,
-                "z": -23.28780746459961
-            },
-            "rotation": {
-                "x": 310.4053649902344,
-                "y": 287.28265380859377,
-                "z": 352.2921447753906
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 140,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -0.36063307523727419,
-                "y": 7.803561210632324,
-                "z": -30.024768829345704
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 262.27642822265627,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 146,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 0.27195367217063906,
-                "y": 5.813661575317383,
-                "z": -28.909278869628908
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 237.764892578125,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 134,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 9.272968292236329,
-                "y": 12.35936164855957,
-                "z": -30.89802360534668
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 195.76492309570313,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 138,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 10.737319946289063,
-                "y": 7.80509090423584,
-                "z": -29.860368728637697
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 172.03550720214845,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 142,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 9.979890823364258,
-                "y": 5.813661575317383,
-                "z": -28.882246017456056
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 193.76490783691407,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 139,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -0.3010725975036621,
-                "y": 7.803561210632324,
-                "z": -30.088138580322267
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 262.27642822265627,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 3,
-            "universe": 9,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 12.238748550415039,
-                "y": 9.551628112792969,
-                "z": -23.093257904052736
-            },
-            "rotation": {
-                "x": 310.4053649902344,
-                "y": 134.19967651367188,
-                "z": 352.2921447753906
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 380,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 12.256714820861817,
-                "y": 9.548928260803223,
-                "z": -23.040468215942384
-            },
-            "rotation": {
-                "x": 310.4053649902344,
-                "y": 134.19967651367188,
-                "z": 352.2921447753906
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 135,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 0.976109504699707,
-                "y": 12.362061500549317,
-                "z": -31.03178596496582
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 101,
-            "name": "Co2 Jet",
-            "channel": 143,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 6.592055797576904,
-                "y": 6.503061294555664,
-                "z": -29.193159103393556
-            },
-            "rotation": {
-                "x": 301.9123840332031,
-                "y": 35.7649040222168,
-                "z": 343.28399658203127
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 147,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 7.786970138549805,
-                "y": 12.76742935180664,
-                "z": -31.86231803894043
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 192.1344451904297,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 150,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 3.473270893096924,
-                "y": 12.74763011932373,
-                "z": -31.68231773376465
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 174.2994384765625,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 159,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 9.058670043945313,
-                "y": 5.903580665588379,
-                "z": -29.2766170501709
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 164.8727569580078,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 162,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 1.0535304546356202,
-                "y": 5.910690784454346,
-                "z": -29.269685745239259
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 198.74127197265626,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 153,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": 10.933370590209961,
-                "y": 7.898430824279785,
-                "z": -29.75811767578125
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 150.8721466064453,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
-            "id": 102,
-            "name": "Fire Jet",
-            "channel": 156,
-            "universe": 3,
-            "fixtureDefintion": "Other",
-            "channelNames": [
-                "Unknown"
-            ],
-            "position": {
-                "x": -0.6603392362594605,
-                "y": 7.894470691680908,
-                "z": -29.907516479492189
-            },
-            "rotation": {
-                "x": 0.0,
-                "y": 222.03480529785157,
-                "z": 0.0
-            },
-            "invertPan": false,
-            "invertTilt": false,
-            "panRange": 180.0,
-            "tiltRange": 180.0
-        },
-        {
             "id": 1,
             "name": "Side Wall Right 5",
             "channel": 118,
@@ -961,6 +145,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 135,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.976109504699707,
+                "y": 12.362061500549317,
+                "z": -31.03178596496582
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 239.764892578125,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 2,
             "name": "Side Wall Left Wash 2",
             "channel": 469,
@@ -1069,6 +277,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 159,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 9.058670043945313,
+                "y": 5.903580665588379,
+                "z": -29.2766170501709
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 164.8727569580078,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "ScreenSide Right Flasher 2",
             "channel": 350,
@@ -1115,6 +347,30 @@
             "invertTilt": false,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 141,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 10.039291381835938,
+                "y": 5.813661575317383,
+                "z": -28.85794448852539
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 193.76490783691407,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
@@ -1261,6 +517,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 156,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -0.6603392362594605,
+                "y": 7.894470691680908,
+                "z": -29.907516479492189
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 222.03480529785157,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "Side Wall Left 2",
             "channel": 482,
@@ -1297,6 +577,54 @@
             "tiltRange": 270.0
         },
         {
+            "id": 104,
+            "name": "Bubbles",
+            "channel": 388,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -1.861029028892517,
+                "y": 9.387300491333008,
+                "z": -31.0244140625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 49.94999313354492,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 381,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -2.0779385566711427,
+                "y": 9.611486434936524,
+                "z": -23.28780746459961
+            },
+            "rotation": {
+                "x": 310.4053649902344,
+                "y": 287.28265380859377,
+                "z": 352.2921447753906
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "CenterScreen In-Screen 3",
             "channel": 326,
@@ -1331,6 +659,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 143,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 6.592055797576904,
+                "y": 6.503061294555664,
+                "z": -29.193159103393556
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 35.7649040222168,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
@@ -1441,6 +793,54 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 146,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.27195367217063906,
+                "y": 5.813661575317383,
+                "z": -28.909278869628908
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 237.764892578125,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 384,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -2.0863707065582277,
+                "y": 9.614702224731446,
+                "z": -23.23270034790039
+            },
+            "rotation": {
+                "x": 310.4053649902344,
+                "y": 287.28265380859377,
+                "z": 352.2921447753906
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "Dancer Podium Left 3",
             "channel": 183,
@@ -1547,6 +947,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 104,
+            "name": "Bubbles",
+            "channel": 387,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 11.86478042602539,
+                "y": 9.38523006439209,
+                "z": -31.329425811767579
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 319.95001220703127,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
@@ -1945,6 +1369,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 162,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 1.0535304546356202,
+                "y": 5.910690784454346,
+                "z": -29.269685745239259
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 198.74127197265626,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 2,
             "name": "ScreenBottom Wash 2",
             "channel": 92,
@@ -2217,6 +1665,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 380,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 12.256714820861817,
+                "y": 9.548928260803223,
+                "z": -23.040468215942384
+            },
+            "rotation": {
+                "x": 310.4053649902344,
+                "y": 134.19967651367188,
+                "z": 352.2921447753906
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "SideWall_DancerPodium Right Flasher 5",
             "channel": 369,
@@ -2335,6 +1807,30 @@
             "invertTilt": false,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 153,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 10.933370590209961,
+                "y": 7.898430824279785,
+                "z": -29.75811767578125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 150.8721466064453,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
@@ -2565,6 +2061,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 145,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.35475367307662966,
+                "y": 5.813661575317383,
+                "z": -28.942577362060548
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 237.764892578125,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "CenterScreen Side Right 1",
             "channel": 287,
@@ -2707,6 +2227,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 144,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 3.3059756755828859,
+                "y": 6.503061294555664,
+                "z": -29.199996948242189
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 35.7649040222168,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 4,
@@ -2913,6 +2457,54 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 137,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 10.78409481048584,
+                "y": 7.805091381072998,
+                "z": -29.81866455078125
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 172.03550720214845,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 385,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 4.843898773193359,
+                "y": 8.321206092834473,
+                "z": -15.303852081298829
+            },
+            "rotation": {
+                "x": 319.38592529296877,
+                "y": 28.00054168701172,
+                "z": 358.5517578125
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "CenterScreen Bottom 2",
             "channel": 365,
@@ -3103,6 +2695,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 105,
+            "name": "Very-Poor Sign",
+            "channel": 403,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 5.052736759185791,
+                "y": -0.8034970760345459,
+                "z": -22.573087692260743
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 4,
@@ -3477,6 +3093,102 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 140,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -0.36063307523727419,
+                "y": 7.803561210632324,
+                "z": -30.024768829345704
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 262.27642822265627,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 105,
+            "name": "Balcony - Staff Only",
+            "channel": 404,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 5.052736759185791,
+                "y": -0.8034970760345459,
+                "z": -22.573087692260743
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 131,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 9.401668548583985,
+                "y": 12.356660842895508,
+                "z": -31.097824096679689
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 195.76492309570313,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 133,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 9.364768028259278,
+                "y": 12.356660842895508,
+                "z": -30.86742401123047
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 195.76492309570313,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "DancePodium Left Poster Flasher 1",
             "channel": 354,
@@ -3523,6 +3235,30 @@
             "invertTilt": false,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 382,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 4.788478374481201,
+                "y": 8.317619323730469,
+                "z": -15.29817008972168
+            },
+            "rotation": {
+                "x": 319.38592529296877,
+                "y": 28.00054168701172,
+                "z": 358.5517578125
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
@@ -4101,6 +3837,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 142,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 9.979890823364258,
+                "y": 5.813661575317383,
+                "z": -28.882246017456056
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 193.76490783691407,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "SideWall_DancerPodium Left Flasher 2",
             "channel": 361,
@@ -4437,6 +4197,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 103,
+            "name": "Confetti Cannon",
+            "channel": 166,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -0.002565479138866067,
+                "y": 5.802330493927002,
+                "z": -31.798845291137697
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 24.999996185302736,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "Truss Outer 4",
             "channel": 118,
@@ -4579,6 +4363,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 134,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 9.272968292236329,
+                "y": 12.35936164855957,
+                "z": -30.89802360534668
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 195.76492309570313,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 2,
@@ -4821,6 +4629,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 132,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.8202297687530518,
+                "y": 12.356660842895508,
+                "z": -31.238967895507814
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 239.764892578125,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "Top-Flasher-Ring.8",
             "channel": 331,
@@ -5049,6 +4881,54 @@
             "tiltRange": 270.0
         },
         {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 150,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 3.473270893096924,
+                "y": 12.74763011932373,
+                "z": -31.68231773376465
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 174.2994384765625,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
+            "id": 102,
+            "name": "Fire Jet",
+            "channel": 147,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 7.786970138549805,
+                "y": 12.76742935180664,
+                "z": -31.86231803894043
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 192.1344451904297,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
             "name": "Dancefloor 1",
             "channel": 170,
@@ -5083,6 +4963,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 103,
+            "name": "Confetti Cannon",
+            "channel": 165,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 10.149717330932618,
+                "y": 5.818531036376953,
+                "z": -31.646574020385743
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 335.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 5,
@@ -5205,6 +5109,30 @@
             "tiltRange": 270.0
         },
         {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 136,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.8870095014572144,
+                "y": 12.360262870788575,
+                "z": -30.992183685302736
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 239.764892578125,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 4,
             "name": "SideWall_DancerPodium Left Flasher 3",
             "channel": 362,
@@ -5227,6 +5155,30 @@
             "invertTilt": false,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 382,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 12.238748550415039,
+                "y": 9.551628112792969,
+                "z": -23.093257904052736
+            },
+            "rotation": {
+                "x": 310.4053649902344,
+                "y": 134.19967651367188,
+                "z": 352.2921447753906
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 4,
@@ -5287,6 +5239,30 @@
             "invertTilt": true,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 139,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": -0.3010725975036621,
+                "y": 7.803561210632324,
+                "z": -30.088138580322267
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 262.27642822265627,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 2,
@@ -5927,6 +5903,30 @@
             "invertTilt": false,
             "panRange": 360.0,
             "tiltRange": 270.0
+        },
+        {
+            "id": 101,
+            "name": "Co2 Jet",
+            "channel": 138,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 10.737319946289063,
+                "y": 7.80509090423584,
+                "z": -29.860368728637697
+            },
+            "rotation": {
+                "x": 301.9123840332031,
+                "y": 172.03550720214845,
+                "z": 343.28399658203127
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
         },
         {
             "id": 1,
