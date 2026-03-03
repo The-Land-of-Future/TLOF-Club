@@ -1,0 +1,11 @@
+1 = Mover SpotLight
+2 = Mover Wash
+3 = Static Blinder
+4 = Static Flasher
+5 = Static Laser
+
+101 = Co2-Jet
+102 = Fire-Jet
+103 = Confetti
+104 = Bubbles
+105 = Sign/Object Toggle (Very-Poor Sign, Balcony Staff-Only)

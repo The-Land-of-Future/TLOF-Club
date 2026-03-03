@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.7</Version>
+  <Version>4.14.3</Version>
   <Author>C0D3 M4513R</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
+   <BeatGenerator BeatType="Disabled" BPM="0"/>
    <Universe Name="Universe 1" ID="0">
     <Output Plugin="ArtNet" UID="127.0.0.1" Line="0"/>
    </Universe>
@@ -1217,16 +1218,6 @@
    <Channels>13</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Wall Line History</Model>
-   <Mode>4CH</Mode>
-   <ID>118</ID>
-   <Name>Wall Line History</Name>
-   <Universe>2</Universe>
-   <Address>395</Address>
-   <Channels>4</Channels>
-  </Fixture>
-  <Fixture>
    <Manufacturer>VRSL</Manufacturer>
    <Model>Standard Laser</Model>
    <Mode>13 CH Laser</Mode>
@@ -2006,6 +1997,1306 @@
    <Address>385</Address>
    <Channels>1</Channels>
   </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH</Mode>
+   <ID>197</ID>
+   <Name>Bubble Machine Left</Name>
+   <Universe>2</Universe>
+   <Address>386</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Co2 Jet</Model>
+   <Mode>1CH</Mode>
+   <ID>198</ID>
+   <Name>Bubble Machine Right</Name>
+   <Universe>2</Universe>
+   <Address>387</Address>
+   <Channels>1</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>199</ID>
+   <Name>Wall Line History #001</Name>
+   <Universe>3</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>200</ID>
+   <Name>Wall Line History #002</Name>
+   <Universe>3</Universe>
+   <Address>4</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>201</ID>
+   <Name>Wall Line History #003</Name>
+   <Universe>3</Universe>
+   <Address>8</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>202</ID>
+   <Name>Wall Line History #004</Name>
+   <Universe>3</Universe>
+   <Address>12</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>203</ID>
+   <Name>Wall Line History #005</Name>
+   <Universe>3</Universe>
+   <Address>16</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>204</ID>
+   <Name>Wall Line History #006</Name>
+   <Universe>3</Universe>
+   <Address>20</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>205</ID>
+   <Name>Wall Line History #007</Name>
+   <Universe>3</Universe>
+   <Address>24</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>206</ID>
+   <Name>Wall Line History #008</Name>
+   <Universe>3</Universe>
+   <Address>28</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>207</ID>
+   <Name>Wall Line History #009</Name>
+   <Universe>3</Universe>
+   <Address>32</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>208</ID>
+   <Name>Wall Line History #010</Name>
+   <Universe>3</Universe>
+   <Address>36</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>209</ID>
+   <Name>Wall Line History #011</Name>
+   <Universe>3</Universe>
+   <Address>40</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>210</ID>
+   <Name>Wall Line History #012</Name>
+   <Universe>3</Universe>
+   <Address>44</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>211</ID>
+   <Name>Wall Line History #013</Name>
+   <Universe>3</Universe>
+   <Address>48</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>212</ID>
+   <Name>Wall Line History #014</Name>
+   <Universe>3</Universe>
+   <Address>52</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>213</ID>
+   <Name>Wall Line History #015</Name>
+   <Universe>3</Universe>
+   <Address>56</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>214</ID>
+   <Name>Wall Line History #016</Name>
+   <Universe>3</Universe>
+   <Address>60</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>215</ID>
+   <Name>Wall Line History #017</Name>
+   <Universe>3</Universe>
+   <Address>64</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>216</ID>
+   <Name>Wall Line History #018</Name>
+   <Universe>3</Universe>
+   <Address>68</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>217</ID>
+   <Name>Wall Line History #019</Name>
+   <Universe>3</Universe>
+   <Address>72</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>218</ID>
+   <Name>Wall Line History #020</Name>
+   <Universe>3</Universe>
+   <Address>76</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>219</ID>
+   <Name>Wall Line History #021</Name>
+   <Universe>3</Universe>
+   <Address>80</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>220</ID>
+   <Name>Wall Line History #022</Name>
+   <Universe>3</Universe>
+   <Address>84</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>221</ID>
+   <Name>Wall Line History #023</Name>
+   <Universe>3</Universe>
+   <Address>88</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>222</ID>
+   <Name>Wall Line History #024</Name>
+   <Universe>3</Universe>
+   <Address>92</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>223</ID>
+   <Name>Wall Line History #025</Name>
+   <Universe>3</Universe>
+   <Address>96</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>224</ID>
+   <Name>Wall Line History #026</Name>
+   <Universe>3</Universe>
+   <Address>100</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>225</ID>
+   <Name>Wall Line History #027</Name>
+   <Universe>3</Universe>
+   <Address>104</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>226</ID>
+   <Name>Wall Line History #028</Name>
+   <Universe>3</Universe>
+   <Address>108</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>227</ID>
+   <Name>Wall Line History #029</Name>
+   <Universe>3</Universe>
+   <Address>112</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>228</ID>
+   <Name>Wall Line History #030</Name>
+   <Universe>3</Universe>
+   <Address>116</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>229</ID>
+   <Name>Wall Line History #031</Name>
+   <Universe>3</Universe>
+   <Address>120</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>230</ID>
+   <Name>Wall Line History #032</Name>
+   <Universe>3</Universe>
+   <Address>124</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>231</ID>
+   <Name>Wall Line History #033</Name>
+   <Universe>3</Universe>
+   <Address>128</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>232</ID>
+   <Name>Wall Line History #034</Name>
+   <Universe>3</Universe>
+   <Address>132</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>233</ID>
+   <Name>Wall Line History #035</Name>
+   <Universe>3</Universe>
+   <Address>136</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>234</ID>
+   <Name>Wall Line History #036</Name>
+   <Universe>3</Universe>
+   <Address>140</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>235</ID>
+   <Name>Wall Line History #037</Name>
+   <Universe>3</Universe>
+   <Address>144</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>236</ID>
+   <Name>Wall Line History #038</Name>
+   <Universe>3</Universe>
+   <Address>148</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>237</ID>
+   <Name>Wall Line History #039</Name>
+   <Universe>3</Universe>
+   <Address>152</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>238</ID>
+   <Name>Wall Line History #040</Name>
+   <Universe>3</Universe>
+   <Address>156</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>239</ID>
+   <Name>Wall Line History #041</Name>
+   <Universe>3</Universe>
+   <Address>160</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>240</ID>
+   <Name>Wall Line History #042</Name>
+   <Universe>3</Universe>
+   <Address>164</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>241</ID>
+   <Name>Wall Line History #043</Name>
+   <Universe>3</Universe>
+   <Address>168</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>242</ID>
+   <Name>Wall Line History #044</Name>
+   <Universe>3</Universe>
+   <Address>172</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>243</ID>
+   <Name>Wall Line History #045</Name>
+   <Universe>3</Universe>
+   <Address>176</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>244</ID>
+   <Name>Wall Line History #046</Name>
+   <Universe>3</Universe>
+   <Address>180</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>245</ID>
+   <Name>Wall Line History #047</Name>
+   <Universe>3</Universe>
+   <Address>184</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>246</ID>
+   <Name>Wall Line History #048</Name>
+   <Universe>3</Universe>
+   <Address>188</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>247</ID>
+   <Name>Wall Line History #049</Name>
+   <Universe>3</Universe>
+   <Address>192</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>248</ID>
+   <Name>Wall Line History #050</Name>
+   <Universe>3</Universe>
+   <Address>196</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>249</ID>
+   <Name>Wall Line History #051</Name>
+   <Universe>3</Universe>
+   <Address>200</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>250</ID>
+   <Name>Wall Line History #052</Name>
+   <Universe>3</Universe>
+   <Address>204</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>251</ID>
+   <Name>Wall Line History #053</Name>
+   <Universe>3</Universe>
+   <Address>208</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>252</ID>
+   <Name>Wall Line History #054</Name>
+   <Universe>3</Universe>
+   <Address>212</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>253</ID>
+   <Name>Wall Line History #055</Name>
+   <Universe>3</Universe>
+   <Address>216</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>254</ID>
+   <Name>Wall Line History #056</Name>
+   <Universe>3</Universe>
+   <Address>220</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>255</ID>
+   <Name>Wall Line History #057</Name>
+   <Universe>3</Universe>
+   <Address>224</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>256</ID>
+   <Name>Wall Line History #058</Name>
+   <Universe>3</Universe>
+   <Address>228</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>257</ID>
+   <Name>Wall Line History #059</Name>
+   <Universe>3</Universe>
+   <Address>232</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>258</ID>
+   <Name>Wall Line History #060</Name>
+   <Universe>3</Universe>
+   <Address>236</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>259</ID>
+   <Name>Wall Line History #061</Name>
+   <Universe>3</Universe>
+   <Address>240</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>260</ID>
+   <Name>Wall Line History #062</Name>
+   <Universe>3</Universe>
+   <Address>244</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>261</ID>
+   <Name>Wall Line History #063</Name>
+   <Universe>3</Universe>
+   <Address>248</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>262</ID>
+   <Name>Wall Line History #064</Name>
+   <Universe>3</Universe>
+   <Address>252</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>263</ID>
+   <Name>Wall Line History #065</Name>
+   <Universe>3</Universe>
+   <Address>256</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>264</ID>
+   <Name>Wall Line History #066</Name>
+   <Universe>3</Universe>
+   <Address>260</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>265</ID>
+   <Name>Wall Line History #067</Name>
+   <Universe>3</Universe>
+   <Address>264</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>266</ID>
+   <Name>Wall Line History #068</Name>
+   <Universe>3</Universe>
+   <Address>268</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>267</ID>
+   <Name>Wall Line History #069</Name>
+   <Universe>3</Universe>
+   <Address>272</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>268</ID>
+   <Name>Wall Line History #070</Name>
+   <Universe>3</Universe>
+   <Address>276</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>269</ID>
+   <Name>Wall Line History #071</Name>
+   <Universe>3</Universe>
+   <Address>280</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>270</ID>
+   <Name>Wall Line History #072</Name>
+   <Universe>3</Universe>
+   <Address>284</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>271</ID>
+   <Name>Wall Line History #073</Name>
+   <Universe>3</Universe>
+   <Address>288</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>272</ID>
+   <Name>Wall Line History #074</Name>
+   <Universe>3</Universe>
+   <Address>292</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>273</ID>
+   <Name>Wall Line History #075</Name>
+   <Universe>3</Universe>
+   <Address>296</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>274</ID>
+   <Name>Wall Line History #076</Name>
+   <Universe>3</Universe>
+   <Address>300</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>275</ID>
+   <Name>Wall Line History #077</Name>
+   <Universe>3</Universe>
+   <Address>304</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>276</ID>
+   <Name>Wall Line History #078</Name>
+   <Universe>3</Universe>
+   <Address>308</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>277</ID>
+   <Name>Wall Line History #079</Name>
+   <Universe>3</Universe>
+   <Address>312</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>278</ID>
+   <Name>Wall Line History #080</Name>
+   <Universe>3</Universe>
+   <Address>316</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>279</ID>
+   <Name>Wall Line History #081</Name>
+   <Universe>3</Universe>
+   <Address>320</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>280</ID>
+   <Name>Wall Line History #082</Name>
+   <Universe>3</Universe>
+   <Address>324</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>281</ID>
+   <Name>Wall Line History #083</Name>
+   <Universe>3</Universe>
+   <Address>328</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>282</ID>
+   <Name>Wall Line History #084</Name>
+   <Universe>3</Universe>
+   <Address>332</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>283</ID>
+   <Name>Wall Line History #085</Name>
+   <Universe>3</Universe>
+   <Address>336</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>284</ID>
+   <Name>Wall Line History #086</Name>
+   <Universe>3</Universe>
+   <Address>340</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>285</ID>
+   <Name>Wall Line History #087</Name>
+   <Universe>3</Universe>
+   <Address>344</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>286</ID>
+   <Name>Wall Line History #088</Name>
+   <Universe>3</Universe>
+   <Address>348</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>287</ID>
+   <Name>Wall Line History #089</Name>
+   <Universe>3</Universe>
+   <Address>352</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>288</ID>
+   <Name>Wall Line History #090</Name>
+   <Universe>3</Universe>
+   <Address>356</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>289</ID>
+   <Name>Wall Line History #091</Name>
+   <Universe>3</Universe>
+   <Address>360</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>290</ID>
+   <Name>Wall Line History #092</Name>
+   <Universe>3</Universe>
+   <Address>364</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>291</ID>
+   <Name>Wall Line History #093</Name>
+   <Universe>3</Universe>
+   <Address>368</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>292</ID>
+   <Name>Wall Line History #094</Name>
+   <Universe>3</Universe>
+   <Address>372</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>293</ID>
+   <Name>Wall Line History #095</Name>
+   <Universe>3</Universe>
+   <Address>376</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>294</ID>
+   <Name>Wall Line History #096</Name>
+   <Universe>3</Universe>
+   <Address>380</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>295</ID>
+   <Name>Wall Line History #097</Name>
+   <Universe>3</Universe>
+   <Address>384</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>296</ID>
+   <Name>Wall Line History #098</Name>
+   <Universe>3</Universe>
+   <Address>388</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>297</ID>
+   <Name>Wall Line History #099</Name>
+   <Universe>3</Universe>
+   <Address>392</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>298</ID>
+   <Name>Wall Line History #100</Name>
+   <Universe>3</Universe>
+   <Address>396</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>299</ID>
+   <Name>Wall Line History #101</Name>
+   <Universe>3</Universe>
+   <Address>400</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>300</ID>
+   <Name>Wall Line History #102</Name>
+   <Universe>3</Universe>
+   <Address>404</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>301</ID>
+   <Name>Wall Line History #103</Name>
+   <Universe>3</Universe>
+   <Address>408</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>302</ID>
+   <Name>Wall Line History #104</Name>
+   <Universe>3</Universe>
+   <Address>412</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>303</ID>
+   <Name>Wall Line History #105</Name>
+   <Universe>3</Universe>
+   <Address>416</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>304</ID>
+   <Name>Wall Line History #106</Name>
+   <Universe>3</Universe>
+   <Address>420</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>305</ID>
+   <Name>Wall Line History #107</Name>
+   <Universe>3</Universe>
+   <Address>424</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>306</ID>
+   <Name>Wall Line History #108</Name>
+   <Universe>3</Universe>
+   <Address>428</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>307</ID>
+   <Name>Wall Line History #109</Name>
+   <Universe>3</Universe>
+   <Address>432</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>308</ID>
+   <Name>Wall Line History #110</Name>
+   <Universe>3</Universe>
+   <Address>436</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>309</ID>
+   <Name>Wall Line History #111</Name>
+   <Universe>3</Universe>
+   <Address>440</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>310</ID>
+   <Name>Wall Line History #112</Name>
+   <Universe>3</Universe>
+   <Address>444</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>311</ID>
+   <Name>Wall Line History #113</Name>
+   <Universe>3</Universe>
+   <Address>448</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>312</ID>
+   <Name>Wall Line History #114</Name>
+   <Universe>3</Universe>
+   <Address>452</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>313</ID>
+   <Name>Wall Line History #115</Name>
+   <Universe>3</Universe>
+   <Address>456</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>314</ID>
+   <Name>Wall Line History #116</Name>
+   <Universe>3</Universe>
+   <Address>460</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>315</ID>
+   <Name>Wall Line History #117</Name>
+   <Universe>3</Universe>
+   <Address>464</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>316</ID>
+   <Name>Wall Line History #118</Name>
+   <Universe>3</Universe>
+   <Address>468</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>317</ID>
+   <Name>Wall Line History #119</Name>
+   <Universe>3</Universe>
+   <Address>472</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>318</ID>
+   <Name>Wall Line History #120</Name>
+   <Universe>3</Universe>
+   <Address>476</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>319</ID>
+   <Name>Wall Line History #121</Name>
+   <Universe>3</Universe>
+   <Address>480</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>320</ID>
+   <Name>Wall Line History #122</Name>
+   <Universe>3</Universe>
+   <Address>484</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>321</ID>
+   <Name>Wall Line History #123</Name>
+   <Universe>3</Universe>
+   <Address>488</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>322</ID>
+   <Name>Wall Line History #124</Name>
+   <Universe>3</Universe>
+   <Address>492</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>323</ID>
+   <Name>Wall Line History #125</Name>
+   <Universe>3</Universe>
+   <Address>496</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>324</ID>
+   <Name>Wall Line History #126</Name>
+   <Universe>3</Universe>
+   <Address>500</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>325</ID>
+   <Name>Wall Line History #127</Name>
+   <Universe>3</Universe>
+   <Address>504</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>The Land of Future</Manufacturer>
+   <Model>Wall Line History</Model>
+   <Mode>4CH</Mode>
+   <ID>326</ID>
+   <Name>Wall Line History #128</Name>
+   <Universe>3</Universe>
+   <Address>508</Address>
+   <Channels>4</Channels>
+  </Fixture>
   <FixtureGroup ID="0">
    <Name>Side Wall Top Left</Name>
    <Size X="3" Y="3"/>
@@ -2226,6 +3517,182 @@
    <Head X="1" Y="3" Fixture="143">0</Head>
    <Head X="2" Y="3" Fixture="144">0</Head>
   </FixtureGroup>
+  <Function ID="0" Type="EFX" Name="Neuer Effekt 0">
+   <Fixture>
+    <ID>73</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>74</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>75</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>76</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>77</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>78</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>97</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>98</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>99</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>188</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>100</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>101</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>102</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>103</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>104</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>105</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>106</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>189</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>190</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>191</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>192</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <Fixture>
+    <ID>193</ID>
+    <Head>0</Head>
+    <Mode>0</Mode>
+    <Direction>Forward</Direction>
+    <StartOffset>0</StartOffset>
+   </Fixture>
+   <PropagationMode>Parallel</PropagationMode>
+   <Speed FadeIn="0" FadeOut="0" Duration="20000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <Algorithm>Circle</Algorithm>
+   <Width>127</Width>
+   <Height>127</Height>
+   <Rotation>0</Rotation>
+   <StartOffset>0</StartOffset>
+   <IsRelative>0</IsRelative>
+   <Axis Name="X">
+    <Offset>127</Offset>
+    <Frequency>2</Frequency>
+    <Phase>90</Phase>
+   </Axis>
+   <Axis Name="Y">
+    <Offset>127</Offset>
+    <Frequency>3</Frequency>
+    <Phase>0</Phase>
+   </Axis>
+  </Function>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -2236,10 +3703,1110 @@
     <BackgroundImage>None</BackgroundImage>
     <Font>Default</Font>
    </Appearance>
+   <Frame Caption="" ID="8">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="110" Y="375" Width="270" Height="270"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Neuer Effekt 0" ID="9" Icon="">
+     <WindowState Visible="False" X="10" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="0"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 10" ID="10" Icon="">
+     <WindowState Visible="False" X="60" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 11" ID="11" Icon="">
+     <WindowState Visible="False" X="110" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 12" ID="12" Icon="">
+     <WindowState Visible="False" X="160" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 13" ID="13" Icon="">
+     <WindowState Visible="False" X="210" Y="10" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 14" ID="14" Icon="">
+     <WindowState Visible="False" X="10" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 15" ID="15" Icon="">
+     <WindowState Visible="False" X="60" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 16" ID="16" Icon="">
+     <WindowState Visible="False" X="110" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 17" ID="17" Icon="">
+     <WindowState Visible="False" X="160" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 18" ID="18" Icon="">
+     <WindowState Visible="False" X="210" Y="60" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 19" ID="19" Icon="">
+     <WindowState Visible="False" X="10" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 20" ID="20" Icon="">
+     <WindowState Visible="False" X="60" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 21" ID="21" Icon="">
+     <WindowState Visible="False" X="110" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 22" ID="22" Icon="">
+     <WindowState Visible="False" X="160" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 23" ID="23" Icon="">
+     <WindowState Visible="False" X="210" Y="110" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 24" ID="24" Icon="">
+     <WindowState Visible="False" X="10" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 25" ID="25" Icon="">
+     <WindowState Visible="False" X="60" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 26" ID="26" Icon="">
+     <WindowState Visible="False" X="110" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 27" ID="27" Icon="">
+     <WindowState Visible="False" X="160" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 28" ID="28" Icon="">
+     <WindowState Visible="False" X="210" Y="160" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 29" ID="29" Icon="">
+     <WindowState Visible="False" X="10" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 30" ID="30" Icon="">
+     <WindowState Visible="False" X="60" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 31" ID="31" Icon="">
+     <WindowState Visible="False" X="110" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 32" ID="32" Icon="">
+     <WindowState Visible="False" X="160" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Schalter 33" ID="33" Icon="">
+     <WindowState Visible="False" X="210" Y="210" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="4294967295"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </Frame>
+   <Frame Caption="" ID="39">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="5" Y="0" Width="320" Height="220"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Co2" ID="40" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="20" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="73">0</Channel>
+      <Channel Fixture="74">0</Channel>
+      <Channel Fixture="75">0</Channel>
+      <Channel Fixture="76">0</Channel>
+      <Channel Fixture="77">0</Channel>
+      <Channel Fixture="78">0</Channel>
+      <Channel Fixture="97">0</Channel>
+      <Channel Fixture="98">0</Channel>
+      <Channel Fixture="99">0</Channel>
+      <Channel Fixture="100">0</Channel>
+      <Channel Fixture="101">0</Channel>
+      <Channel Fixture="102">0</Channel>
+      <Channel Fixture="103">0</Channel>
+      <Channel Fixture="104">0</Channel>
+      <Channel Fixture="105">0</Channel>
+      <Channel Fixture="106">0</Channel>
+      <Channel Fixture="188">0</Channel>
+      <Channel Fixture="189">0</Channel>
+      <Channel Fixture="190">0</Channel>
+      <Channel Fixture="191">0</Channel>
+      <Channel Fixture="192">0</Channel>
+      <Channel Fixture="193">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fire" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="70" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="107">0</Channel>
+      <Channel Fixture="107">1</Channel>
+      <Channel Fixture="107">2</Channel>
+      <Channel Fixture="108">0</Channel>
+      <Channel Fixture="108">1</Channel>
+      <Channel Fixture="108">2</Channel>
+      <Channel Fixture="109">0</Channel>
+      <Channel Fixture="109">1</Channel>
+      <Channel Fixture="109">2</Channel>
+      <Channel Fixture="110">0</Channel>
+      <Channel Fixture="110">1</Channel>
+      <Channel Fixture="110">2</Channel>
+      <Channel Fixture="111">0</Channel>
+      <Channel Fixture="111">1</Channel>
+      <Channel Fixture="111">2</Channel>
+      <Channel Fixture="112">0</Channel>
+      <Channel Fixture="112">1</Channel>
+      <Channel Fixture="112">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Confetti" ID="42" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="130" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="113">0</Channel>
+      <Channel Fixture="114">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Flasher" ID="43" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="190" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="127">0</Channel>
+      <Channel Fixture="128">0</Channel>
+      <Channel Fixture="129">0</Channel>
+      <Channel Fixture="130">0</Channel>
+      <Channel Fixture="131">0</Channel>
+      <Channel Fixture="132">0</Channel>
+      <Channel Fixture="133">0</Channel>
+      <Channel Fixture="134">0</Channel>
+      <Channel Fixture="135">0</Channel>
+      <Channel Fixture="136">0</Channel>
+      <Channel Fixture="137">0</Channel>
+      <Channel Fixture="138">0</Channel>
+      <Channel Fixture="139">0</Channel>
+      <Channel Fixture="140">0</Channel>
+      <Channel Fixture="141">0</Channel>
+      <Channel Fixture="142">0</Channel>
+      <Channel Fixture="143">0</Channel>
+      <Channel Fixture="144">0</Channel>
+      <Channel Fixture="145">0</Channel>
+      <Channel Fixture="146">0</Channel>
+      <Channel Fixture="147">0</Channel>
+      <Channel Fixture="148">0</Channel>
+      <Channel Fixture="149">0</Channel>
+      <Channel Fixture="150">0</Channel>
+      <Channel Fixture="151">0</Channel>
+      <Channel Fixture="152">0</Channel>
+      <Channel Fixture="153">0</Channel>
+      <Channel Fixture="154">0</Channel>
+      <Channel Fixture="155">0</Channel>
+      <Channel Fixture="156">0</Channel>
+      <Channel Fixture="157">0</Channel>
+      <Channel Fixture="158">0</Channel>
+      <Channel Fixture="159">0</Channel>
+      <Channel Fixture="160">0</Channel>
+      <Channel Fixture="161">0</Channel>
+      <Channel Fixture="162">0</Channel>
+      <Channel Fixture="163">0</Channel>
+      <Channel Fixture="164">0</Channel>
+      <Channel Fixture="165">0</Channel>
+      <Channel Fixture="166">0</Channel>
+      <Channel Fixture="167">0</Channel>
+      <Channel Fixture="168">0</Channel>
+      <Channel Fixture="169">0</Channel>
+      <Channel Fixture="170">0</Channel>
+      <Channel Fixture="171">0</Channel>
+      <Channel Fixture="172">0</Channel>
+      <Channel Fixture="173">0</Channel>
+      <Channel Fixture="178">0</Channel>
+      <Channel Fixture="179">0</Channel>
+      <Channel Fixture="180">0</Channel>
+      <Channel Fixture="181">0</Channel>
+      <Channel Fixture="182">0</Channel>
+      <Channel Fixture="183">0</Channel>
+      <Channel Fixture="184">0</Channel>
+      <Channel Fixture="185">0</Channel>
+      <Channel Fixture="186">0</Channel>
+      <Channel Fixture="187">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Signs" ID="44" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="245" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="174">0</Channel>
+      <Channel Fixture="175">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
+   <Slider Caption="Bubbles" ID="0" WidgetStyle="Slider" InvertedAppearance="false">
+    <WindowState Visible="False" X="305" Y="10" Width="60" Height="200"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+    <Level LowLimit="0" HighLimit="255" Value="0">
+     <Channel Fixture="197">0</Channel>
+     <Channel Fixture="198">0</Channel>
+    </Level>
+    <Playback>
+     <Function>4294967295</Function>
+    </Playback>
+   </Slider>
+   <Frame Caption="" ID="5">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="False" X="760" Y="195" Width="260" Height="220"/>
+    <AllowChildren>False</AllowChildren>
+    <AllowResize>False</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="WallLine RGBI" ID="6" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="False" X="10" Y="10" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="199">0</Channel>
+      <Channel Fixture="199">1</Channel>
+      <Channel Fixture="199">2</Channel>
+      <Channel Fixture="199">3</Channel>
+      <Channel Fixture="200">0</Channel>
+      <Channel Fixture="200">1</Channel>
+      <Channel Fixture="200">2</Channel>
+      <Channel Fixture="200">3</Channel>
+      <Channel Fixture="201">0</Channel>
+      <Channel Fixture="201">1</Channel>
+      <Channel Fixture="201">2</Channel>
+      <Channel Fixture="201">3</Channel>
+      <Channel Fixture="202">0</Channel>
+      <Channel Fixture="202">1</Channel>
+      <Channel Fixture="202">2</Channel>
+      <Channel Fixture="202">3</Channel>
+      <Channel Fixture="203">0</Channel>
+      <Channel Fixture="203">1</Channel>
+      <Channel Fixture="203">2</Channel>
+      <Channel Fixture="203">3</Channel>
+      <Channel Fixture="204">0</Channel>
+      <Channel Fixture="204">1</Channel>
+      <Channel Fixture="204">2</Channel>
+      <Channel Fixture="204">3</Channel>
+      <Channel Fixture="205">0</Channel>
+      <Channel Fixture="205">1</Channel>
+      <Channel Fixture="205">2</Channel>
+      <Channel Fixture="205">3</Channel>
+      <Channel Fixture="206">0</Channel>
+      <Channel Fixture="206">1</Channel>
+      <Channel Fixture="206">2</Channel>
+      <Channel Fixture="206">3</Channel>
+      <Channel Fixture="207">0</Channel>
+      <Channel Fixture="207">1</Channel>
+      <Channel Fixture="207">2</Channel>
+      <Channel Fixture="207">3</Channel>
+      <Channel Fixture="208">0</Channel>
+      <Channel Fixture="208">1</Channel>
+      <Channel Fixture="208">2</Channel>
+      <Channel Fixture="208">3</Channel>
+      <Channel Fixture="209">0</Channel>
+      <Channel Fixture="209">1</Channel>
+      <Channel Fixture="209">2</Channel>
+      <Channel Fixture="209">3</Channel>
+      <Channel Fixture="210">0</Channel>
+      <Channel Fixture="210">1</Channel>
+      <Channel Fixture="210">2</Channel>
+      <Channel Fixture="210">3</Channel>
+      <Channel Fixture="211">0</Channel>
+      <Channel Fixture="211">1</Channel>
+      <Channel Fixture="211">2</Channel>
+      <Channel Fixture="211">3</Channel>
+      <Channel Fixture="212">0</Channel>
+      <Channel Fixture="212">1</Channel>
+      <Channel Fixture="212">2</Channel>
+      <Channel Fixture="212">3</Channel>
+      <Channel Fixture="213">0</Channel>
+      <Channel Fixture="213">1</Channel>
+      <Channel Fixture="213">2</Channel>
+      <Channel Fixture="213">3</Channel>
+      <Channel Fixture="214">0</Channel>
+      <Channel Fixture="214">1</Channel>
+      <Channel Fixture="214">2</Channel>
+      <Channel Fixture="214">3</Channel>
+      <Channel Fixture="215">0</Channel>
+      <Channel Fixture="215">1</Channel>
+      <Channel Fixture="215">2</Channel>
+      <Channel Fixture="215">3</Channel>
+      <Channel Fixture="216">0</Channel>
+      <Channel Fixture="216">1</Channel>
+      <Channel Fixture="216">2</Channel>
+      <Channel Fixture="216">3</Channel>
+      <Channel Fixture="217">0</Channel>
+      <Channel Fixture="217">1</Channel>
+      <Channel Fixture="217">2</Channel>
+      <Channel Fixture="217">3</Channel>
+      <Channel Fixture="218">0</Channel>
+      <Channel Fixture="218">1</Channel>
+      <Channel Fixture="218">2</Channel>
+      <Channel Fixture="218">3</Channel>
+      <Channel Fixture="219">0</Channel>
+      <Channel Fixture="219">1</Channel>
+      <Channel Fixture="219">2</Channel>
+      <Channel Fixture="219">3</Channel>
+      <Channel Fixture="220">0</Channel>
+      <Channel Fixture="220">1</Channel>
+      <Channel Fixture="220">2</Channel>
+      <Channel Fixture="220">3</Channel>
+      <Channel Fixture="221">0</Channel>
+      <Channel Fixture="221">1</Channel>
+      <Channel Fixture="221">2</Channel>
+      <Channel Fixture="221">3</Channel>
+      <Channel Fixture="222">0</Channel>
+      <Channel Fixture="222">1</Channel>
+      <Channel Fixture="222">2</Channel>
+      <Channel Fixture="222">3</Channel>
+      <Channel Fixture="223">0</Channel>
+      <Channel Fixture="223">1</Channel>
+      <Channel Fixture="223">2</Channel>
+      <Channel Fixture="223">3</Channel>
+      <Channel Fixture="224">0</Channel>
+      <Channel Fixture="224">1</Channel>
+      <Channel Fixture="224">2</Channel>
+      <Channel Fixture="224">3</Channel>
+      <Channel Fixture="225">0</Channel>
+      <Channel Fixture="225">1</Channel>
+      <Channel Fixture="225">2</Channel>
+      <Channel Fixture="225">3</Channel>
+      <Channel Fixture="226">0</Channel>
+      <Channel Fixture="226">1</Channel>
+      <Channel Fixture="226">2</Channel>
+      <Channel Fixture="226">3</Channel>
+      <Channel Fixture="227">0</Channel>
+      <Channel Fixture="227">1</Channel>
+      <Channel Fixture="227">2</Channel>
+      <Channel Fixture="227">3</Channel>
+      <Channel Fixture="228">0</Channel>
+      <Channel Fixture="228">1</Channel>
+      <Channel Fixture="228">2</Channel>
+      <Channel Fixture="228">3</Channel>
+      <Channel Fixture="229">0</Channel>
+      <Channel Fixture="229">1</Channel>
+      <Channel Fixture="229">2</Channel>
+      <Channel Fixture="229">3</Channel>
+      <Channel Fixture="230">0</Channel>
+      <Channel Fixture="230">1</Channel>
+      <Channel Fixture="230">2</Channel>
+      <Channel Fixture="230">3</Channel>
+      <Channel Fixture="231">0</Channel>
+      <Channel Fixture="231">1</Channel>
+      <Channel Fixture="231">2</Channel>
+      <Channel Fixture="231">3</Channel>
+      <Channel Fixture="232">0</Channel>
+      <Channel Fixture="232">1</Channel>
+      <Channel Fixture="232">2</Channel>
+      <Channel Fixture="232">3</Channel>
+      <Channel Fixture="233">0</Channel>
+      <Channel Fixture="233">1</Channel>
+      <Channel Fixture="233">2</Channel>
+      <Channel Fixture="233">3</Channel>
+      <Channel Fixture="234">0</Channel>
+      <Channel Fixture="234">1</Channel>
+      <Channel Fixture="234">2</Channel>
+      <Channel Fixture="234">3</Channel>
+      <Channel Fixture="235">0</Channel>
+      <Channel Fixture="235">1</Channel>
+      <Channel Fixture="235">2</Channel>
+      <Channel Fixture="235">3</Channel>
+      <Channel Fixture="236">0</Channel>
+      <Channel Fixture="236">1</Channel>
+      <Channel Fixture="236">2</Channel>
+      <Channel Fixture="236">3</Channel>
+      <Channel Fixture="237">0</Channel>
+      <Channel Fixture="237">1</Channel>
+      <Channel Fixture="237">2</Channel>
+      <Channel Fixture="237">3</Channel>
+      <Channel Fixture="238">0</Channel>
+      <Channel Fixture="238">1</Channel>
+      <Channel Fixture="238">2</Channel>
+      <Channel Fixture="238">3</Channel>
+      <Channel Fixture="239">0</Channel>
+      <Channel Fixture="239">1</Channel>
+      <Channel Fixture="239">2</Channel>
+      <Channel Fixture="239">3</Channel>
+      <Channel Fixture="240">0</Channel>
+      <Channel Fixture="240">1</Channel>
+      <Channel Fixture="240">2</Channel>
+      <Channel Fixture="240">3</Channel>
+      <Channel Fixture="241">0</Channel>
+      <Channel Fixture="241">1</Channel>
+      <Channel Fixture="241">2</Channel>
+      <Channel Fixture="241">3</Channel>
+      <Channel Fixture="242">0</Channel>
+      <Channel Fixture="242">1</Channel>
+      <Channel Fixture="242">2</Channel>
+      <Channel Fixture="242">3</Channel>
+      <Channel Fixture="243">0</Channel>
+      <Channel Fixture="243">1</Channel>
+      <Channel Fixture="243">2</Channel>
+      <Channel Fixture="243">3</Channel>
+      <Channel Fixture="244">0</Channel>
+      <Channel Fixture="244">1</Channel>
+      <Channel Fixture="244">2</Channel>
+      <Channel Fixture="244">3</Channel>
+      <Channel Fixture="245">0</Channel>
+      <Channel Fixture="245">1</Channel>
+      <Channel Fixture="245">2</Channel>
+      <Channel Fixture="245">3</Channel>
+      <Channel Fixture="246">0</Channel>
+      <Channel Fixture="246">1</Channel>
+      <Channel Fixture="246">2</Channel>
+      <Channel Fixture="246">3</Channel>
+      <Channel Fixture="247">0</Channel>
+      <Channel Fixture="247">1</Channel>
+      <Channel Fixture="247">2</Channel>
+      <Channel Fixture="247">3</Channel>
+      <Channel Fixture="248">0</Channel>
+      <Channel Fixture="248">1</Channel>
+      <Channel Fixture="248">2</Channel>
+      <Channel Fixture="248">3</Channel>
+      <Channel Fixture="249">0</Channel>
+      <Channel Fixture="249">1</Channel>
+      <Channel Fixture="249">2</Channel>
+      <Channel Fixture="249">3</Channel>
+      <Channel Fixture="250">0</Channel>
+      <Channel Fixture="250">1</Channel>
+      <Channel Fixture="250">2</Channel>
+      <Channel Fixture="250">3</Channel>
+      <Channel Fixture="251">0</Channel>
+      <Channel Fixture="251">1</Channel>
+      <Channel Fixture="251">2</Channel>
+      <Channel Fixture="251">3</Channel>
+      <Channel Fixture="252">0</Channel>
+      <Channel Fixture="252">1</Channel>
+      <Channel Fixture="252">2</Channel>
+      <Channel Fixture="252">3</Channel>
+      <Channel Fixture="253">0</Channel>
+      <Channel Fixture="253">1</Channel>
+      <Channel Fixture="253">2</Channel>
+      <Channel Fixture="253">3</Channel>
+      <Channel Fixture="254">0</Channel>
+      <Channel Fixture="254">1</Channel>
+      <Channel Fixture="254">2</Channel>
+      <Channel Fixture="254">3</Channel>
+      <Channel Fixture="255">0</Channel>
+      <Channel Fixture="255">1</Channel>
+      <Channel Fixture="255">2</Channel>
+      <Channel Fixture="255">3</Channel>
+      <Channel Fixture="256">0</Channel>
+      <Channel Fixture="256">1</Channel>
+      <Channel Fixture="256">2</Channel>
+      <Channel Fixture="256">3</Channel>
+      <Channel Fixture="257">0</Channel>
+      <Channel Fixture="257">1</Channel>
+      <Channel Fixture="257">2</Channel>
+      <Channel Fixture="257">3</Channel>
+      <Channel Fixture="258">0</Channel>
+      <Channel Fixture="258">1</Channel>
+      <Channel Fixture="258">2</Channel>
+      <Channel Fixture="258">3</Channel>
+      <Channel Fixture="259">0</Channel>
+      <Channel Fixture="259">1</Channel>
+      <Channel Fixture="259">2</Channel>
+      <Channel Fixture="259">3</Channel>
+      <Channel Fixture="260">0</Channel>
+      <Channel Fixture="260">1</Channel>
+      <Channel Fixture="260">2</Channel>
+      <Channel Fixture="260">3</Channel>
+      <Channel Fixture="261">0</Channel>
+      <Channel Fixture="261">1</Channel>
+      <Channel Fixture="261">2</Channel>
+      <Channel Fixture="261">3</Channel>
+      <Channel Fixture="262">0</Channel>
+      <Channel Fixture="262">1</Channel>
+      <Channel Fixture="262">2</Channel>
+      <Channel Fixture="262">3</Channel>
+      <Channel Fixture="263">0</Channel>
+      <Channel Fixture="263">1</Channel>
+      <Channel Fixture="263">2</Channel>
+      <Channel Fixture="263">3</Channel>
+      <Channel Fixture="264">0</Channel>
+      <Channel Fixture="264">1</Channel>
+      <Channel Fixture="264">2</Channel>
+      <Channel Fixture="264">3</Channel>
+      <Channel Fixture="265">0</Channel>
+      <Channel Fixture="265">1</Channel>
+      <Channel Fixture="265">2</Channel>
+      <Channel Fixture="265">3</Channel>
+      <Channel Fixture="266">0</Channel>
+      <Channel Fixture="266">1</Channel>
+      <Channel Fixture="266">2</Channel>
+      <Channel Fixture="266">3</Channel>
+      <Channel Fixture="267">0</Channel>
+      <Channel Fixture="267">1</Channel>
+      <Channel Fixture="267">2</Channel>
+      <Channel Fixture="267">3</Channel>
+      <Channel Fixture="268">0</Channel>
+      <Channel Fixture="268">1</Channel>
+      <Channel Fixture="268">2</Channel>
+      <Channel Fixture="268">3</Channel>
+      <Channel Fixture="269">0</Channel>
+      <Channel Fixture="269">1</Channel>
+      <Channel Fixture="269">2</Channel>
+      <Channel Fixture="269">3</Channel>
+      <Channel Fixture="270">0</Channel>
+      <Channel Fixture="270">1</Channel>
+      <Channel Fixture="270">2</Channel>
+      <Channel Fixture="270">3</Channel>
+      <Channel Fixture="271">0</Channel>
+      <Channel Fixture="271">1</Channel>
+      <Channel Fixture="271">2</Channel>
+      <Channel Fixture="271">3</Channel>
+      <Channel Fixture="272">0</Channel>
+      <Channel Fixture="272">1</Channel>
+      <Channel Fixture="272">2</Channel>
+      <Channel Fixture="272">3</Channel>
+      <Channel Fixture="273">0</Channel>
+      <Channel Fixture="273">1</Channel>
+      <Channel Fixture="273">2</Channel>
+      <Channel Fixture="273">3</Channel>
+      <Channel Fixture="274">0</Channel>
+      <Channel Fixture="274">1</Channel>
+      <Channel Fixture="274">2</Channel>
+      <Channel Fixture="274">3</Channel>
+      <Channel Fixture="275">0</Channel>
+      <Channel Fixture="275">1</Channel>
+      <Channel Fixture="275">2</Channel>
+      <Channel Fixture="275">3</Channel>
+      <Channel Fixture="276">0</Channel>
+      <Channel Fixture="276">1</Channel>
+      <Channel Fixture="276">2</Channel>
+      <Channel Fixture="276">3</Channel>
+      <Channel Fixture="277">0</Channel>
+      <Channel Fixture="277">1</Channel>
+      <Channel Fixture="277">2</Channel>
+      <Channel Fixture="277">3</Channel>
+      <Channel Fixture="278">0</Channel>
+      <Channel Fixture="278">1</Channel>
+      <Channel Fixture="278">2</Channel>
+      <Channel Fixture="278">3</Channel>
+      <Channel Fixture="279">0</Channel>
+      <Channel Fixture="279">1</Channel>
+      <Channel Fixture="279">2</Channel>
+      <Channel Fixture="279">3</Channel>
+      <Channel Fixture="280">0</Channel>
+      <Channel Fixture="280">1</Channel>
+      <Channel Fixture="280">2</Channel>
+      <Channel Fixture="280">3</Channel>
+      <Channel Fixture="281">0</Channel>
+      <Channel Fixture="281">1</Channel>
+      <Channel Fixture="281">2</Channel>
+      <Channel Fixture="281">3</Channel>
+      <Channel Fixture="282">0</Channel>
+      <Channel Fixture="282">1</Channel>
+      <Channel Fixture="282">2</Channel>
+      <Channel Fixture="282">3</Channel>
+      <Channel Fixture="283">0</Channel>
+      <Channel Fixture="283">1</Channel>
+      <Channel Fixture="283">2</Channel>
+      <Channel Fixture="283">3</Channel>
+      <Channel Fixture="284">0</Channel>
+      <Channel Fixture="284">1</Channel>
+      <Channel Fixture="284">2</Channel>
+      <Channel Fixture="284">3</Channel>
+      <Channel Fixture="285">0</Channel>
+      <Channel Fixture="285">1</Channel>
+      <Channel Fixture="285">2</Channel>
+      <Channel Fixture="285">3</Channel>
+      <Channel Fixture="286">0</Channel>
+      <Channel Fixture="286">1</Channel>
+      <Channel Fixture="286">2</Channel>
+      <Channel Fixture="286">3</Channel>
+      <Channel Fixture="287">0</Channel>
+      <Channel Fixture="287">1</Channel>
+      <Channel Fixture="287">2</Channel>
+      <Channel Fixture="287">3</Channel>
+      <Channel Fixture="288">0</Channel>
+      <Channel Fixture="288">1</Channel>
+      <Channel Fixture="288">2</Channel>
+      <Channel Fixture="288">3</Channel>
+      <Channel Fixture="289">0</Channel>
+      <Channel Fixture="289">1</Channel>
+      <Channel Fixture="289">2</Channel>
+      <Channel Fixture="289">3</Channel>
+      <Channel Fixture="290">0</Channel>
+      <Channel Fixture="290">1</Channel>
+      <Channel Fixture="290">2</Channel>
+      <Channel Fixture="290">3</Channel>
+      <Channel Fixture="291">0</Channel>
+      <Channel Fixture="291">1</Channel>
+      <Channel Fixture="291">2</Channel>
+      <Channel Fixture="291">3</Channel>
+      <Channel Fixture="292">0</Channel>
+      <Channel Fixture="292">1</Channel>
+      <Channel Fixture="292">2</Channel>
+      <Channel Fixture="292">3</Channel>
+      <Channel Fixture="293">0</Channel>
+      <Channel Fixture="293">1</Channel>
+      <Channel Fixture="293">2</Channel>
+      <Channel Fixture="293">3</Channel>
+      <Channel Fixture="294">0</Channel>
+      <Channel Fixture="294">1</Channel>
+      <Channel Fixture="294">2</Channel>
+      <Channel Fixture="294">3</Channel>
+      <Channel Fixture="295">0</Channel>
+      <Channel Fixture="295">1</Channel>
+      <Channel Fixture="295">2</Channel>
+      <Channel Fixture="295">3</Channel>
+      <Channel Fixture="296">0</Channel>
+      <Channel Fixture="296">1</Channel>
+      <Channel Fixture="296">2</Channel>
+      <Channel Fixture="296">3</Channel>
+      <Channel Fixture="297">0</Channel>
+      <Channel Fixture="297">1</Channel>
+      <Channel Fixture="297">2</Channel>
+      <Channel Fixture="297">3</Channel>
+      <Channel Fixture="298">0</Channel>
+      <Channel Fixture="298">1</Channel>
+      <Channel Fixture="298">2</Channel>
+      <Channel Fixture="298">3</Channel>
+      <Channel Fixture="299">0</Channel>
+      <Channel Fixture="299">1</Channel>
+      <Channel Fixture="299">2</Channel>
+      <Channel Fixture="299">3</Channel>
+      <Channel Fixture="300">0</Channel>
+      <Channel Fixture="300">1</Channel>
+      <Channel Fixture="300">2</Channel>
+      <Channel Fixture="300">3</Channel>
+      <Channel Fixture="301">0</Channel>
+      <Channel Fixture="301">1</Channel>
+      <Channel Fixture="301">2</Channel>
+      <Channel Fixture="301">3</Channel>
+      <Channel Fixture="302">0</Channel>
+      <Channel Fixture="302">1</Channel>
+      <Channel Fixture="302">2</Channel>
+      <Channel Fixture="302">3</Channel>
+      <Channel Fixture="303">0</Channel>
+      <Channel Fixture="303">1</Channel>
+      <Channel Fixture="303">2</Channel>
+      <Channel Fixture="303">3</Channel>
+      <Channel Fixture="304">0</Channel>
+      <Channel Fixture="304">1</Channel>
+      <Channel Fixture="304">2</Channel>
+      <Channel Fixture="304">3</Channel>
+      <Channel Fixture="305">0</Channel>
+      <Channel Fixture="305">1</Channel>
+      <Channel Fixture="305">2</Channel>
+      <Channel Fixture="305">3</Channel>
+      <Channel Fixture="306">0</Channel>
+      <Channel Fixture="306">1</Channel>
+      <Channel Fixture="306">2</Channel>
+      <Channel Fixture="306">3</Channel>
+      <Channel Fixture="307">0</Channel>
+      <Channel Fixture="307">1</Channel>
+      <Channel Fixture="307">2</Channel>
+      <Channel Fixture="307">3</Channel>
+      <Channel Fixture="308">0</Channel>
+      <Channel Fixture="308">1</Channel>
+      <Channel Fixture="308">2</Channel>
+      <Channel Fixture="308">3</Channel>
+      <Channel Fixture="309">0</Channel>
+      <Channel Fixture="309">1</Channel>
+      <Channel Fixture="309">2</Channel>
+      <Channel Fixture="309">3</Channel>
+      <Channel Fixture="310">0</Channel>
+      <Channel Fixture="310">1</Channel>
+      <Channel Fixture="310">2</Channel>
+      <Channel Fixture="310">3</Channel>
+      <Channel Fixture="311">0</Channel>
+      <Channel Fixture="311">1</Channel>
+      <Channel Fixture="311">2</Channel>
+      <Channel Fixture="311">3</Channel>
+      <Channel Fixture="312">0</Channel>
+      <Channel Fixture="312">1</Channel>
+      <Channel Fixture="312">2</Channel>
+      <Channel Fixture="312">3</Channel>
+      <Channel Fixture="313">0</Channel>
+      <Channel Fixture="313">1</Channel>
+      <Channel Fixture="313">2</Channel>
+      <Channel Fixture="313">3</Channel>
+      <Channel Fixture="314">0</Channel>
+      <Channel Fixture="314">1</Channel>
+      <Channel Fixture="314">2</Channel>
+      <Channel Fixture="314">3</Channel>
+      <Channel Fixture="315">0</Channel>
+      <Channel Fixture="315">1</Channel>
+      <Channel Fixture="315">2</Channel>
+      <Channel Fixture="315">3</Channel>
+      <Channel Fixture="316">0</Channel>
+      <Channel Fixture="316">1</Channel>
+      <Channel Fixture="316">2</Channel>
+      <Channel Fixture="316">3</Channel>
+      <Channel Fixture="317">0</Channel>
+      <Channel Fixture="317">1</Channel>
+      <Channel Fixture="317">2</Channel>
+      <Channel Fixture="317">3</Channel>
+      <Channel Fixture="318">0</Channel>
+      <Channel Fixture="318">1</Channel>
+      <Channel Fixture="318">2</Channel>
+      <Channel Fixture="318">3</Channel>
+      <Channel Fixture="319">0</Channel>
+      <Channel Fixture="319">1</Channel>
+      <Channel Fixture="319">2</Channel>
+      <Channel Fixture="319">3</Channel>
+      <Channel Fixture="320">0</Channel>
+      <Channel Fixture="320">1</Channel>
+      <Channel Fixture="320">2</Channel>
+      <Channel Fixture="320">3</Channel>
+      <Channel Fixture="321">0</Channel>
+      <Channel Fixture="321">1</Channel>
+      <Channel Fixture="321">2</Channel>
+      <Channel Fixture="321">3</Channel>
+      <Channel Fixture="322">0</Channel>
+      <Channel Fixture="322">1</Channel>
+      <Channel Fixture="322">2</Channel>
+      <Channel Fixture="322">3</Channel>
+      <Channel Fixture="323">0</Channel>
+      <Channel Fixture="323">1</Channel>
+      <Channel Fixture="323">2</Channel>
+      <Channel Fixture="323">3</Channel>
+      <Channel Fixture="324">0</Channel>
+      <Channel Fixture="324">1</Channel>
+      <Channel Fixture="324">2</Channel>
+      <Channel Fixture="324">3</Channel>
+      <Channel Fixture="325">0</Channel>
+      <Channel Fixture="325">1</Channel>
+      <Channel Fixture="325">2</Channel>
+      <Channel Fixture="325">3</Channel>
+      <Channel Fixture="326">0</Channel>
+      <Channel Fixture="326">1</Channel>
+      <Channel Fixture="326">2</Channel>
+      <Channel Fixture="326">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+   </Frame>
   </Frame>
   <Properties>
    <Size Width="1920" Height="1080"/>
-   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+   <GrandMaster Visible="1" ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
   </Properties>
  </VirtualConsole>
  <SimpleDesk>
