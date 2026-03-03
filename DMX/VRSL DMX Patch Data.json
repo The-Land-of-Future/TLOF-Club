@@ -5159,7 +5159,7 @@
         {
             "id": 101,
             "name": "Co2 Jet",
-            "channel": 382,
+            "channel": 383,
             "universe": 3,
             "fixtureDefintion": "Other",
             "channelNames": [
