@@ -3,26 +3,26 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.13.1</Version>
+  <Version>4.14.3</Version>
   <Author>C0D3 M4513R</Author>
  </Creator>
  <Manufacturer>The Land of Future</Manufacturer>
  <Model>Fire</Model>
  <Type>Effect</Type>
  <Channel Name="Fire Left">
-  <Group Byte="0">Effect</Group>
+  <Group Byte="0">Intensity</Group>
   <Capability Min="0" Max="63">Reset</Capability>
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Fire</Capability>
  </Channel>
  <Channel Name="Fire Middle">
-  <Group Byte="0">Effect</Group>
+  <Group Byte="0">Intensity</Group>
   <Capability Min="0" Max="63">Reset</Capability>
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Fire</Capability>
  </Channel>
  <Channel Name="Fire Right">
-  <Group Byte="0">Effect</Group>
+  <Group Byte="0">Intensity</Group>
   <Capability Min="0" Max="63">Reset</Capability>
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Fire</Capability>

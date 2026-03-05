@@ -10,7 +10,7 @@
  <Model>Jet</Model>
  <Type>Effect</Type>
  <Channel Name="Jet">
-  <Group Byte="0">Effect</Group>
+  <Group Byte="0">Intensity</Group>
   <Capability Min="0" Max="63">Event Reset</Capability>
   <Capability Min="64" Max="189">Nothing</Capability>
   <Capability Min="190" Max="255">Fire</Capability>
