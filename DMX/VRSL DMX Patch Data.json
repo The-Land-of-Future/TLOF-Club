@@ -1,8 +1,32 @@
 {
     "fixtures": [
         {
+            "id": 106,
+            "name": "Section:WallLineState;1",
+            "channel": 400,
+            "universe": 3,
+            "fixtureDefintion": "Other",
+            "channelNames": [
+                "Unknown"
+            ],
+            "position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "invertPan": false,
+            "invertTilt": false,
+            "panRange": 180.0,
+            "tiltRange": 180.0
+        },
+        {
             "id": 1,
-            "name": "Side Wall Right 5",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;5",
             "channel": 118,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -38,7 +62,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Right Wash 3",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;3",
             "channel": 14,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -74,7 +98,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 7",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;7",
             "channel": 144,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -110,7 +134,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 3",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;3",
             "channel": 92,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -146,7 +170,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Right;Direction:Left;DirectionVertical:Down;1",
             "channel": 135,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -154,14 +178,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 0.976109504699707,
-                "y": 12.362061500549317,
-                "z": -31.03178596496582
+                "x": 0.8972241878509522,
+                "y": 12.407429695129395,
+                "z": -31.039249420166017
             },
             "rotation": {
                 "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
+                "y": 239.76492309570313,
+                "z": 319.6839599609375
             },
             "invertPan": false,
             "invertTilt": false,
@@ -170,7 +194,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Left Wash 2",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;2",
             "channel": 469,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -206,7 +230,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;2",
             "channel": 378,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -242,7 +266,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 2",
+            "name": "Section:Truss;SubSection:Inner;Side:Left;2",
             "channel": 14,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -278,7 +302,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:Stage;Side:Left;1",
             "channel": 159,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -302,7 +326,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenSide Right Flasher 2",
+            "name": "Section:CenterScreen;SubSection:Side;Side:Right;2",
             "channel": 350,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -326,7 +350,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.11",
+            "name": "Section:Top-Flasher-Ring;Side:Right;7",
             "channel": 334,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -350,7 +374,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Stage;Side:Left;Direction:Left;DirectionVertical:Up;1",
             "channel": 141,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -358,14 +382,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 10.039291381835938,
-                "y": 5.813661575317383,
-                "z": -28.85794448852539
+                "x": 9.927943229675293,
+                "y": 5.851109981536865,
+                "z": -28.942846298217775
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 193.76490783691407,
-                "z": 343.28399658203127
+                "x": 70.0000228881836,
+                "y": 248.0,
+                "z": 270.0
             },
             "invertPan": false,
             "invertTilt": false,
@@ -374,7 +398,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 7",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;7",
             "channel": 339,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -410,7 +434,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Top 3",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;2",
             "channel": 248,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -446,7 +470,7 @@
         },
         {
             "id": 2,
-            "name": "Side Screen Bottom Left Wash 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;2",
             "channel": 417,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -482,7 +506,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenSide Left Laser 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;1",
             "channel": 245,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -518,7 +542,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:DancerPodium;Side:Right;1",
             "channel": 156,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -542,7 +566,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 2",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;2",
             "channel": 482,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -578,7 +602,7 @@
         },
         {
             "id": 104,
-            "name": "Bubbles",
+            "name": "Section:DancerPodium;Side:Right;1",
             "channel": 388,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -602,7 +626,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;Direction:To-Stage;DirectionVertical:Down;1",
             "channel": 381,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -610,14 +634,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": -2.0779385566711427,
-                "y": 9.611486434936524,
-                "z": -23.28780746459961
+                "x": -2.1366493701934816,
+                "y": 9.64340591430664,
+                "z": -23.23225975036621
             },
             "rotation": {
                 "x": 310.4053649902344,
-                "y": 287.28265380859377,
-                "z": 352.2921447753906
+                "y": 287.28271484375,
+                "z": 328.6921081542969
             },
             "invertPan": false,
             "invertTilt": false,
@@ -626,7 +650,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen In-Screen 3",
+            "name": "Section:CenterScreen;SubSection:In-Screen;Side:Right;2",
             "channel": 326,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -662,7 +686,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DJ-Booth;Side:Left;Direction:Straight;DirectionVertical:Up;1",
             "channel": 143,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -670,14 +694,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 6.592055797576904,
-                "y": 6.503061294555664,
-                "z": -29.193159103393556
+                "x": 6.727416038513184,
+                "y": 6.532590866088867,
+                "z": -29.153535842895509
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 35.7649040222168,
-                "z": 343.28399658203127
+                "x": 85.00005340576172,
+                "y": 90.00017547607422,
+                "z": 270.00018310546877
             },
             "invertPan": false,
             "invertTilt": false,
@@ -686,7 +710,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 1 ",
+            "name": "Section:Truss;SubSection:Outer;Side:Left;1 ",
             "channel": 79,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -722,7 +746,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.7",
+            "name": "Section:Top-Flasher-Ring;Side:Left;8",
             "channel": 330,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -746,7 +770,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 3",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Right;3",
             "channel": 367,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -770,7 +794,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenSide Left Flasher 1",
+            "name": "Section:CenterScreen;SubSection:Side;Side:Left;1",
             "channel": 347,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -794,7 +818,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Stage;Side:Right;Direction:Right;DirectionVertical:Up;1",
             "channel": 146,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -802,14 +826,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 0.27195367217063906,
-                "y": 5.813661575317383,
-                "z": -28.909278869628908
+                "x": 0.1293751746416092,
+                "y": 5.83050012588501,
+                "z": -28.897708892822267
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 237.764892578125,
-                "z": 343.28399658203127
+                "x": 70.0000228881836,
+                "y": 111.99998474121094,
+                "z": 90.0
             },
             "invertPan": false,
             "invertTilt": false,
@@ -818,7 +842,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;Direction:To-Entrance;DirectionVertical:Down;1",
             "channel": 384,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -826,14 +850,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": -2.0863707065582277,
-                "y": 9.614702224731446,
-                "z": -23.23270034790039
+                "x": -2.141746759414673,
+                "y": 9.628680229187012,
+                "z": -23.1734676361084
             },
             "rotation": {
                 "x": 310.4053649902344,
-                "y": 287.28265380859377,
-                "z": 352.2921447753906
+                "y": 230.3493194580078,
+                "z": 31.307893753051759
             },
             "invertPan": false,
             "invertTilt": false,
@@ -842,7 +866,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Left 3",
+            "name": "Section:DancerPodium;Side:Left;3",
             "channel": 183,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -878,7 +902,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 4",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;4",
             "channel": 1,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -914,7 +938,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Side Right 2",
+            "name": "Section:CenterScreen;Side:Right;2",
             "channel": 418,
             "universe": 3,
             "fixtureDefintion": "SpotLight 13CH",
@@ -950,7 +974,7 @@
         },
         {
             "id": 104,
-            "name": "Bubbles",
+            "name": "Section:DancerPodium;Side:Left;1",
             "channel": 387,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -974,7 +998,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 8",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;8",
             "channel": 157,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1010,7 +1034,7 @@
         },
         {
             "id": 1,
-            "name": "Dancefloor 2",
+            "name": "Section:Dancefloor;Side:Left;2",
             "channel": 183,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1046,7 +1070,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Left 1",
+            "name": "Section:DancerPodium;Side:Left;1",
             "channel": 157,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1082,7 +1106,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 1",
+            "name": "Section:Truss;SubSection:Inner;Side:Left;1",
             "channel": 1,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1118,7 +1142,7 @@
         },
         {
             "id": 5,
-            "name": "DancerPodium Up Right Laser 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;1",
             "channel": 232,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -1154,7 +1178,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.16",
+            "name": "Section:Top-Flasher-Ring;Side:Right;2",
             "channel": 339,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1178,7 +1202,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 1",
+            "name": "Section:SideWall;SubSection:Back;Side:Right;1",
             "channel": 370,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1202,7 +1226,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Right Poster Flasher 2",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Right;2",
             "channel": 358,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1226,7 +1250,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Top 4",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 261,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1262,7 +1286,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Right Up Flasher 1",
+            "name": "Section:DancerPodium;SubSection:Up;Side:Right;1",
             "channel": 346,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1286,7 +1310,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenTop Flasher 1",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 341,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1310,7 +1334,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 4",
+            "name": "Section:SideWall;SubSection:Back;Side:Right;4",
             "channel": 373,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1334,7 +1358,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenTop Wash 1",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 53,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -1370,7 +1394,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:Stage;Side:Right;1",
             "channel": 162,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -1394,7 +1418,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenBottom Wash 2",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;2",
             "channel": 92,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -1430,7 +1454,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.6",
+            "name": "Section:Top-Flasher-Ring;Side:Left;7",
             "channel": 329,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1454,7 +1478,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;2",
             "channel": 274,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1490,7 +1514,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.14",
+            "name": "Section:Top-Flasher-Ring;Side:Right;4",
             "channel": 337,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1514,7 +1538,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Top 2",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;2",
             "channel": 235,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1550,7 +1574,7 @@
         },
         {
             "id": 3,
-            "name": "ScreenTop Blinder 1",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 508,
             "universe": 1,
             "fixtureDefintion": "Blinder 5CH",
@@ -1578,7 +1602,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.9",
+            "name": "Section:Top-Flasher-Ring;Side:Right;9",
             "channel": 332,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1602,7 +1626,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenBottom Laser 1",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;1",
             "channel": 258,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -1638,7 +1662,7 @@
         },
         {
             "id": 3,
-            "name": "ScreenTop Blinder 3",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 508,
             "universe": 3,
             "fixtureDefintion": "Blinder 5CH",
@@ -1666,7 +1690,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;Direction:To-Entrance;DirectionVertical:Down;1",
             "channel": 380,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -1674,14 +1698,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 12.256714820861817,
-                "y": 9.548928260803223,
-                "z": -23.040468215942384
+                "x": 12.283921241760254,
+                "y": 9.580846786499024,
+                "z": -23.116575241088868
             },
             "rotation": {
                 "x": 310.4053649902344,
-                "y": 134.19967651367188,
-                "z": 352.2921447753906
+                "y": 134.19969177246095,
+                "z": 328.6921081542969
             },
             "invertPan": false,
             "invertTilt": false,
@@ -1690,7 +1714,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 5",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Right;5",
             "channel": 369,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1714,7 +1738,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 5",
+            "name": "Section:Truss;SubSection:Outer;Side:Right;2",
             "channel": 131,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1750,7 +1774,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 1",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;1",
             "channel": 261,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1786,7 +1810,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 3",
+            "name": "Section:SideWall;SubSection:Back;Side:Left;3",
             "channel": 377,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1810,7 +1834,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:DancerPodium;Side:Left;1",
             "channel": 153,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -1834,7 +1858,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Side Left 1",
+            "name": "Section:CenterScreen;Side:Left;1",
             "channel": 274,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1870,7 +1894,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 6",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;6",
             "channel": 27,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1906,7 +1930,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 6",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;6",
             "channel": 131,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -1942,7 +1966,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.10",
+            "name": "Section:Top-Flasher-Ring;Side:Right;8",
             "channel": 333,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1966,7 +1990,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Left Up Flasher 1",
+            "name": "Section:DancerPodium;SubSection:Up;Side:Left;1",
             "channel": 345,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -1990,7 +2014,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Left Wash 3",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;3",
             "channel": 482,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -2026,7 +2050,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Left 4",
+            "name": "Section:DancerPodium;Side:Left;4",
             "channel": 196,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2062,7 +2086,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Stage;Side:Right;Direction:Left;DirectionVertical:Up;1",
             "channel": 145,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -2070,14 +2094,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 0.35475367307662966,
-                "y": 5.813661575317383,
-                "z": -28.942577362060548
+                "x": 0.21758593618869782,
+                "y": 5.851065158843994,
+                "z": -28.926984786987306
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 237.764892578125,
-                "z": 343.28399658203127
+                "x": 69.9999771118164,
+                "y": 292.0,
+                "z": 270.0000305175781
             },
             "invertPan": false,
             "invertTilt": false,
@@ -2086,7 +2110,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Side Right 1",
+            "name": "Section:CenterScreen;Side:Right;1",
             "channel": 287,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2122,7 +2146,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 6",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;6",
             "channel": 326,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2158,7 +2182,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenTop Laser 2",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 180,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -2194,7 +2218,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Right 2",
+            "name": "Section:DancerPodium;Side:Right;2",
             "channel": 222,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2230,7 +2254,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DJ-Booth;Side:Right;Direction:Straight;DirectionVertical:Up;1",
             "channel": 144,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -2238,14 +2262,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 3.3059756755828859,
-                "y": 6.503061294555664,
-                "z": -29.199996948242189
+                "x": 3.440840721130371,
+                "y": 6.526965141296387,
+                "z": -29.161951065063478
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 35.7649040222168,
-                "z": 343.28399658203127
+                "x": 85.00005340576172,
+                "y": 269.99981689453127,
+                "z": 89.99982452392578
             },
             "invertPan": false,
             "invertTilt": false,
@@ -2254,7 +2278,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.17",
+            "name": "Section:Top-Flasher-Ring;Side:Right;1",
             "channel": 340,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2278,7 +2302,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenTop Laser 1",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 167,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -2314,7 +2338,7 @@
         },
         {
             "id": 2,
-            "name": "Side Screen Bottom Right Wash 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;1",
             "channel": 443,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -2350,7 +2374,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 7",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;7",
             "channel": 443,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2386,7 +2410,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Side Left 2",
+            "name": "Section:CenterScreen;Side:Left;2",
             "channel": 405,
             "universe": 3,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2422,7 +2446,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Top 1",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 222,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2458,7 +2482,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DancerPodium;Side:Left;Direction:Left;DirectionVertical:Up;1",
             "channel": 137,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -2466,14 +2490,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 10.78409481048584,
-                "y": 7.805091381072998,
-                "z": -29.81866455078125
+                "x": 10.702826499938965,
+                "y": 7.831561088562012,
+                "z": -29.89606475830078
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 172.03550720214845,
-                "z": 343.28399658203127
+                "x": 69.99998474121094,
+                "y": 226.27061462402345,
+                "z": 270.0000305175781
             },
             "invertPan": false,
             "invertTilt": false,
@@ -2482,7 +2506,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Back;Direction:Left;DirectionVertical:Down;1",
             "channel": 385,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -2490,14 +2514,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 4.843898773193359,
-                "y": 8.321206092834473,
-                "z": -15.303852081298829
+                "x": 4.915682315826416,
+                "y": 8.327533721923829,
+                "z": -15.264129638671875
             },
             "rotation": {
                 "x": 319.38592529296877,
-                "y": 28.00054168701172,
-                "z": 358.5517578125
+                "y": 339.9674377441406,
+                "z": 25.048259735107423
             },
             "invertPan": false,
             "invertTilt": false,
@@ -2506,7 +2530,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Bottom 2",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;2",
             "channel": 365,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2542,7 +2566,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 3",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;3",
             "channel": 495,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2578,7 +2602,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenSide Left Laser 1",
+            "name": "Section:DancerPodium;Side:Left;1",
             "channel": 206,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -2614,7 +2638,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenBottom Flasher 1",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;1",
             "channel": 351,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2638,7 +2662,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 5",
+            "name": "Section:SideWall;SubSection:Back;Side:Left;5",
             "channel": 379,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2662,7 +2686,7 @@
         },
         {
             "id": 1,
-            "name": "Dancefloor 3",
+            "name": "Section:Dancefloor;Side:Right;2",
             "channel": 196,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2698,7 +2722,7 @@
         },
         {
             "id": 105,
-            "name": "Very-Poor Sign",
+            "name": "Section:Very-Poor Sign;1",
             "channel": 403,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -2722,7 +2746,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenSide Left Flasher 2",
+            "name": "Section:CenterScreen;SubSection:Side;Side:Left;2",
             "channel": 349,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2746,7 +2770,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 6",
+            "name": "Section:Truss;SubSection:Outer;Side:Right;1",
             "channel": 144,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2782,7 +2806,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Left 2",
+            "name": "Section:DancerPodium;Side:Left;2",
             "channel": 170,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2818,7 +2842,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 3",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;3",
             "channel": 287,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2854,7 +2878,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenBottom Flasher 3",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Right;1",
             "channel": 353,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2878,7 +2902,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Left Flasher 4",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Left;4",
             "channel": 363,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2902,7 +2926,7 @@
         },
         {
             "id": 5,
-            "name": "StageFloor Laser 2",
+            "name": "Section:Stage;Side:Right;1",
             "channel": 310,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -2938,7 +2962,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.2",
+            "name": "Section:Top-Flasher-Ring;Side:Left;3",
             "channel": 325,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -2962,7 +2986,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 8",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;8",
             "channel": 53,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -2998,7 +3022,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 7",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;7",
             "channel": 40,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3034,7 +3058,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 1",
+            "name": "Section:SideWall;SubSection:Back;Side:Left;1",
             "channel": 375,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3058,7 +3082,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 5",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;5",
             "channel": 313,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3094,7 +3118,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DancerPodium;Side:Right;Direction:Right;DirectionVertical:Up;1",
             "channel": 140,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3102,14 +3126,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": -0.36063307523727419,
-                "y": 7.803561210632324,
-                "z": -30.024768829345704
+                "x": -0.4578680992126465,
+                "y": 7.839029788970947,
+                "z": -29.935638427734376
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 262.27642822265627,
-                "z": 343.28399658203127
+                "x": 70.0,
+                "y": 136.51148986816407,
+                "z": 89.99996948242188
             },
             "invertPan": false,
             "invertTilt": false,
@@ -3118,7 +3142,7 @@
         },
         {
             "id": 105,
-            "name": "Balcony - Staff Only",
+            "name": "Section:Balcony - Staff Only;1",
             "channel": 404,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3142,7 +3166,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Left;Direction:Straight;DirectionVertical:Up;1",
             "channel": 131,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3150,14 +3174,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 9.401668548583985,
-                "y": 12.356660842895508,
-                "z": -31.097824096679689
+                "x": 9.286127090454102,
+                "y": 12.359189987182618,
+                "z": -31.18706703186035
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 195.76492309570313,
-                "z": 343.28399658203127
+                "x": 64.60002899169922,
+                "y": 160.0,
+                "z": 180.0
             },
             "invertPan": false,
             "invertTilt": false,
@@ -3166,7 +3190,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Left;Direction:Left;DirectionVertical:Down;1",
             "channel": 133,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3174,14 +3198,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 9.364768028259278,
-                "y": 12.356660842895508,
-                "z": -30.86742401123047
+                "x": 9.316733360290528,
+                "y": 12.396225929260254,
+                "z": -30.928075790405275
             },
             "rotation": {
                 "x": 301.9123840332031,
                 "y": 195.76492309570313,
-                "z": 343.28399658203127
+                "z": 319.6839599609375
             },
             "invertPan": false,
             "invertTilt": false,
@@ -3190,7 +3214,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Left Poster Flasher 1",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Left;1",
             "channel": 354,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3214,7 +3238,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Right Poster Flasher 1",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Right;1",
             "channel": 359,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3238,7 +3262,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Back;Direction:Right;DirectionVertical:Down;1",
             "channel": 382,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3246,14 +3270,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 4.788478374481201,
-                "y": 8.317619323730469,
-                "z": -15.29817008972168
+                "x": 4.8577880859375,
+                "y": 8.340923309326172,
+                "z": -15.251216888427735
             },
             "rotation": {
                 "x": 319.38592529296877,
-                "y": 28.00054168701172,
-                "z": 358.5517578125
+                "y": 28.000547409057618,
+                "z": 334.9517517089844
             },
             "invertPan": false,
             "invertTilt": false,
@@ -3262,7 +3286,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Right 1",
+            "name": "Section:DancerPodium;Side:Right;1",
             "channel": 209,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3298,7 +3322,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 3",
+            "name": "Section:Truss;SubSection:Outer;Side:Left;3",
             "channel": 105,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3334,7 +3358,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.0",
+            "name": "Section:Top-Flasher-Ring;Side:Left;1",
             "channel": 323,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3358,7 +3382,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Right 4",
+            "name": "Section:DancerPodium;Side:Right;4",
             "channel": 248,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3394,7 +3418,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 2",
+            "name": "Section:SideWall;SubSection:Back;Side:Left;2",
             "channel": 376,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3418,7 +3442,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Left Wash 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;1",
             "channel": 456,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -3454,7 +3478,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 4",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Right;4",
             "channel": 368,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3478,7 +3502,7 @@
         },
         {
             "id": 5,
-            "name": "StageFloor Laser 1",
+            "name": "Section:Stage;Side:Left;1",
             "channel": 297,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -3514,7 +3538,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 4",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;4",
             "channel": 404,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3550,7 +3574,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenSide Right Laser 1",
+            "name": "Section:DancerPodium;Side:Right;1",
             "channel": 219,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -3586,7 +3610,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 4",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;4",
             "channel": 300,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3622,7 +3646,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 4",
+            "name": "Section:Truss;SubSection:Inner;Side:Right;3",
             "channel": 40,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3658,7 +3682,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenTop Flasher 4",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 344,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3682,7 +3706,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 5",
+            "name": "Section:SideWall;SubSection:Back;Side:Right;5",
             "channel": 374,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3706,7 +3730,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Right Poster Flasher 3",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Right;3",
             "channel": 357,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3730,7 +3754,7 @@
         },
         {
             "id": 1,
-            "name": "Dancer Podium Right 3",
+            "name": "Section:DancerPodium;Side:Right;3",
             "channel": 235,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3766,7 +3790,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen In-Screen 1",
+            "name": "Section:CenterScreen;SubSection:In-Screen;Side:Left;1",
             "channel": 300,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3802,7 +3826,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 1",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;1",
             "channel": 365,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3838,7 +3862,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:Stage;Side:Left;Direction:Right;DirectionVertical:Up;1",
             "channel": 142,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -3846,14 +3870,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 9.979890823364258,
-                "y": 5.813661575317383,
-                "z": -28.882246017456056
+                "x": 9.875255584716797,
+                "y": 5.830005645751953,
+                "z": -28.96502113342285
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 193.76490783691407,
-                "z": 343.28399658203127
+                "x": 70.0000228881836,
+                "y": 67.9999771118164,
+                "z": 89.99996948242188
             },
             "invertPan": false,
             "invertTilt": false,
@@ -3862,7 +3886,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Left Flasher 2",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Left;2",
             "channel": 361,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3886,7 +3910,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Bottom 1",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;1",
             "channel": 352,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3922,7 +3946,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 2",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;2",
             "channel": 79,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -3958,7 +3982,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenTop Flasher 2",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;2",
             "channel": 342,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -3982,7 +4006,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Left Poster Flasher 3",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Left;3",
             "channel": 356,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4006,7 +4030,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Bottom 3",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Right;2",
             "channel": 378,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4042,7 +4066,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 6",
+            "name": "Section:Truss;SubSection:Inner;Side:Right;1",
             "channel": 66,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4078,7 +4102,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenTop Flasher 3",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;2",
             "channel": 343,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4102,7 +4126,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenBottom Flasher 2",
+            "name": "Section:CenterScreen;SubSection:Bottom;1",
             "channel": 352,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4126,7 +4150,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen In-Screen 2",
+            "name": "Section:CenterScreen;SubSection:In-Screen;Side:Left;2",
             "channel": 313,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4162,7 +4186,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 2",
+            "name": "Section:Truss;SubSection:Outer;Side:Left;2",
             "channel": 92,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4198,7 +4222,7 @@
         },
         {
             "id": 103,
-            "name": "Confetti Cannon",
+            "name": "Section:Stage;Side:Right;1",
             "channel": 166,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4222,7 +4246,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Outer 4",
+            "name": "Section:Truss;SubSection:Outer;Side:Right;3",
             "channel": 118,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4258,7 +4282,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenTop Wash 2",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 66,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -4294,7 +4318,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 5",
+            "name": "Section:Truss;SubSection:Inner;Side:Right;2",
             "channel": 53,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4330,7 +4354,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;1",
             "channel": 469,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4366,7 +4390,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Left;Direction:Right;DirectionVertical:Down;1",
             "channel": 134,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4374,14 +4398,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 9.272968292236329,
-                "y": 12.35936164855957,
-                "z": -30.89802360534668
+                "x": 9.2218656539917,
+                "y": 12.38056468963623,
+                "z": -30.958925247192384
             },
             "rotation": {
                 "x": 301.9123840332031,
-                "y": 195.76492309570313,
-                "z": 343.28399658203127
+                "y": 124.23507690429688,
+                "z": 40.31606674194336
             },
             "invertPan": false,
             "invertTilt": false,
@@ -4390,7 +4414,7 @@
         },
         {
             "id": 2,
-            "name": "DancePodium Left Up Wash 1",
+            "name": "Section:DancerPodium;SubSection:Up;Side:Left;1",
             "channel": 27,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -4426,7 +4450,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 6",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;6",
             "channel": 430,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4462,7 +4486,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.4",
+            "name": "Section:Top-Flasher-Ring;Side:Left;5",
             "channel": 327,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4486,7 +4510,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.15",
+            "name": "Section:Top-Flasher-Ring;Side:Right;3",
             "channel": 338,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4510,7 +4534,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenBottom Wash 1",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;1",
             "channel": 79,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -4546,7 +4570,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 4",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;4",
             "channel": 105,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4582,7 +4606,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 1",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Right;1",
             "channel": 365,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4605,8 +4629,8 @@
             "tiltRange": 270.0
         },
         {
-            "id": 0,
-            "name": "VRSL-DMX-Static-DiscoBall-H-1CH",
+            "id": 6,
+            "name": "Section:Truss;1",
             "channel": 386,
             "universe": 3,
             "fixtureDefintion": "DiscoBall 1CH",
@@ -4630,7 +4654,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Right;Direction:Straight;DirectionVertical:Up;1",
             "channel": 132,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4638,14 +4662,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 0.8202297687530518,
-                "y": 12.356660842895508,
-                "z": -31.238967895507814
+                "x": 0.6808716654777527,
+                "y": 12.382905006408692,
+                "z": -31.22127914428711
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
+                "x": 64.60002899169922,
+                "y": 204.0,
+                "z": 180.0
             },
             "invertPan": false,
             "invertTilt": false,
@@ -4654,7 +4678,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.8",
+            "name": "Section:Top-Flasher-Ring;Side:Left;9",
             "channel": 331,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4678,7 +4702,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen Bottom 4",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Left;1",
             "channel": 391,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4714,7 +4738,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.1",
+            "name": "Section:Top-Flasher-Ring;Side:Left;2",
             "channel": 324,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -4738,7 +4762,7 @@
         },
         {
             "id": 2,
-            "name": "Side Screen Bottom Left Wash 1",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;1",
             "channel": 404,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -4774,7 +4798,7 @@
         },
         {
             "id": 2,
-            "name": "Side Screen Bottom Right Wash 1",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;2",
             "channel": 430,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -4810,7 +4834,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 3",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;3",
             "channel": 391,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4846,7 +4870,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Right Wash 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;1",
             "channel": 495,
             "universe": 2,
             "fixtureDefintion": "WashLight 13CH",
@@ -4882,7 +4906,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Right;1",
             "channel": 150,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4906,7 +4930,7 @@
         },
         {
             "id": 102,
-            "name": "Fire Jet",
+            "name": "Section:CenterScreen;SubSection:Top;Side:Left;1",
             "channel": 147,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4930,7 +4954,7 @@
         },
         {
             "id": 1,
-            "name": "Dancefloor 1",
+            "name": "Section:Dancefloor;Side:Left;1",
             "channel": 170,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -4966,7 +4990,7 @@
         },
         {
             "id": 103,
-            "name": "Confetti Cannon",
+            "name": "Section:Stage;Side:Left;1",
             "channel": 165,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -4990,7 +5014,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenBottom Laser 2",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Right;1",
             "channel": 271,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -5026,7 +5050,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Left 5",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;5",
             "channel": 14,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5062,7 +5086,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Left Flasher 1",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Left;1",
             "channel": 360,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5086,7 +5110,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Left Flasher 5",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Left;5",
             "channel": 364,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5110,7 +5134,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:LineArray;Side:Right;Direction:Right;DirectionVertical:Down;1",
             "channel": 136,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -5118,14 +5142,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 0.8870095014572144,
-                "y": 12.360262870788575,
-                "z": -30.992183685302736
+                "x": 0.8070908188819885,
+                "y": 12.379802703857422,
+                "z": -31.00086212158203
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 239.764892578125,
-                "z": 343.28399658203127
+                "x": 301.3062438964844,
+                "y": 167.2389678955078,
+                "z": 41.164390563964847
             },
             "invertPan": false,
             "invertTilt": false,
@@ -5134,7 +5158,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Left Flasher 3",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Left;3",
             "channel": 362,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5158,7 +5182,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;Direction:To-Stage;DirectionVertical:Down;1",
             "channel": 383,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -5166,14 +5190,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 12.238748550415039,
-                "y": 9.551628112792969,
-                "z": -23.093257904052736
+                "x": 12.261311531066895,
+                "y": 9.565605163574219,
+                "z": -23.171144485473634
             },
             "rotation": {
                 "x": 310.4053649902344,
-                "y": 134.19967651367188,
-                "z": 352.2921447753906
+                "y": 77.2663345336914,
+                "z": 31.307886123657228
             },
             "invertPan": false,
             "invertTilt": false,
@@ -5182,7 +5206,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.12",
+            "name": "Section:Top-Flasher-Ring;Side:Right;6",
             "channel": 335,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5206,7 +5230,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 5",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;5",
             "channel": 417,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5242,7 +5266,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DancerPodium;Side:Right;Direction:Left;DirectionVertical:Up;1",
             "channel": 139,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -5250,14 +5274,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": -0.3010725975036621,
-                "y": 7.803561210632324,
-                "z": -30.088138580322267
+                "x": -0.3913656175136566,
+                "y": 7.857481956481934,
+                "z": -30.01351547241211
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 262.27642822265627,
-                "z": 343.28399658203127
+                "x": 70.0,
+                "y": 316.51153564453127,
+                "z": 270.0000305175781
             },
             "invertPan": false,
             "invertTilt": false,
@@ -5266,7 +5290,7 @@
         },
         {
             "id": 2,
-            "name": "Side Wall Right Wash 2",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;2",
             "channel": 1,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -5302,7 +5326,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.3",
+            "name": "Section:Top-Flasher-Ring;Side:Left;4",
             "channel": 326,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5326,7 +5350,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.5",
+            "name": "Section:Top-Flasher-Ring;Side:Left;6",
             "channel": 328,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5350,7 +5374,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenBottom Wash 4",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Right;1",
             "channel": 118,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -5386,7 +5410,7 @@
         },
         {
             "id": 5,
-            "name": "DancerPodium Up Left Laser 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Left;1",
             "channel": 193,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -5422,7 +5446,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Left 8",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Left;8",
             "channel": 352,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5458,7 +5482,7 @@
         },
         {
             "id": 1,
-            "name": "CenterScreen In-Screen 4",
+            "name": "Section:CenterScreen;SubSection:In-Screen;Side:Right;1",
             "channel": 339,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5494,7 +5518,7 @@
         },
         {
             "id": 4,
-            "name": "ScreenSide Right Flasher 1",
+            "name": "Section:CenterScreen;SubSection:Side;Side:Right;1",
             "channel": 348,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5518,7 +5542,7 @@
         },
         {
             "id": 3,
-            "name": "ScreenTop Blinder 2",
+            "name": "Section:CenterScreen;SubSection:Top;1",
             "channel": 508,
             "universe": 2,
             "fixtureDefintion": "Blinder 5CH",
@@ -5546,7 +5570,7 @@
         },
         {
             "id": 4,
-            "name": "DancePodium Left Poster Flasher 2",
+            "name": "Section:DancerPodium;SubSection:Poster;Side:Left;2",
             "channel": 355,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5570,7 +5594,7 @@
         },
         {
             "id": 2,
-            "name": "ScreenBottom Wash 3",
+            "name": "Section:CenterScreen;SubSection:Bottom;Side:Right;2",
             "channel": 105,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -5606,7 +5630,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 4",
+            "name": "Section:SideWall;SubSection:Back;Side:Left;4",
             "channel": 378,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5630,7 +5654,7 @@
         },
         {
             "id": 1,
-            "name": "Dancefloor 4",
+            "name": "Section:Dancefloor;Side:Right;1",
             "channel": 209,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5666,7 +5690,7 @@
         },
         {
             "id": 2,
-            "name": "DancePodium Right Up Wash 1",
+            "name": "Section:DancerPodium;SubSection:Up;Side:Right;1",
             "channel": 40,
             "universe": 3,
             "fixtureDefintion": "WashLight 13CH",
@@ -5702,7 +5726,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 2",
+            "name": "Section:SideWall;SubSection:DancerPodium;Side:Right;2",
             "channel": 366,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5726,7 +5750,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 2",
+            "name": "Section:SideWall;SubSection:Back;Side:Right;2",
             "channel": 371,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5750,7 +5774,7 @@
         },
         {
             "id": 4,
-            "name": "Top-Flasher-Ring.13",
+            "name": "Section:Top-Flasher-Ring;Side:Right;5",
             "channel": 336,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5774,7 +5798,7 @@
         },
         {
             "id": 1,
-            "name": "Side Wall Right 1",
+            "name": "Section:SideWall;SubSection:Top;Side:Right;1",
             "channel": 66,
             "universe": 2,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5810,7 +5834,7 @@
         },
         {
             "id": 1,
-            "name": "Truss Inner 3",
+            "name": "Section:Truss;SubSection:Inner;Side:Left;3",
             "channel": 27,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
@@ -5846,7 +5870,7 @@
         },
         {
             "id": 4,
-            "name": "SideWall_DancerPodium Right Flasher 3",
+            "name": "Section:SideWall;SubSection:Back;Side:Right;3",
             "channel": 372,
             "universe": 3,
             "fixtureDefintion": "Flasher 1CH",
@@ -5870,7 +5894,7 @@
         },
         {
             "id": 5,
-            "name": "ScreenSide Right Laser 2",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;1",
             "channel": 284,
             "universe": 3,
             "fixtureDefintion": "Laser 13CH",
@@ -5906,7 +5930,7 @@
         },
         {
             "id": 101,
-            "name": "Co2 Jet",
+            "name": "Section:DancerPodium;Side:Left;Direction:Right;DirectionVertical:Up;1",
             "channel": 138,
             "universe": 3,
             "fixtureDefintion": "Other",
@@ -5914,14 +5938,14 @@
                 "Unknown"
             ],
             "position": {
-                "x": 10.737319946289063,
-                "y": 7.80509090423584,
-                "z": -29.860368728637697
+                "x": 10.645645141601563,
+                "y": 7.81580924987793,
+                "z": -29.94772720336914
             },
             "rotation": {
-                "x": 301.9123840332031,
-                "y": 172.03550720214845,
-                "z": 343.28399658203127
+                "x": 70.0,
+                "y": 46.27056884765625,
+                "z": 89.99995422363281
             },
             "invertPan": false,
             "invertTilt": false,
@@ -5930,7 +5954,7 @@
         },
         {
             "id": 1,
-            "name": "Side Screen Bottom Right 8",
+            "name": "Section:SideWall;SubSection:Bottom;Side:Right;8",
             "channel": 456,
             "universe": 1,
             "fixtureDefintion": "SpotLight 13CH",
