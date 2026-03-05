@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="SimpleDesk">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FixtureManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.14.3</Version>
@@ -4232,7 +4232,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="174">0</Channel>
       <Channel Fixture="175">0</Channel>
      </Level>
@@ -4284,7 +4284,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="255">
+     <Level LowLimit="0" HighLimit="255" Value="0">
       <Channel Fixture="199">0</Channel>
       <Channel Fixture="199">1</Channel>
       <Channel Fixture="199">2</Channel>
