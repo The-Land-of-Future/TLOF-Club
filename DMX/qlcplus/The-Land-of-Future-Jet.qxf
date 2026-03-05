@@ -3,20 +3,20 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.13.1</Version>
+  <Version>4.14.3</Version>
   <Author>C0D3 M4513R</Author>
  </Creator>
  <Manufacturer>The Land of Future</Manufacturer>
- <Model>Co2 Jet</Model>
+ <Model>Jet</Model>
  <Type>Effect</Type>
- <Channel Name="Co2">
+ <Channel Name="Jet">
   <Group Byte="0">Effect</Group>
   <Capability Min="0" Max="63">Event Reset</Capability>
   <Capability Min="64" Max="189">Nothing</Capability>
-  <Capability Min="190" Max="255">Shoot Co2</Capability>
+  <Capability Min="190" Max="255">Fire</Capability>
  </Channel>
  <Mode Name="1CH">
-  <Channel Number="0">Co2</Channel>
+  <Channel Number="0">Jet</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>

@@ -769,7 +769,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>73</ID>
    <Name>Co2 Jet #01</Name>
@@ -779,7 +779,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>74</ID>
    <Name>Co2 Jet #02</Name>
@@ -789,7 +789,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>75</ID>
    <Name>Co2 Jet #03</Name>
@@ -799,7 +799,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>76</ID>
    <Name>Co2 Jet #04</Name>
@@ -809,7 +809,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>77</ID>
    <Name>Co2 Jet #05</Name>
@@ -819,7 +819,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>78</ID>
    <Name>Co2 Jet #06</Name>
@@ -1009,7 +1009,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>97</ID>
    <Name>Co2 Jet #07</Name>
@@ -1019,7 +1019,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>98</ID>
    <Name>Co2 Jet #08</Name>
@@ -1029,7 +1029,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>99</ID>
    <Name>Co2 Jet #09</Name>
@@ -1039,7 +1039,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>100</ID>
    <Name>Co2 Jet #10</Name>
@@ -1049,7 +1049,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>101</ID>
    <Name>Co2 Jet #11</Name>
@@ -1059,7 +1059,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>102</ID>
    <Name>Co2 Jet #12</Name>
@@ -1069,7 +1069,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>103</ID>
    <Name>Co2 Jet #13</Name>
@@ -1079,7 +1079,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>104</ID>
    <Name>Co2 Jet #14</Name>
@@ -1089,7 +1089,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>105</ID>
    <Name>Co2 Jet #15</Name>
@@ -1099,7 +1099,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>106</ID>
    <Name>Co2 Jet #16</Name>
@@ -1169,7 +1169,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Confetti</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>113</ID>
    <Name>Confetti #1</Name>
@@ -1179,7 +1179,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Confetti</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>114</ID>
    <Name>Confetti #2</Name>
@@ -1909,7 +1909,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>188</ID>
    <Name>Co2 Jet #1</Name>
@@ -1919,7 +1919,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>189</ID>
    <Name>Co2 Jet #2</Name>
@@ -1929,7 +1929,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>190</ID>
    <Name>Co2 Jet #3</Name>
@@ -1939,7 +1939,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>191</ID>
    <Name>Co2 Jet #4</Name>
@@ -1949,7 +1949,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>192</ID>
    <Name>Co2 Jet #5</Name>
@@ -1959,7 +1959,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>193</ID>
    <Name>Co2 Jet #6</Name>
@@ -1999,7 +1999,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>197</ID>
    <Name>Bubble Machine Left</Name>
@@ -2009,7 +2009,7 @@
   </Fixture>
   <Fixture>
    <Manufacturer>The Land of Future</Manufacturer>
-   <Model>Co2 Jet</Model>
+   <Model>Jet</Model>
    <Mode>1CH</Mode>
    <ID>198</ID>
    <Name>Bubble Machine Right</Name>
