@@ -3,14 +3,14 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.14.3</Version>
+  <Version>4.12.4</Version>
   <Author>AcChosen</Author>
  </Creator>
  <Manufacturer>VRSL</Manufacturer>
  <Model>Standard Laser</Model>
- <Type>Laser</Type>
- <Channel Name="Pan" Preset="PositionPan"/>
- <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan" Default="127" Preset="PositionPan"/>
+ <Channel Name="Tilt" Default="127" Preset="PositionTilt"/>
  <Channel Name="Width">
   <Group Byte="0">Prism</Group>
   <Capability Min="0" Max="255">Laser Width</Capability>
@@ -24,8 +24,10 @@
   <Capability Min="0" Max="255">Beam Count</Capability>
  </Channel>
  <Channel Name="Spin Speed">
-  <Group Byte="0">Speed</Group>
-  <Capability Min="0" Max="255">Spin Speed (0 - 100%)</Capability>
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">No Spin</Capability>
+  <Capability Min="10" Max="126">Spin Left - Speed Increases</Capability>
+  <Capability Min="127" Max="255">Spin Right - Speed Increases</Capability>
  </Channel>
  <Channel Name="Intensity" Preset="IntensityDimmer"/>
  <Channel Name="Red" Preset="IntensityRed"/>

@@ -9,9 +9,9 @@
  <Manufacturer>VRSL</Manufacturer>
  <Model>Standard Mover Spotlight</Model>
  <Type>Moving Head</Type>
- <Channel Name="Pan" Preset="PositionPan"/>
+ <Channel Name="Pan" Default="127" Preset="PositionPan"/>
  <Channel Name="Fine Pan" Preset="PositionPanFine"/>
- <Channel Name="Tilt" Preset="PositionTilt"/>
+ <Channel Name="Tilt" Default="127" Preset="PositionTilt"/>
  <Channel Name="Fine Tilt" Preset="PositionTiltFine"/>
  <Channel Name="Radius/Zoom (Cone Width)" Preset="BeamZoomSmallBig"/>
  <Channel Name="Master Dimmer" Preset="IntensityMasterDimmer"/>
@@ -31,17 +31,17 @@
  </Channel>
  <Channel Name="GOBO Selection">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="46" Preset="GoboMacro" Res1="">Blank/Default</Capability>
-  <Capability Min="47" Max="76" Preset="GoboMacro" Res1="GLP/gobo00011.png">Swooshes</Capability>
-  <Capability Min="77" Max="106" Preset="GoboMacro" Res1="claypaky/gobo00039.png">Sticks</Capability>
-  <Capability Min="107" Max="134" Preset="GoboMacro" Res1="SGM/gobo00124.png">5 Point Star</Capability>
-  <Capability Min="135" Max="165" Preset="GoboMacro" Res1="SGM/gobo00014.png">Triangles</Capability>
-  <Capability Min="166" Max="195" Preset="GoboMacro" Res1="SGM/gobo00290.png">8 Point Star</Capability>
-  <Capability Min="196" Max="224" Preset="GoboMacro" Res1="SGM/gobo00027.svg">Spiral</Capability>
+  <Capability Min="0" Max="32" Preset="GoboMacro" Res1="">Blank/Default</Capability>
+  <Capability Min="33" Max="64" Preset="GoboMacro" Res1="GLP/gobo00011.png">Swooshes</Capability>
+  <Capability Min="65" Max="96" Preset="GoboMacro" Res1="claypaky/gobo00039.png">Sticks</Capability>
+  <Capability Min="97" Max="128" Preset="GoboMacro" Res1="SGM/gobo00124.png">5 Point Star</Capability>
+  <Capability Min="129" Max="160" Preset="GoboMacro" Res1="SGM/gobo00014.png">Triangles</Capability>
+  <Capability Min="161" Max="192" Preset="GoboMacro" Res1="SGM/gobo00290.png">8 Point Star</Capability>
+  <Capability Min="193" Max="224" Preset="GoboMacro" Res1="SGM/gobo00027.svg">Spiral</Capability>
   <Capability Min="225" Max="255" Preset="GoboMacro" Res1="SGM/gobo00006.png">Apollo Orb</Capability>
  </Channel>
  <Channel Name="Pan/Tilt Speed/Smoothing" Preset="SpeedPanTiltSlowFast"/>
- <Mode Name="13CH - Mode">
+ <Mode Name="13CH">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1">Fine Pan</Channel>
   <Channel Number="2">Tilt</Channel>
@@ -56,7 +56,7 @@
   <Channel Number="11">GOBO Selection</Channel>
   <Channel Number="12">Pan/Tilt Speed/Smoothing</Channel>
  </Mode>
- <Mode Name="13CH">
+ <Mode Name="13CH - Mode">
   <Channel Number="0">Pan</Channel>
   <Channel Number="1">Fine Pan</Channel>
   <Channel Number="2">Tilt</Channel>
