@@ -4,6 +4,10 @@
 4 = Static Flasher
 5 = Static Laser
 6 = Disco-Ball
+7 = Parlight
+8 = Lightbar
+9 = 6x4 Light
+10 = Multi-Lightbar
 
 101 = Co2-Jet
 102 = Fire-Jet
