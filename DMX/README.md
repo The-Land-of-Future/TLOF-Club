@@ -3,7 +3,7 @@
 Expected Format: 
 - [HNode](https://github.com/Happyrobot33/HNode/releases/latest)
 - in Binary Stage Flight mode
-- The HNode Output should be at the very Top of the screen. [See this Example](./ExampleScreen.png).
+- The HNode Output should be at the very Top of the screen. [See this Example](../ScreenMappings/Cropped.png).
 
 Internally the Output data is translated back to VRSL Data with https://github.com/Happyrobot33/MDMX-To-VRSL/
 
