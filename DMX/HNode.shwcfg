@@ -1,0 +1,35 @@
+# All channel values can be represented in 2 ways
+# Either as a global integer, so 0 upwards like an array
+# As a direct Universe.Channel mapping, so Universe 3 channel 5 is 3.5
+# Alongside this, Equations are usable. So (3 * 2).(5 * 5) works
+
+serializer: &o0 !BinaryStageFlight {}
+deserializer: *o0
+generators: []
+exporters: []
+# Whether to enable transcoding from the deserializer to the serializer. This is useful for converting between different pixel mapping formats.
+transcode: false
+# The number of universes to do transcoding for. This is useful for limiting the amount of data being processed if you know you only need a certain number of universes.
+transcodeUniverseCount: 2147483647
+# The maximum number of universes that will be serialized. This usually doesnt need to be changed
+serializeUniverseCount: 2147483647
+# A list of channels to mask out. These channels will be forced to transparent. Define a start and end channel for each mask.
+maskedChannels: []
+# If true, the mask will be inverted, making the channels that are set in the maskedChannels list the only ones visible.
+invertMask: false
+# If true, the mask will automatically be applied to channels that are set to zero, making them transparent.
+autoMaskOnZero: false
+spoutInputName: HNode Input
+spoutOutputName: HNode Output
+artNetPort: 6454
+# The address to listen to for artnet information. Set this to 0.0.0.0 to automatically find artnet information across all network interfaces
+artNetAddress: 0.0.0.0
+targetFramerate: 60
+# The background Chroma Key color to use on the F11 Preview pane, RGBA (0 - 255) Integer
+previewChromaColor:
+  r: 0
+  g: 255
+  b: 0
+  a: 0
+outputResolution: 1920x208
+inputResolution: 1920x208
