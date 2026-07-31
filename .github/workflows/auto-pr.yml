@@ -39,7 +39,7 @@ jobs:
               state: "open",
               head: `${owner}:${branchName}`,
               base: baseBranch,
-            });
+            });          
 
             if (pulls.data.length > 0) {
               core.info(`PR already exists: #${pulls.data[0].number}`);
@@ -47,7 +47,7 @@ jobs:
             }
 
             const title = `Auto PR from ${branchName}`;
-            const body = `This PR was automatically created for branch \`${branchName}\`.`;
+            const body = `@C0D3-M4513R New Club Update Request.\n This PR was automatically created for branch \`${branchName}\`.`;
 
             //https://octokit.github.io/rest.js/v22/#pulls-create
             const pr = await github.rest.pulls.create({
