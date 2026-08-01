@@ -52,7 +52,8 @@ In Midi Mappings, where `Type` states:
 |0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle|
 |0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle|
 |0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle|
-|0|1|4-20|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button|
+|0|1|4-19|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button|
+|0|1|20|Reserved|Reserved|Reserved|Reserved|
 |0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel Only)|Toggle|
 |0|1|22|General|Set Spot Color|N/A (Panel Only)|Toggle|
 |0|1|23|General|Set Wash Color|N/A (Panel Only)|Toggle|
