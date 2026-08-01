@@ -1,0 +1,323 @@
+# Midi
+
+There are two different Midi Mapping styles (which can be used interchangeably):
+
+* Mapping each button to one Midi channel, number and velocity
+* Mapping each logical setting to one Midi channel, number and velocity
+
+Those two approaches are different, because some toggles (the yellow ones) toggle multiple logical settings (depending on what's set in the Advanced section).
+Therefore for each Midi Mappings it's notated, if it's a Midi-Mappings that depend on what is selected in the Panel, or not.
+
+
+
+Furthermore there are different types of Midi Events: [https://creators.vrchat.com/worlds/udon/midi/#midi-events](https://creators.vrchat.com/worlds/udon/midi/#midi-events).
+
+In Midi Mappings, where `Type` states:
+
+* Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable.
+* Button: any Midi message with that channel, Number and Velocity activates the respective control.
+* Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)\\\*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (127/127\*100 = 100).
+
+
+
+# Mappings:
+
+|Channel|Number|Velocity|Panel Section|Description|Based on What Selection|Type|
+|-|-|-|-|-|-|-|
+|0|0|0|Advanced|Section Floor|N/A (Panel Only)|Toggle|
+|0|0|1|Advanced|Section Dancer Podium|N/A (Panel Only)|Toggle|
+|0|0|2|Advanced|Section Screen Bottom|N/A (Panel Only)|Toggle|
+|0|0|3|Advanced|Section Screen Side|N/A (Panel Only)|Toggle|
+|0|0|4|Advanced|Section Screen Top|N/A (Panel Only)|Toggle|
+|0|0|5|Advanced|Section In Screen|N/A (Panel Only)|Toggle|
+|0|0|6|Advanced|Section Mirror Ball Inner|N/A (Panel Only)|Toggle|
+|0|0|7|Advanced|Section Mirror Ball Outer|N/A (Panel Only)|Toggle|
+|0|0|8|Advanced|Section Side Screen Top|N/A (Panel Only)|Toggle|
+|0|0|9|Advanced|Section Side Screen Bottom|N/A (Panel Only)|Toggle|
+|0|0|42|Macro|Apply|N/A (Panel Only)|Button|
+|0|0|43|Macro|Clear Apply|N/A (Panel Only)|Button|
+|0|0|44|Macro|Bypass Apply|N/A (Panel Only)|Toggle|
+|0|0|45|Macro|Apply Manually|N/A (Panel Only)|Toggle|
+|0|0|46|Macro|Set Macro Toggle|N/A (Panel Only)|Toggle|
+|0|0|47-78|Macro|Macro 0-31|Set Macro Toggle|Button|
+|0|0|79|Effect|Confetti|N/A (Global Effect)|Button|
+|0|0|80|Effect|Co2 Down|N/A (Global Effect)|Button|
+|0|0|81|Effect|Co2 Up|N/A (Global Effect)|Button|
+|0|0|82|Effect|Fire|N/A (Global Effect)|Button|
+|0|0|83|Effect|Bubbles|N/A (Global Effect)|Button|
+|0|0|84|Effect|Reset|N/A (Global Effect)|Button|
+|0|0|111|Advanced|Side Left|N/A (Panel Only)|Toggle|
+|0|0|112|Advanced|Side Right|N/A (Panel Only)|Toggle|
+|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle|
+|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle|
+|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle|
+|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle|
+|0|1|4-20|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button|
+|0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel Only)|Toggle|
+|0|1|22|General|Set Spot Color|N/A (Panel Only)|Toggle|
+|0|1|23|General|Set Wash Color|N/A (Panel Only)|Toggle|
+|0|1|24|General|Set Laser Color|N/A (Panel Only)|Toggle|
+|0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Toggle|
+|0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Toggle|
+|0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Toggle|
+|0|1|28|Activation|Wash Band: Upper Mid|Advanced Section \& Side|Toggle|
+|0|1|29|Activation|Wash Band: Treble|Advanced Section \& Side|Toggle|
+|0|1|30|Activation|Spot Band: Always on|Advanced Section \& Side|Toggle|
+|0|1|31|Activation|Spot Band: Bass|Advanced Section \& Side|Toggle|
+|0|1|32|Activation|Spot Band: Low Mid|Advanced Section \& Side|Toggle|
+|0|1|33|Activation|Spot Band: Upper Mid|Advanced Section \& Side|Toggle|
+|0|1|34|Activation|Spot Band: Treble|Advanced Section \& Side|Toggle|
+|0|1|35|Activation|Laser Band: Always on|Advanced Section \& Side|Toggle|
+|0|1|36|Activation|Laser Band: Bass|Advanced Section \& Side|Toggle|
+|0|1|37|Activation|Laser Band: Low Mid|Advanced Section \& Side|Toggle|
+|0|1|38|Activation|Laser Band: Upper Mid|Advanced Section \& Side|Toggle|
+|0|1|39|Activation|Laser Band: Treble|Advanced Section \& Side|Toggle|
+|0|1|40|General|Gobo 0|Advanced Section \& Side|Toggle|
+|0|1|41|General|Gobo 1|Advanced Section \& Side|Toggle|
+|0|1|42|General|Gobo 2|Advanced Section \& Side|Toggle|
+|0|1|43|General|Gobo 3|Advanced Section \& Side|Toggle|
+|0|1|44|General|Gobo 4|Advanced Section \& Side|Toggle|
+|0|1|45|General|Gobo 5|Advanced Section \& Side|Toggle|
+|0|1|46|General|Gobo 6|Advanced Section \& Side|Toggle|
+|0|1|47|General|Gobo 7|Advanced Section \& Side|Toggle|
+|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle|
+|0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global Toggle)|Toggle|
+|0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global Toggle)|Toggle|
+|0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global Toggle)|Toggle|
+|0|1|52|Wall Line Activation|Wall Lines: Wave Up|N/A (Global Toggle)|Toggle|
+|0|1|53|Wall Line Activation|Wall Lines: Wave Center|N/A (Global Toggle)|Toggle|
+|0|1|54|Wall Line Activation|Wall Lines: Wave Down|N/A (Global Toggle)|Toggle|
+|0|1|55|Wall Line Activation|Wall Lines: Flash|N/A (Global Toggle)|Toggle|
+|0|1|56|Wall Line Activation|Wall Lines: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|57|Advanced|Force Resync All|N/A (Global Toggle)|Toggle|
+|0|1|58|Advanced|Allow Portals|N/A (Global Toggle)|Toggle|
+|0|1|59|Advanced|Clean Light|N/A (Global Toggle)|Toggle|
+|0|1|60|Advanced|Very Poor Sign|N/A (Global Toggle)|Toggle|
+|0|1|61|Advanced|RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|62|Activation|Disco Ball|N/A (Global Toggle)|Toggle|
+|0|1|63|Activation|Mirror Ball Inner|N/A (Global Toggle)|Toggle|
+|0|1|64|Activation|Mirror Ball Middle|N/A (Global Toggle)|Toggle|
+|0|1|65|Activation|Mirror Ball Outer|N/A (Global Toggle)|Toggle|
+|0|1|66|Movement|Spot Movement: Static|N/A (Global Toggle)|Toggle|
+|0|1|67|Movement|Spot Movement: Wave Forward|N/A (Global Toggle)|Toggle|
+|0|1|68|Movement|Spot Movement: Wave Backward|N/A (Global Toggle)|Toggle|
+|0|1|69|Movement|Spot Movement: Circle Backward|N/A (Global Toggle)|Toggle|
+|0|1|70|Movement|Spot Movement: Circle Forward|N/A (Global Toggle)|Toggle|
+|0|1|71|Movement|Spot Movement: Random|N/A (Global Toggle)|Toggle|
+|0|1|72|Movement|Spot Movement: Strike|N/A (Global Toggle)|Toggle|
+|0|1|73|Movement|Spot Movement: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|74|Movement|Wash Movement: Static|N/A (Global Toggle)|Toggle|
+|0|1|75|Movement|Wash Movement: Wash|N/A (Global Toggle)|Toggle|
+|0|1|76|Movement|Wash Movement: Strike|N/A (Global Toggle)|Toggle|
+|0|1|77|Movement|Wash Movement: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|78|General|Random: Off|N/A (Global Toggle)|Toggle|
+|0|1|79|General|Random: Wave|N/A (Global Toggle)|Toggle|
+|0|1|80|General|Random: Random|N/A (Global Toggle)|Toggle|
+|0|1|81|General|Random: All|N/A (Global Toggle)|Toggle|
+|0|1|82|General|Blackout|N/A (Global Toggle)|Toggle|
+|0|1|83|Effect|Flasher: Off|N/A (Global Toggle)|Toggle|
+|0|1|84|Effect|Flasher: Audio Link|N/A (Global Toggle)|Toggle|
+|0|1|85|Effect|Flasher: Random Audio Link|N/A (Global Toggle)|Toggle|
+|0|1|86|Effect|Flasher: Hard Audio Link|N/A (Global Toggle)|Toggle|
+|0|1|87|Effect|Flasher: Random|N/A (Global Toggle)|Toggle|
+|0|1|88|Effect|Flasher: Hard|N/A (Global Toggle)|Toggle|
+|0|1|89|Effect|Flasher: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|90|Effect|Flasher: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|91|Effect|Moving Head Strobe: Off|N/A (Global Toggle)|Toggle|
+|0|1|92|Effect|Moving Head Strobe: Random|N/A (Global Toggle)|Toggle|
+|0|1|93|Effect|Moving Head Strobe: Section Random|N/A (Global Toggle)|Toggle|
+|0|1|94|Effect|Moving Head Strobe: Hard|N/A (Global Toggle)|Toggle|
+|0|1|95|Advanced|Screen Mapping: Full|N/A (Global Toggle)|Toggle|
+|0|1|96|Advanced|Screen Mapping: Cropped DMX|N/A (Global Toggle)|Toggle|
+|0|1|97|Advanced|Screen Mapping: Mapped|N/A (Global Toggle)|Toggle|
+|0|1|98|Advanced|Screen Mapping: RESERVED|N/A (Global Toggle)|Toggle|
+|0|1|99|Wall Line Colors|Initialize|N/A (Global Toggle)|Toggle|
+|0|1|100|Wall Line Colors|Deepsea|N/A (Global Toggle)|Toggle|
+|0|1|101|Wall Line Colors|Skyhigh|N/A (Global Toggle)|Toggle|
+|0|1|102|Wall Line Colors|Lavender|N/A (Global Toggle)|Toggle|
+|0|1|103|Wall Line Colors|Lovepotion|N/A (Global Toggle)|Toggle|
+|0|1|104|Wall Line Colors|Yumekawa|N/A (Global Toggle)|Toggle|
+|0|1|105|Wall Line Colors|Sunset|N/A (Global Toggle)|Toggle|
+|0|1|106|Wall Line Colors|Goldenage|N/A (Global Toggle)|Toggle|
+|0|1|107|Wall Line Colors|Redlight|N/A (Global Toggle)|Toggle|
+|0|1|108|Wall Line Colors|Takefive|N/A (Global Toggle)|Toggle|
+|0|1|109|Wall Line Colors|Garden|N/A (Global Toggle)|Toggle|
+|0|1|110|Wall Line Colors|Energize|N/A (Global Toggle)|Toggle|
+|0|1|111|Wall Line Colors|Happy|N/A (Global Toggle)|Toggle|
+|0|1|112|Wall Line Colors|Poppinshower|N/A (Global Toggle)|Toggle|
+|0|1|113|Wall Line Colors|RGB|N/A (Global Toggle)|Toggle|
+|0|1|114|Wall Line Colors|Turquise|N/A (Global Toggle)|Toggle|
+|0|1|115|AudioLink|Reset Settings|N/A (Global Button)|Button|
+|0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global Button)|Button|
+|0|1|117|General|UI Larger|N/A (Panel Only)|Button|
+|0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
+|0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
+|0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
+|0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
+|0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider|
+|0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider|
+|0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider|
+|0|8|ALL|Wall Line Activation|Wall Line Speed|N/A (Global Slider)|Slider|
+|0|9|ALL|Wall Line Activation|Wall Line Tension|N/A (Global Slider)|Slider|
+|0|10|ALL|Wall Line Activation|Wall Line Brightness|N/A (Global Slider)|Slider|
+|0|11|ALL|Movement|Movement Speed|N/A (Global Slider)|Slider|
+|0|12|ALL|Effect|Flasher Speed|N/A (Global Slider)|Slider|
+|0|13|ALL|Effect|Moving Head Strobe Speed|N/A (Global Slider)|Slider|
+|0|14|ALL|Intensity|Global Intensity|N/A (Global Slider)|Slider|
+|0|15|ALL|Intensity|Spot Intensity|N/A (Global Slider)|Slider|
+|0|16|ALL|Intensity|Wash Intensity|N/A (Global Slider)|Slider|
+|0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider|
+|0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider|
+|0|19|ALL|Intensity|Lazer Intensity|N/A (Global Slider)|Slider|
+|0|20|ALL|AudioLink|Threshold Bass|N/A (Global Slider)|Slider|
+|0|21|ALL|AudioLink|Threshold Low Mid|N/A (Global Slider)|Slider|
+|0|22|ALL|AudioLink|Threshold Upper Mid|N/A (Global Slider)|Slider|
+|0|23|ALL|AudioLink|Threshold Treble|N/A (Global Slider)|Slider|
+|0|24|ALL|AudioLink|X Divider Nothing <-> Bass|N/A (Global Slider)|Slider|
+|0|25|ALL|AudioLink|X Divider Bass <-> Low Mid|N/A (Global Slider)|Slider|
+|0|26|ALL|AudioLink|X Divider Low Mid <-> Upper Mid|N/A (Global Slider)|Slider|
+|0|27|ALL|AudioLink|X Divider Upper Mid <-> Treble|N/A (Global Slider)|Slider|
+|0|28|ALL|AudioLink|Gain|N/A (Global Slider)|Slider|
+|0|29|ALL|AudioLink|Treble|N/A (Global Slider)|Slider|
+|0|30|ALL|AudioLink|Bass|N/A (Global Slider)|Slider|
+|0|31|ALL|AudioLink|Hit Fade Length|N/A (Global Slider)|Slider|
+|0|32|ALL|AudioLink|Hit Fade Exp. Falloff|N/A (Global Slider)|Slider|
+|0|33|ALL|AudioLink Smoothing|Bass Smoothing|N/A (Global Slider)|Slider|
+|0|34|ALL|AudioLink Smoothing|Lower Mid Smoothing|N/A (Global Slider)|Slider|
+|0|35|ALL|AudioLink Smoothing|Upper Mid Smoothing|N/A (Global Slider)|Slider|
+|0|36|ALL|AudioLink Smoothing|Treble Smoothing|N/A (Global Slider)|Slider|
+
+
+
+# Logical Mappings
+
+|Channel|Number|Velocity|Panel Section|Description|Type|
+|-|-|-|-|-|-|
+|0|37|0-31|Macro|Use Macro 0-31|Button|
+|0|37|32-63|Macro|Set Macro 0-31|Button|
+|0|56|64-15|General|Set Color 0-15|Button|
+
+## For these next ones, each entry will be a range of 32.
+
+All of the toggles will have the same description, but they will be for different sections.
+Inside of the range of 0 to 31 these are the sections:
+
+|Number|Section|Side|
+|-|-|-|
+|0|Floor|Left|
+|1|Floor|Right|
+|2|DancerPodium|Left|
+|3|DancerPodium|Right|
+|4|ScreenBottom|Left|
+|5|ScreenBottom|Right|
+|6|ScreenSide|Left|
+|7|ScreenSide|Right|
+|8|ScreenTop|Left|
+|9|ScreenTop|Right|
+|10|InScreen|Left|
+|11|InScreen|Right|
+|12|MirrorBallInner|Left|
+|13|MirrorBallInner|Right|
+|14|MirrorBallOuter|Left|
+|15|MirrorBallOuter|Right|
+|16|SideScreenTop|Left|
+|17|SideScreenTop|Right|
+|18|SideScreenBottom|Left|
+|19|SideScreenBottom|Right|
+|20|RESERVED|Left|
+|21|RESERVED|Right|
+|22|RESERVED|Left|
+|23|RESERVED|Right|
+|24|RESERVED|Left|
+|25|RESERVED|Right|
+|26|RESERVED|Left|
+|27|RESERVED|Right|
+|28|RESERVED|Left|
+|29|RESERVED|Right|
+|30|RESERVED|Left|
+|31|RESERVED|Right|
+
+
+
+|Channel|Number|Velocity|Panel Section|Description|Type|
+|-|-|-|-|-|-|
+|0|37|64-95|Activation|Section Enabled|Toggle|
+|0|37|96-127|Activation|Spot Enabled|Toggle|
+|0|38|0-31|Activation|Wash Enabled|Toggle|
+|0|38|32-63|Effect|Laser Enabled|Toggle|
+|0|38|64-65|Activation|Wash Band: Always on|Toggle|
+|0|38|96-127|Activation|Wash Band: Bass|Toggle|
+|0|39|0-31|Activation|Wash Band: Low Mid|Toggle|
+|0|39|32-63|Activation|Wash Band: Upper Mid|Toggle|
+|0|39|63-95|Activation|Wash Band: Treble|Toggle|
+|0|39|69-127|Activation|Spot Band: Always on|Toggle|
+|0|40|0-31|Activation|Spot Band: Bass|Toggle|
+|0|40|32-63|Activation|Spot Band: Low Mid|Toggle|
+|0|40|63-95|Activation|Spot Band: Upper Mid|Toggle|
+|0|40|96-127|Activation|Spot Band: Treble|Toggle|
+|0|41|0-31|Activation|Laser Band: Always on|Toggle|
+|0|41|32-63|Activation|Laser Band: Bass|Toggle|
+|0|41|64-95|Activation|Laser Band: Low Mid|Toggle|
+|0|41|96-127|Activation|Laser Band: Upper Mid|Toggle|
+|0|42|0-31|Activation|Laser Band: Treble|Toggle|
+|0|42|32-63|General|Gobo 0|Toggle|
+|0|42|64-95|General|Gobo 1|Toggle|
+|0|42|96-127|General|Gobo 2|Toggle|
+|0|43|0-31|General|Gobo 3|Toggle|
+|0|43|32-63|General|Gobo 4|Toggle|
+|0|43|64-95|General|Gobo 5|Toggle|
+|0|43|96-127|General|Gobo 6|Toggle|
+|0|44|0-31|General|Gobo 7|Toggle|
+|0|44|32-63|General|Gobo Spin Speed Reverse|Toggle|
+|0|44|64-95|General|Set Spot to Color 0|Button|
+|0|44|96-127|General|Set Spot to Color 1|Button|
+|0|45|0-31|General|Set Spot to Color 2|Button|
+|0|45|32-63|General|Set Spot to Color 3|Button|
+|0|45|64-95|General|Set Spot to Color 4|Button|
+|0|45|96-127|General|Set Spot to Color 5|Button|
+|0|46|0-31|General|Set Spot to Color 6|Button|
+|0|46|32-63|General|Set Spot to Color 7|Button|
+|0|46|64-95|General|Set Spot to Color 8|Button|
+|0|46|96-127|General|Set Spot to Color 9|Button|
+|0|47|0-31|General|Set Spot to Color 10|Button|
+|0|47|32-63|General|Set Spot to Color 11|Button|
+|0|47|64-95|General|Set Spot to Color 12|Button|
+|0|47|96-127|General|Set Spot to Color 13|Button|
+|0|48|0-31|General|Set Spot to Color 14|Button|
+|0|48|32-63|General|Set Spot to Color 15|Button|
+|0|48|64-95|General|Set Wash to Color 0|Button|
+|0|48|96-127|General|Set Wash to Color 1|Button|
+|0|49|0-31|General|Set Wash to Color 2|Button|
+|0|49|32-63|General|Set Wash to Color 3|Button|
+|0|49|64-95|General|Set Wash to Color 4|Button|
+|0|49|96-127|General|Set Wash to Color 5|Button|
+|0|50|0-31|General|Set Wash to Color 6|Button|
+|0|50|32-63|General|Set Wash to Color 7|Button|
+|0|50|64-95|General|Set Wash to Color 8|Button|
+|0|50|96-127|General|Set Wash to Color 9|Button|
+|0|51|0-31|General|Set Wash to Color 10|Button|
+|0|51|32-63|General|Set Wash to Color 11|Button|
+|0|51|64-95|General|Set Wash to Color 12|Button|
+|0|51|96-127|General|Set Wash to Color 13|Button|
+|0|52|0-31|General|Set Wash to Color 14|Button|
+|0|52|32-63|General|Set Wash to Color 15|Button|
+|0|52|64-95|General|Set Lazer to Color 0|Button|
+|0|52|96-127|General|Set Lazer to Color 1|Button|
+|0|53|0-31|General|Set Lazer to Color 2|Button|
+|0|53|32-63|General|Set Lazer to Color 3|Button|
+|0|53|64-95|General|Set Lazer to Color 4|Button|
+|0|53|96-127|General|Set Lazer to Color 5|Button|
+|0|54|0-31|General|Set Lazer to Color 6|Button|
+|0|54|32-63|General|Set Lazer to Color 7|Button|
+|0|54|64-95|General|Set Lazer to Color 8|Button|
+|0|54|96-127|General|Set Lazer to Color 9|Button|
+|0|55|0-31|General|Set Lazer to Color 10|Button|
+|0|55|32-63|General|Set Lazer to Color 11|Button|
+|0|55|64-95|General|Set Lazer to Color 12|Button|
+|0|55|96-127|General|Set Lazer to Color 13|Button|
+|0|56|0-31|General|Set Lazer to Color 14|Button|
+|0|56|32-63|General|Set Lazer to Color 15|Button|
+|0|64-95|ALL|General|Spot Width|Slider|
+|0|96-127|ALL|General|Wash Width|Slider|
+|1|0-31|ALL|General|Gobo Spin Speed|Slider|
+
