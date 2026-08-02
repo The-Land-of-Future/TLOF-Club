@@ -17,7 +17,7 @@ In Midi Mappings, where `Type` states:
 * Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable.
 * Enum(group): any Midi message with that channel, Number and Velocity will activate the respective control and deactivate the other controls in the same group.
 * Button: any Midi message with that channel, Number and Velocity activates the respective control.
-* Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)\\\*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (127/127\*100 = 100).
+* Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
 
 
 
