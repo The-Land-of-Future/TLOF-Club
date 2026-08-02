@@ -149,8 +149,8 @@ In Midi Mappings, where `Type` states:
 |0|1|112|Wall Line Colors|Poppinshower|N/A (Global)|Enum(Wall Line Colors)|
 |0|1|113|Wall Line Colors|RGB|N/A (Global)|Enum(Wall Line Colors)|
 |0|1|114|Wall Line Colors|Turquise|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|115|AudioLink|Reset Settings|N/A (Global Button)|Button|
-|0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global Button)|Button|
+|0|1|115|AudioLink|Reset Settings|N/A (Global)|Button|
+|0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global)|Button|
 |0|1|117|General|UI Larger|N/A (Panel Only)|Button|
 |0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
@@ -270,54 +270,54 @@ Inside of the range of 0 to 31 these are the sections:
 |0|43|96-127|General|Gobo: 6|Enum(Gobo)|
 |0|44|0-31|General|Gobo: 7|Enum(Gobo)|
 |0|44|32-63|General|Gobo Spin Speed Reverse|Toggle|
-|0|44|64-95|General|Set Spot to Color 0|Button|
-|0|44|96-127|General|Set Spot to Color 1|Button|
-|0|45|0-31|General|Set Spot to Color 2|Button|
-|0|45|32-63|General|Set Spot to Color 3|Button|
-|0|45|64-95|General|Set Spot to Color 4|Button|
-|0|45|96-127|General|Set Spot to Color 5|Button|
-|0|46|0-31|General|Set Spot to Color 6|Button|
-|0|46|32-63|General|Set Spot to Color 7|Button|
-|0|46|64-95|General|Set Spot to Color 8|Button|
-|0|46|96-127|General|Set Spot to Color 9|Button|
-|0|47|0-31|General|Set Spot to Color 10|Button|
-|0|47|32-63|General|Set Spot to Color 11|Button|
-|0|47|64-95|General|Set Spot to Color 12|Button|
-|0|47|96-127|General|Set Spot to Color 13|Button|
-|0|48|0-31|General|Set Spot to Color 14|Button|
-|0|48|32-63|General|Set Spot to Color 15|Button|
-|0|48|64-95|General|Set Wash to Color 0|Button|
-|0|48|96-127|General|Set Wash to Color 1|Button|
-|0|49|0-31|General|Set Wash to Color 2|Button|
-|0|49|32-63|General|Set Wash to Color 3|Button|
-|0|49|64-95|General|Set Wash to Color 4|Button|
-|0|49|96-127|General|Set Wash to Color 5|Button|
-|0|50|0-31|General|Set Wash to Color 6|Button|
-|0|50|32-63|General|Set Wash to Color 7|Button|
-|0|50|64-95|General|Set Wash to Color 8|Button|
-|0|50|96-127|General|Set Wash to Color 9|Button|
-|0|51|0-31|General|Set Wash to Color 10|Button|
-|0|51|32-63|General|Set Wash to Color 11|Button|
-|0|51|64-95|General|Set Wash to Color 12|Button|
-|0|51|96-127|General|Set Wash to Color 13|Button|
-|0|52|0-31|General|Set Wash to Color 14|Button|
-|0|52|32-63|General|Set Wash to Color 15|Button|
-|0|52|64-95|General|Set Lazer to Color 0|Button|
-|0|52|96-127|General|Set Lazer to Color 1|Button|
-|0|53|0-31|General|Set Lazer to Color 2|Button|
-|0|53|32-63|General|Set Lazer to Color 3|Button|
-|0|53|64-95|General|Set Lazer to Color 4|Button|
-|0|53|96-127|General|Set Lazer to Color 5|Button|
-|0|54|0-31|General|Set Lazer to Color 6|Button|
-|0|54|32-63|General|Set Lazer to Color 7|Button|
-|0|54|64-95|General|Set Lazer to Color 8|Button|
-|0|54|96-127|General|Set Lazer to Color 9|Button|
-|0|55|0-31|General|Set Lazer to Color 10|Button|
-|0|55|32-63|General|Set Lazer to Color 11|Button|
-|0|55|64-95|General|Set Lazer to Color 12|Button|
-|0|55|96-127|General|Set Lazer to Color 13|Button|
-|0|56|0-31|General|Set Lazer to Color 14|Button|
-|0|56|32-63|General|Set Lazer to Color 15|Button|
+|0|44|64-95|General|Set Spot to Color: 0|Enum(Spot Color)|
+|0|44|96-127|General|Set Spot to Color: 1|Enum(Spot Color)|
+|0|45|0-31|General|Set Spot to Color: 2|Enum(Spot Color)|
+|0|45|32-63|General|Set Spot to Color: 3|Enum(Spot Color)|
+|0|45|64-95|General|Set Spot to Color: 4|Enum(Spot Color)|
+|0|45|96-127|General|Set Spot to Color: 5|Enum(Spot Color)|
+|0|46|0-31|General|Set Spot to Color: 6|Enum(Spot Color)|
+|0|46|32-63|General|Set Spot to Color: 7|Enum(Spot Color)|
+|0|46|64-95|General|Set Spot to Color: 8|Enum(Spot Color)|
+|0|46|96-127|General|Set Spot to Color: 9|Enum(Spot Color)|
+|0|47|0-31|General|Set Spot to Color: 10|Enum(Spot Color)|
+|0|47|32-63|General|Set Spot to Color: 11|Enum(Spot Color)|
+|0|47|64-95|General|Set Spot to Color: 12|Enum(Spot Color)|
+|0|47|96-127|General|Set Spot to Color: 13|Enum(Spot Color)|
+|0|48|0-31|General|Set Spot to Color: 14|Enum(Spot Color)|
+|0|48|32-63|General|Set Spot to Color: 15|Enum(Spot Color)|
+|0|48|64-95|General|Set Wash to Color: 0|Enum(Wash Color)|
+|0|48|96-127|General|Set Wash to Color: 1|Enum(Wash Color)|
+|0|49|0-31|General|Set Wash to Color: 2|Enum(Wash Color)|
+|0|49|32-63|General|Set Wash to Color: 3|Enum(Wash Color)|
+|0|49|64-95|General|Set Wash to Color: 4|Enum(Wash Color)|
+|0|49|96-127|General|Set Wash to Color: 5|Enum(Wash Color)|
+|0|50|0-31|General|Set Wash to Color: 6|Enum(Wash Color)|
+|0|50|32-63|General|Set Wash to Color: 7|Enum(Wash Color)|
+|0|50|64-95|General|Set Wash to Color: 8|Enum(Wash Color)|
+|0|50|96-127|General|Set Wash to Color: 9|Enum(Wash Color)|
+|0|51|0-31|General|Set Wash to Color: 10|Enum(Wash Color)|
+|0|51|32-63|General|Set Wash to Color: 11|Enum(Wash Color)|
+|0|51|64-95|General|Set Wash to Color: 12|Enum(Wash Color)|
+|0|51|96-127|General|Set Wash to Color: 13|Enum(Wash Color)|
+|0|52|0-31|General|Set Wash to Color: 14|Enum(Wash Color)|
+|0|52|32-63|General|Set Wash to Color: 15|Enum(Wash Color)|
+|0|52|64-95|General|Set Lazer to Color: 0|Enum(Lazer Color)|
+|0|52|96-127|General|Set Lazer to Color: 1|Enum(Lazer Color)|
+|0|53|0-31|General|Set Lazer to Color: 2|Enum(Lazer Color)|
+|0|53|32-63|General|Set Lazer to Color: 3|Enum(Lazer Color)|
+|0|53|64-95|General|Set Lazer to Color: 4|Enum(Lazer Color)|
+|0|53|96-127|General|Set Lazer to Color: 5|Enum(Lazer Color)|
+|0|54|0-31|General|Set Lazer to Color: 6|Enum(Lazer Color)|
+|0|54|32-63|General|Set Lazer to Color: 7|Enum(Lazer Color)|
+|0|54|64-95|General|Set Lazer to Color: 8|Enum(Lazer Color)|
+|0|54|96-127|General|Set Lazer to Color: 9|Enum(Lazer Color)|
+|0|55|0-31|General|Set Lazer to Color: 10|Enum(Lazer Color)|
+|0|55|32-63|General|Set Lazer to Color: 11|Enum(Lazer Color)|
+|0|55|64-95|General|Set Lazer to Color: 12|Enum(Lazer Color)|
+|0|55|96-127|General|Set Lazer to Color: 13|Enum(Lazer Color)|
+|0|56|0-31|General|Set Lazer to Color: 14|Enum(Lazer Color)|
+|0|56|32-63|General|Set Lazer to Color: 15|Enum(Lazer Color)|
 |0|64-95|ALL|General|Spot Width|Slider|
 |0|96-127|ALL|General|Wash Width|Slider|
 |1|0-31|ALL|General|Gobo Spin Speed|Slider|
