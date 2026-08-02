@@ -323,7 +323,4 @@ Inside of the range of 0 to 31 these are the sections:
 |1|0-31|ALL|General|Gobo Spin Speed|Slider|
 
 [^1]: When the Set Color toggle is enabled, the Color Buttons all function as a Button (which set's the Color Button's Color).
-Otherwise the Color Buttons function as multiple Enums:
- - Enum(Spot Color), if Set Spot Color is on
- - Enum(Wash Color), if Set Wash Color is on
- - Enum(Lazer Color), if Set Lazer Color is on
+Otherwise the Color Buttons function as multiple Enums: Enum(Spot Color), if Set Spot Color is on; Enum(Wash Color), if Set Wash Color is on and Enum(Lazer Color), if Set Lazer Color is on
