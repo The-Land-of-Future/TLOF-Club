@@ -369,9 +369,9 @@ Number|Name|Has Sections|Type|Data
 14|LaserColor|yes|Enum|0-15
 15|LaserEnabled|yes|Toggle|Bool
 16|LaserIntensity|no|Slider|0-127
-17|MirrorBallInner|yes|Toggle|Bool
-18|MirrorBallMiddle|yes|Toggle|Bool
-19|MirrorBallOuter|yes|Toggle|Bool
+17|MirrorBallInner|no|Toggle|Bool
+18|MirrorBallMiddle|no|Toggle|Bool
+19|MirrorBallOuter|no|Toggle|Bool
 20|MovementSpeed|no|Slider|0-127
 21|MovingHeadStrobe|no|Enum|0-4
 22|MovingHeadStrobeSpeed|no|Slider|0-127
