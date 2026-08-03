@@ -49,31 +49,31 @@ In Midi Mappings, where `Type` states:
 |0|0|84|Effect|Reset|N/A (Global Effect)|Button|
 |0|0|111|Advanced|Side Left|N/A (Panel/Local Only)|Toggle|
 |0|0|112|Advanced|Side Right|N/A (Panel/Local Only)|Toggle|
-|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle(Section Enabled)|
-|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle(Spot Enabled)|
-|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle(Wash Enabled)|
-|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle(Laser Enabled)|
+|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle(SectionEnabled)|
+|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle(SpotEnabled)|
+|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle(WashEnabled)|
+|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle(LaserEnabled)|
 |0|1|4-19|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button[^1]|
 |0|1|20|Midi Only|Write `[Neoluma][Midi] Pong` to Log|N/A (Stateless)|Button|
 |0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel/Local Only)|Toggle|
 |0|1|22|General|Set Spot Color|N/A (Panel/Local Only)|Toggle|
 |0|1|23|General|Set Wash Color|N/A (Panel/Local Only)|Toggle|
 |0|1|24|General|Set Laser Color|N/A (Panel/Local Only)|Toggle|
-|0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Enum(Wash Band)|
-|0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Enum(Wash Band)|
-|0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Enum(Wash Band)|
-|0|1|28|Activation|Wash Band: Upper Mid|Advanced Section \& Side|Enum(Wash Band)|
-|0|1|29|Activation|Wash Band: Treble|Advanced Section \& Side|Enum(Wash Band)|
-|0|1|30|Activation|Spot Band: Always on|Advanced Section \& Side|Enum(Spot Band)|
-|0|1|31|Activation|Spot Band: Bass|Advanced Section \& Side|Enum(Spot Band)|
-|0|1|32|Activation|Spot Band: Low Mid|Advanced Section \& Side|Enum(Spot Band)|
-|0|1|33|Activation|Spot Band: Upper Mid|Advanced Section \& Side|Enum(Spot Band)|
-|0|1|34|Activation|Spot Band: Treble|Advanced Section \& Side|Enum(Spot Band)|
-|0|1|35|Activation|Laser Band: Always on|Advanced Section \& Side|Enum(Laser Band)|
-|0|1|36|Activation|Laser Band: Bass|Advanced Section \& Side|Enum(Laser Band)|
-|0|1|37|Activation|Laser Band: Low Mid|Advanced Section \& Side|Enum(Laser Band)|
-|0|1|38|Activation|Laser Band: Upper Mid|Advanced Section \& Side|Enum(Laser Band)|
-|0|1|39|Activation|Laser Band: Treble|Advanced Section \& Side|Enum(Laser Band)|
+|0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Enum(WashBand)|
+|0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Enum(WashBand)|
+|0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Enum(WashBand)|
+|0|1|28|Activation|Wash Band: Upper Mid|Advanced Section \& Side|Enum(WashBand)|
+|0|1|29|Activation|Wash Band: Treble|Advanced Section \& Side|Enum(WashBand)|
+|0|1|30|Activation|Spot Band: Always on|Advanced Section \& Side|Enum(SpotBand)|
+|0|1|31|Activation|Spot Band: Bass|Advanced Section \& Side|Enum(SpotBand)|
+|0|1|32|Activation|Spot Band: Low Mid|Advanced Section \& Side|Enum(SpotBand)|
+|0|1|33|Activation|Spot Band: Upper Mid|Advanced Section \& Side|Enum(SpotBand)|
+|0|1|34|Activation|Spot Band: Treble|Advanced Section \& Side|Enum(SpotBand)|
+|0|1|35|Activation|Laser Band: Always on|Advanced Section \& Side|Enum(LaserBand)|
+|0|1|36|Activation|Laser Band: Bass|Advanced Section \& Side|Enum(LaserBand)|
+|0|1|37|Activation|Laser Band: Low Mid|Advanced Section \& Side|Enum(LaserBand)|
+|0|1|38|Activation|Laser Band: Upper Mid|Advanced Section \& Side|Enum(LaserBand)|
+|0|1|39|Activation|Laser Band: Treble|Advanced Section \& Side|Enum(LaserBand)|
 |0|1|40|General|Gobo: 0|Advanced Section \& Side|Enum(Gobo)|
 |0|1|41|General|Gobo: 1|Advanced Section \& Side|Enum(Gobo)|
 |0|1|42|General|Gobo: 2|Advanced Section \& Side|Enum(Gobo)|
@@ -82,36 +82,36 @@ In Midi Mappings, where `Type` states:
 |0|1|45|General|Gobo: 5|Advanced Section \& Side|Enum(Gobo)|
 |0|1|46|General|Gobo: 6|Advanced Section \& Side|Enum(Gobo)|
 |0|1|47|General|Gobo: 7|Advanced Section \& Side|Enum(Gobo)|
-|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle(Gobo Spin Speed Reverse)|
-|0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global)|Enum(Wall Lines)|
-|0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global)|Enum(Wall Lines)|
-|0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global)|Enum(Wall Lines)|
-|0|1|52|Wall Line Activation|Wall Lines: Wave Up|N/A (Global)|Enum(Wall Lines)|
-|0|1|53|Wall Line Activation|Wall Lines: Wave Center|N/A (Global)|Enum(Wall Lines)|
-|0|1|54|Wall Line Activation|Wall Lines: Wave Down|N/A (Global)|Enum(Wall Lines)|
-|0|1|55|Wall Line Activation|Wall Lines: Flash|N/A (Global)|Enum(Wall Lines)|
-|0|1|56|Wall Line Activation|Wall Lines: RESERVED|N/A (Global)|Enum(Wall Lines)|
+|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle(GoboSpinSpeedReverse)|
+|0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global)|Enum(WallLines)|
+|0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global)|Enum(WallLines)|
+|0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global)|Enum(WallLines)|
+|0|1|52|Wall Line Activation|Wall Lines: Wave Up|N/A (Global)|Enum(WallLines)|
+|0|1|53|Wall Line Activation|Wall Lines: Wave Center|N/A (Global)|Enum(WallLines)|
+|0|1|54|Wall Line Activation|Wall Lines: Wave Down|N/A (Global)|Enum(WallLines)|
+|0|1|55|Wall Line Activation|Wall Lines: Flash|N/A (Global)|Enum(WallLines)|
+|0|1|56|Wall Line Activation|Wall Lines: RESERVED|N/A (Global)|Enum(WallLines)|
 |0|1|57|Advanced|Force Resync All|N/A (Global)|Button|
-|0|1|58|Advanced|Allow Portals|N/A (Global)|Toggle(Allow Portals)|
-|0|1|59|Advanced|Clean Light|N/A (Global)|Toggle(Clean Light)|
-|0|1|60|Advanced|Very Poor Sign|N/A (Global)|Toggle(Very Poor Sign)|
+|0|1|58|Advanced|Allow Portals|N/A (Global)|Toggle(AllowPortals)|
+|0|1|59|Advanced|Clean Light|N/A (Global)|Toggle(CleanLight)|
+|0|1|60|Advanced|Very Poor Sign|N/A (Global)|Toggle(VeryPoorSign)|
 |0|1|61|Advanced|RESERVED|N/A (Global)|Toggle|
-|0|1|62|Activation|Disco Ball|N/A (Global)|Toggle(Disco Ball)|
-|0|1|63|Activation|Mirror Ball Inner|N/A (Global)|Toggle(Mirror Ball Inner)|
-|0|1|64|Activation|Mirror Ball Middle|N/A (Global)|Toggle(Mirror Ball Middle)|
-|0|1|65|Activation|Mirror Ball Outer|N/A (Global)|Toggle(Mirror Ball Outer)|
-|0|1|66|Movement|Spot Movement: Static|N/A (Global)|Enum(Spot Movement)|
-|0|1|67|Movement|Spot Movement: Wave Forward|N/A (Global)|Enum(Spot Movement)|
-|0|1|68|Movement|Spot Movement: Wave Backward|N/A (Global)|Enum(Spot Movement)|
-|0|1|69|Movement|Spot Movement: Circle Backward|N/A (Global)|Enum(Spot Movement)|
-|0|1|70|Movement|Spot Movement: Circle Forward|N/A (Global)|Enum(Spot Movement)|
-|0|1|71|Movement|Spot Movement: Random|N/A (Global)|Enum(Spot Movement)|
-|0|1|72|Movement|Spot Movement: Strike|N/A (Global)|Enum(Spot Movement)|
-|0|1|73|Movement|Spot Movement: RESERVED|N/A (Global)|Enum(Spot Movement)|
-|0|1|74|Movement|Wash Movement: Static|N/A (Global)|Enum(Wash Movement)|
-|0|1|75|Movement|Wash Movement: Wash|N/A (Global)|Enum(Wash Movement)|
-|0|1|76|Movement|Wash Movement: Strike|N/A (Global)|Enum(Wash Movement)|
-|0|1|77|Movement|Wash Movement: RESERVED|N/A (Global)|Enum(Wash Movement)|
+|0|1|62|Activation|Disco Ball|N/A (Global)|Toggle(DiscoBall)|
+|0|1|63|Activation|Mirror Ball Inner|N/A (Global)|Toggle(MirrorBallInner)|
+|0|1|64|Activation|Mirror Ball Middle|N/A (Global)|Toggle(MirrorBallMiddle)|
+|0|1|65|Activation|Mirror Ball Outer|N/A (Global)|Toggle(MirrorBallOuter)|
+|0|1|66|Movement|Spot Movement: Static|N/A (Global)|Enum(SpotMovement)|
+|0|1|67|Movement|Spot Movement: Wave Forward|N/A (Global)|Enum(SpotMovement)|
+|0|1|68|Movement|Spot Movement: Wave Backward|N/A (Global)|Enum(SpotMovement)|
+|0|1|69|Movement|Spot Movement: Circle Backward|N/A (Global)|Enum(SpotMovement)|
+|0|1|70|Movement|Spot Movement: Circle Forward|N/A (Global)|Enum(SpotMovement)|
+|0|1|71|Movement|Spot Movement: Random|N/A (Global)|Enum(SpotMovement)|
+|0|1|72|Movement|Spot Movement: Strike|N/A (Global)|Enum(SpotMovement)|
+|0|1|73|Movement|Spot Movement: RESERVED|N/A (Global)|Enum(SpotMovement)|
+|0|1|74|Movement|Wash Movement: Static|N/A (Global)|Enum(WashMovement)|
+|0|1|75|Movement|Wash Movement: Wash|N/A (Global)|Enum(WashMovement)|
+|0|1|76|Movement|Wash Movement: Strike|N/A (Global)|Enum(WashMovement)|
+|0|1|77|Movement|Wash Movement: RESERVED|N/A (Global)|Enum(WashMovement)|
 |0|1|78|General|Random: Off|N/A (Global)|Enum(Random)|
 |0|1|79|General|Random: Wave|N/A (Global)|Enum(Random)|
 |0|1|80|General|Random: Random|N/A (Global)|Enum(Random)|
@@ -125,26 +125,26 @@ In Midi Mappings, where `Type` states:
 |0|1|88|Effect|Flasher: Hard|N/A (Global)|Enum(Flasher)|
 |0|1|89|Effect|Flasher: RESERVED|N/A (Global)|Enum(Flasher)|
 |0|1|90|Effect|Flasher: RESERVED|N/A (Global)|Enum(Flasher)|
-|0|1|91|Effect|Moving Head Strobe: Off|N/A (Global)|Enum(Moving Head Strobe)|
-|0|1|92|Effect|Moving Head Strobe: Random|N/A (Global)|Enum(Moving Head Strobe)|
-|0|1|93|Effect|Moving Head Strobe: Section Random|N/A (Global)|Enum(Moving Head Strobe)|
-|0|1|94|Effect|Moving Head Strobe: Hard|N/A (Global)|Enum(Moving Head Strobe)|
-|0|1|95|Advanced|Screen Mapping: Full|N/A (Global)|Enum(Screen Mapping)|
-|0|1|96|Advanced|Screen Mapping: Cropped DMX|N/A (Global)|Enum(Screen Mapping)|
-|0|1|97|Advanced|Screen Mapping: Mapped|N/A (Global)|Enum(Screen Mapping)|
-|0|1|98|Advanced|Screen Mapping: RESERVED|N/A (Global)|Enum(Screen Mapping)|
-|0|1|99|Wall Line Colors|Initialize|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|100|Wall Line Colors|Deepsea|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|101|Wall Line Colors|Skyhigh|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|102|Wall Line Colors|Lavender|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|103|Wall Line Colors|Lovepotion|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|104|Wall Line Colors|Yumekawa|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|105|Wall Line Colors|Sunset|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|106|Wall Line Colors|Goldenage|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|107|Wall Line Colors|Redlight|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|108|Wall Line Colors|Takefive|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|109|Wall Line Colors|Garden|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|110|Wall Line Colors|Energize|N/A (Global)|Enum(Wall Line Colors)|
+|0|1|91|Effect|Moving Head Strobe: Off|N/A (Global)|Enum(MovingHeadStrobe)|
+|0|1|92|Effect|Moving Head Strobe: Random|N/A (Global)|Enum(MovingHeadStrobe)|
+|0|1|93|Effect|Moving Head Strobe: Section Random|N/A (Global)|Enum(MovingHeadStrobe)|
+|0|1|94|Effect|Moving Head Strobe: Hard|N/A (Global)|Enum(MovingHeadStrobe)|
+|0|1|95|Advanced|Screen Mapping: Full|N/A (Global)|Enum(ScreenMapping)|
+|0|1|96|Advanced|Screen Mapping: Cropped DMX|N/A (Global)|Enum(ScreenMapping)|
+|0|1|97|Advanced|Screen Mapping: Mapped|N/A (Global)|Enum(ScreenMapping)|
+|0|1|98|Advanced|Screen Mapping: RESERVED|N/A (Global)|Enum(ScreenMapping)|
+|0|1|99|Wall Line Colors|Initialize|N/A (Global)|Enum(WallLineColors)|
+|0|1|100|Wall Line Colors|Deepsea|N/A (Global)|Enum(WallLineColors)|
+|0|1|101|Wall Line Colors|Skyhigh|N/A (Global)|Enum(WallLineColors)|
+|0|1|102|Wall Line Colors|Lavender|N/A (Global)|Enum(WallLineColors)|
+|0|1|103|Wall Line Colors|Lovepotion|N/A (Global)|Enum(WallLineColors)|
+|0|1|104|Wall Line Colors|Yumekawa|N/A (Global)|Enum(WallLineColors)|
+|0|1|105|Wall Line Colors|Sunset|N/A (Global)|Enum(WallLineColors)|
+|0|1|106|Wall Line Colors|Goldenage|N/A (Global)|Enum(WallLineColors)|
+|0|1|107|Wall Line Colors|Redlight|N/A (Global)|Enum(WallLineColors)|
+|0|1|108|Wall Line Colors|Takefive|N/A (Global)|Enum(WallLineColors)|
+|0|1|109|Wall Line Colors|Garden|N/A (Global)|Enum(WallLineColors)|
+|0|1|110|Wall Line Colors|Energize|N/A (Global)|Enum(WallLineColors)|
 |0|1|111|Wall Line Colors|Happy|N/A (Global)|Enum(WallLineColors)|
 |0|1|112|Wall Line Colors|Poppinshower|N/A (Global)|Enum(WallLineColors)|
 |0|1|113|Wall Line Colors|RGB|N/A (Global)|Enum(WallLineColors)|
@@ -158,21 +158,21 @@ In Midi Mappings, where `Type` states:
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
 |0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
 |0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
-|0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider(Spot Width)|
-|0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider(Wash Width)|
-|0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider(Gobo Spin Speed)|
-|0|8|ALL|Wall Line Activation|Wall Line Speed|N/A (Global Slider)|Slider(Wall Line Speed)|
-|0|9|ALL|Wall Line Activation|Wall Line Tension|N/A (Global Slider)|Slider(Wall Line Tension)|
-|0|10|ALL|Wall Line Activation|Wall Line Brightness|N/A (Global Slider)|Slider(Wall Line Brightness)|
-|0|11|ALL|Movement|Movement Speed|N/A (Global Slider)|Slider(Movement Speed)|
-|0|12|ALL|Effect|Flasher Speed|N/A (Global Slider)|Slider(Flasher Speed)|
-|0|13|ALL|Effect|Moving Head Strobe Speed|N/A (Global Slider)|Slider(Moving Head Strobe Speed)|
-|0|14|ALL|Intensity|Global Intensity|N/A (Global Slider)|Slider(Global Intensity)|
-|0|15|ALL|Intensity|Spot Intensity|N/A (Global Slider)|Slider(Spot Intensity)|
-|0|16|ALL|Intensity|Wash Intensity|N/A (Global Slider)|Slider(Wash Intensity)|
-|0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider(Blinder Intensity)|
-|0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider(Flasher Intensity)|
-|0|19|ALL|Intensity|Laser Intensity|N/A (Global Slider)|Slider(Laser Intensity)|
+|0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider(SpotWidth)|
+|0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider(WashWidth)|
+|0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider(GoboSpinSpeed)|
+|0|8|ALL|Wall Line Activation|Wall Line Speed|N/A (Global Slider)|Slider(WallLineSpeed)|
+|0|9|ALL|Wall Line Activation|Wall Line Tension|N/A (Global Slider)|Slider(WallLineTension)|
+|0|10|ALL|Wall Line Activation|Wall Line Brightness|N/A (Global Slider)|Slider(WallLineBrightness)|
+|0|11|ALL|Movement|Movement Speed|N/A (Global Slider)|Slider(MovementSpeed)|
+|0|12|ALL|Effect|Flasher Speed|N/A (Global Slider)|Slider(FlasherSpeed)|
+|0|13|ALL|Effect|Moving Head Strobe Speed|N/A (Global Slider)|Slider(MovingHeadStrobeSpeed)|
+|0|14|ALL|Intensity|Global Intensity|N/A (Global Slider)|Slider(GlobalIntensity)|
+|0|15|ALL|Intensity|Spot Intensity|N/A (Global Slider)|Slider(SpotIntensity)|
+|0|16|ALL|Intensity|Wash Intensity|N/A (Global Slider)|Slider(WashIntensity)|
+|0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider(BlinderIntensity)|
+|0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider(FlasherIntensity)|
+|0|19|ALL|Intensity|Laser Intensity|N/A (Global Slider)|Slider(LaserIntensity)|
 |0|20|ALL|AudioLink|Threshold Bass|N/A (Global Slider)|Slider|
 |0|21|ALL|AudioLink|Threshold Low Mid|N/A (Global Slider)|Slider|
 |0|22|ALL|AudioLink|Threshold Upper Mid|N/A (Global Slider)|Slider|
@@ -244,25 +244,25 @@ Inside of the range of 0 to 31 these are the sections:
 
 |Channel|Number|Velocity|Panel Section|Description|Type|
 |-|-|-|-|-|-|
-|0|37|64-95|Activation|Section Enabled|Toggle(Section Enabled)|
-|0|37|96-127|Activation|Spot Enabled|Toggle(Spot Enabled)|
-|0|38|0-31|Activation|Wash Enabled|Toggle(Wash Enabled)|
-|0|38|32-63|Effect|Laser Enabled|Toggle(Laser Enabled)|
-|0|38|64-65|Activation|Wash Band: Always on|Enum(Wash Band)|
-|0|38|96-127|Activation|Wash Band: Bass|Enum(Wash Band)|
-|0|39|0-31|Activation|Wash Band: Low Mid|Enum(Wash Band)|
-|0|39|32-63|Activation|Wash Band: Upper Mid|Enum(Wash Band)|
-|0|39|63-95|Activation|Wash Band: Treble|Enum(Wash Band)|
-|0|39|69-127|Activation|Spot Band: Always on|Enum(Spot Band)|
-|0|40|0-31|Activation|Spot Band: Bass|Enum(Spot Band)|
-|0|40|32-63|Activation|Spot Band: Low Mid|Enum(Spot Band)|
-|0|40|63-95|Activation|Spot Band: Upper Mid|Enum(Spot Band)|
-|0|40|96-127|Activation|Spot Band: Treble|Enum(Spot Band)|
-|0|41|0-31|Activation|Laser Band: Always on|Enum(Laser Band)|
-|0|41|32-63|Activation|Laser Band: Bass|Enum(Laser Band)|
-|0|41|64-95|Activation|Laser Band: Low Mid|Enum(Laser Band)|
-|0|41|96-127|Activation|Laser Band: Upper Mid|Enum(Laser Band)|
-|0|42|0-31|Activation|Laser Band: Treble|Enum(Laser Band)|
+|0|37|64-95|Activation|Section Enabled|Toggle(SectionEnabled)|
+|0|37|96-127|Activation|Spot Enabled|Toggle(SpotEnabled)|
+|0|38|0-31|Activation|Wash Enabled|Toggle(WashEnabled)|
+|0|38|32-63|Effect|Laser Enabled|Toggle(LaserEnabled)|
+|0|38|64-65|Activation|Wash Band: Always on|Enum(WashBand)|
+|0|38|96-127|Activation|Wash Band: Bass|Enum(WashBand)|
+|0|39|0-31|Activation|Wash Band: Low Mid|Enum(WashBand)|
+|0|39|32-63|Activation|Wash Band: Upper Mid|Enum(WashBand)|
+|0|39|63-95|Activation|Wash Band: Treble|Enum(WashBand)|
+|0|39|69-127|Activation|Spot Band: Always on|Enum(SpotBand)|
+|0|40|0-31|Activation|Spot Band: Bass|Enum(SpotBand)|
+|0|40|32-63|Activation|Spot Band: Low Mid|Enum(SpotBand)|
+|0|40|63-95|Activation|Spot Band: Upper Mid|Enum(SpotBand)|
+|0|40|96-127|Activation|Spot Band: Treble|Enum(SpotBand)|
+|0|41|0-31|Activation|Laser Band: Always on|Enum(LaserBand)|
+|0|41|32-63|Activation|Laser Band: Bass|Enum(LaserBand)|
+|0|41|64-95|Activation|Laser Band: Low Mid|Enum(LaserBand)|
+|0|41|96-127|Activation|Laser Band: Upper Mid|Enum(LaserBand)|
+|0|42|0-31|Activation|Laser Band: Treble|Enum(LaserBand)|
 |0|42|32-63|General|Gobo: 0|Enum(Gobo)|
 |0|42|64-95|General|Gobo: 1|Enum(Gobo)|
 |0|42|96-127|General|Gobo: 2|Enum(Gobo)|
@@ -271,58 +271,58 @@ Inside of the range of 0 to 31 these are the sections:
 |0|43|64-95|General|Gobo: 5|Enum(Gobo)|
 |0|43|96-127|General|Gobo: 6|Enum(Gobo)|
 |0|44|0-31|General|Gobo: 7|Enum(Gobo)|
-|0|44|32-63|General|Gobo Spin Speed Reverse|Toggle(Gobo Spin Speed Reverse)|
-|0|44|64-95|General|Set Spot to Color: 0|Enum(Spot Color)|
-|0|44|96-127|General|Set Spot to Color: 1|Enum(Spot Color)|
-|0|45|0-31|General|Set Spot to Color: 2|Enum(Spot Color)|
-|0|45|32-63|General|Set Spot to Color: 3|Enum(Spot Color)|
-|0|45|64-95|General|Set Spot to Color: 4|Enum(Spot Color)|
-|0|45|96-127|General|Set Spot to Color: 5|Enum(Spot Color)|
-|0|46|0-31|General|Set Spot to Color: 6|Enum(Spot Color)|
-|0|46|32-63|General|Set Spot to Color: 7|Enum(Spot Color)|
-|0|46|64-95|General|Set Spot to Color: 8|Enum(Spot Color)|
-|0|46|96-127|General|Set Spot to Color: 9|Enum(Spot Color)|
-|0|47|0-31|General|Set Spot to Color: 10|Enum(Spot Color)|
-|0|47|32-63|General|Set Spot to Color: 11|Enum(Spot Color)|
-|0|47|64-95|General|Set Spot to Color: 12|Enum(Spot Color)|
-|0|47|96-127|General|Set Spot to Color: 13|Enum(Spot Color)|
-|0|48|0-31|General|Set Spot to Color: 14|Enum(Spot Color)|
-|0|48|32-63|General|Set Spot to Color: 15|Enum(Spot Color)|
-|0|48|64-95|General|Set Wash to Color: 0|Enum(Wash Color)|
-|0|48|96-127|General|Set Wash to Color: 1|Enum(Wash Color)|
-|0|49|0-31|General|Set Wash to Color: 2|Enum(Wash Color)|
-|0|49|32-63|General|Set Wash to Color: 3|Enum(Wash Color)|
-|0|49|64-95|General|Set Wash to Color: 4|Enum(Wash Color)|
-|0|49|96-127|General|Set Wash to Color: 5|Enum(Wash Color)|
-|0|50|0-31|General|Set Wash to Color: 6|Enum(Wash Color)|
-|0|50|32-63|General|Set Wash to Color: 7|Enum(Wash Color)|
-|0|50|64-95|General|Set Wash to Color: 8|Enum(Wash Color)|
-|0|50|96-127|General|Set Wash to Color: 9|Enum(Wash Color)|
-|0|51|0-31|General|Set Wash to Color: 10|Enum(Wash Color)|
-|0|51|32-63|General|Set Wash to Color: 11|Enum(Wash Color)|
-|0|51|64-95|General|Set Wash to Color: 12|Enum(Wash Color)|
-|0|51|96-127|General|Set Wash to Color: 13|Enum(Wash Color)|
-|0|52|0-31|General|Set Wash to Color: 14|Enum(Wash Color)|
-|0|52|32-63|General|Set Wash to Color: 15|Enum(Wash Color)|
-|0|52|64-95|General|Set Laser to Color: 0|Enum(Laser Color)|
-|0|52|96-127|General|Set Laser to Color: 1|Enum(Laser Color)|
-|0|53|0-31|General|Set Laser to Color: 2|Enum(Laser Color)|
-|0|53|32-63|General|Set Laser to Color: 3|Enum(Laser Color)|
-|0|53|64-95|General|Set Laser to Color: 4|Enum(Laser Color)|
-|0|53|96-127|General|Set Laser to Color: 5|Enum(Laser Color)|
-|0|54|0-31|General|Set Laser to Color: 6|Enum(Laser Color)|
-|0|54|32-63|General|Set Laser to Color: 7|Enum(Laser Color)|
-|0|54|64-95|General|Set Laser to Color: 8|Enum(Laser Color)|
-|0|54|96-127|General|Set Laser to Color: 9|Enum(Laser Color)|
-|0|55|0-31|General|Set Laser to Color: 10|Enum(Laser Color)|
-|0|55|32-63|General|Set Laser to Color: 11|Enum(Laser Color)|
-|0|55|64-95|General|Set Laser to Color: 12|Enum(Laser Color)|
-|0|55|96-127|General|Set Laser to Color: 13|Enum(Laser Color)|
-|0|56|0-31|General|Set Laser to Color: 14|Enum(Laser Color)|
-|0|56|32-63|General|Set Laser to Color: 15|Enum(Laser Color)|
-|0|64-95|ALL|General|Spot Width|Slider(Spot Width)|
-|0|96-127|ALL|General|Wash Width|Slider(Wash Width)|
-|1|0-31|ALL|General|Gobo Spin Speed|Slider(Gobo Spin Speed)|
+|0|44|32-63|General|Gobo Spin Speed Reverse|Toggle(GoboSpinSpeedReverse)|
+|0|44|64-95|General|Set Spot to Color: 0|Enum(SpotColor)|
+|0|44|96-127|General|Set Spot to Color: 1|Enum(SpotColor)|
+|0|45|0-31|General|Set Spot to Color: 2|Enum(SpotColor)|
+|0|45|32-63|General|Set Spot to Color: 3|Enum(SpotColor)|
+|0|45|64-95|General|Set Spot to Color: 4|Enum(SpotColor)|
+|0|45|96-127|General|Set Spot to Color: 5|Enum(SpotColor)|
+|0|46|0-31|General|Set Spot to Color: 6|Enum(SpotColor)|
+|0|46|32-63|General|Set Spot to Color: 7|Enum(SpotColor)|
+|0|46|64-95|General|Set Spot to Color: 8|Enum(SpotColor)|
+|0|46|96-127|General|Set Spot to Color: 9|Enum(SpotColor)|
+|0|47|0-31|General|Set Spot to Color: 10|Enum(SpotColor)|
+|0|47|32-63|General|Set Spot to Color: 11|Enum(SpotColor)|
+|0|47|64-95|General|Set Spot to Color: 12|Enum(SpotColor)|
+|0|47|96-127|General|Set Spot to Color: 13|Enum(SpotColor)|
+|0|48|0-31|General|Set Spot to Color: 14|Enum(SpotColor)|
+|0|48|32-63|General|Set Spot to Color: 15|Enum(SpotColor)|
+|0|48|64-95|General|Set Wash to Color: 0|Enum(WashColor)|
+|0|48|96-127|General|Set Wash to Color: 1|Enum(WashColor)|
+|0|49|0-31|General|Set Wash to Color: 2|Enum(WashColor)|
+|0|49|32-63|General|Set Wash to Color: 3|Enum(WashColor)|
+|0|49|64-95|General|Set Wash to Color: 4|Enum(WashColor)|
+|0|49|96-127|General|Set Wash to Color: 5|Enum(WashColor)|
+|0|50|0-31|General|Set Wash to Color: 6|Enum(WashColor)|
+|0|50|32-63|General|Set Wash to Color: 7|Enum(WashColor)|
+|0|50|64-95|General|Set Wash to Color: 8|Enum(WashColor)|
+|0|50|96-127|General|Set Wash to Color: 9|Enum(WashColor)|
+|0|51|0-31|General|Set Wash to Color: 10|Enum(WashColor)|
+|0|51|32-63|General|Set Wash to Color: 11|Enum(WashColor)|
+|0|51|64-95|General|Set Wash to Color: 12|Enum(WashColor)|
+|0|51|96-127|General|Set Wash to Color: 13|Enum(WashColor)|
+|0|52|0-31|General|Set Wash to Color: 14|Enum(WashColor)|
+|0|52|32-63|General|Set Wash to Color: 15|Enum(WashColor)|
+|0|52|64-95|General|Set Laser to Color: 0|Enum(LaserColor)|
+|0|52|96-127|General|Set Laser to Color: 1|Enum(LaserColor)|
+|0|53|0-31|General|Set Laser to Color: 2|Enum(LaserColor)|
+|0|53|32-63|General|Set Laser to Color: 3|Enum(LaserColor)|
+|0|53|64-95|General|Set Laser to Color: 4|Enum(LaserColor)|
+|0|53|96-127|General|Set Laser to Color: 5|Enum(LaserColor)|
+|0|54|0-31|General|Set Laser to Color: 6|Enum(LaserColor)|
+|0|54|32-63|General|Set Laser to Color: 7|Enum(LaserColor)|
+|0|54|64-95|General|Set Laser to Color: 8|Enum(LaserColor)|
+|0|54|96-127|General|Set Laser to Color: 9|Enum(LaserColor)|
+|0|55|0-31|General|Set Laser to Color: 10|Enum(LaserColor)|
+|0|55|32-63|General|Set Laser to Color: 11|Enum(LaserColor)|
+|0|55|64-95|General|Set Laser to Color: 12|Enum(LaserColor)|
+|0|55|96-127|General|Set Laser to Color: 13|Enum(LaserColor)|
+|0|56|0-31|General|Set Laser to Color: 14|Enum(LaserColor)|
+|0|56|32-63|General|Set Laser to Color: 15|Enum(LaserColor)|
+|0|64-95|ALL|General|Spot Width|Slider(SpotWidth)|
+|0|96-127|ALL|General|Wash Width|Slider(WashWidth)|
+|1|0-31|ALL|General|Gobo Spin Speed|Slider(GoboSpinSpeed)|
 
 
 # Midi Feedback
@@ -351,53 +351,53 @@ One could also alter the Regex to capture the Date, Time, Debug Level or to Matc
 Data types:
 - Bool: 0 for Disabled, otherwise Enabled
 
-Number|Name|Data
--|-|-
-1|Allow Portals|Bool
-2|Blackout|Bool
-3|Blinder Intensity
-4|Clean Light|Bool
-5|Disco Ball|Bool
-6|Flasher|0-7
-7|Flasher Intensity
-8|Flasher Speed
-9|Global Intensity
-10|Gobo|0-7
-11|Gobo Spin Speed
-12|Gobo Spin Speed Reverse|Bool
-13|Laser Band|0-4
-14|Laser Color|0-15
-15|Laser Enabled|Bool
-16|Laser Intensity
-17|Mirror Ball Inner|Bool
-18|Mirror Ball Middle|Bool
-19|Mirror Ball Outer|Bool
-20|Movement Speed
-21|Moving Head Strobe|0-4
-22|Moving Head Strobe Speed
-23|Random|0-4
-24|Screen Mapping|0-4
-25|Section Enabled|Bool
-26|Spot Band|0-4
-27|Spot Color|0-15
-28|Spot Enabled|Bool
-29|Spot Intensity
-30|Spot Movement|0-7
-31|Spot Width
-32|Very Poor Sign|Bool
-33|Wall Line Brightness
-34|Wall Line Colors|0-15
-35|Wall Line Speed
-36|Wall Line Tension
-37|Wall Lines|0-7
-38|Wash Band|0-4
-39|Wash Color|0-15
-40|Wash Enabled|Bool
-41|Wash Intensity
-42|Wash Movement|0-4
-43|Wash Width
-44|MidiFeedback|Bool
-45|MidiLog|Bool
+Number|Name|Has Sections|Type|Data
+-|-|-|-|-
+1|AllowPortals|no|Toggle|Bool
+2|Blackout|no|Toggle|Bool
+3|BlinderIntensity|no|Slider|0-127
+4|CleanLight|no|Toggle|Bool
+5|DiscoBall|no|Toggle|Bool
+6|Flasher|no|Enum|0-7
+7|FlasherIntensity|no|Slider|0-127
+8|FlasherSpeed|no|Slider|0-127
+9|GlobalIntensity|no|Slider|0-127
+10|Gobo|yes|Enum|0-7
+11|GoboSpinSpeed|yes|Slider|0-127
+12|GoboSpinSpeedReverse|yes|Toggle|Bool
+13|LaserBand|yes|Enum|0-4
+14|LaserColor|yes|Enum|0-15
+15|LaserEnabled|yes|Toggle|Bool
+16|LaserIntensity|yes|Slider|0-127
+17|MirrorBallInner|yes|Toggle|Bool
+18|MirrorBallMiddle|yes|Toggle|Bool
+19|MirrorBallOuter|yes|Toggle|Bool
+20|MovementSpeed|no|Slider|0-127
+21|MovingHeadStrobe|no|Enum|0-4
+22|MovingHeadStrobeSpeed|no|Slider|0-127
+23|Random|no|Enum|0-4
+24|ScreenMapping|no|Enum|0-4
+25|SectionEnabled|yes|Toggle|Bool
+26|SpotBand|yes|Toggle|0-4
+27|SpotColor|yes|Toggle|0-15
+28|SpotEnabled|yes|Toggle|Bool
+29|SpotIntensity|no|Slider|0-127
+30|SpotMovement|no|Enum|0-7
+31|SpotWidth|yes|Slider|0-127
+32|VeryPoorSign|no|Toggle|Bool
+33|WallLineBrightness|no|Slider|0-127
+34|WallLineColors|no|Enum|0-15
+35|WallLineSpeed|no|Slider|0-127
+36|WallLineTension|no|Slider|0-127
+37|WallLines|no|Slider|0-7
+38|WashBand|yes|Enum|0-4
+39|WashColor|yes|Enum|0-15
+40|WashEnabled|yes|Toggle|Bool
+41|WashIntensity|no|Slider|0-127
+42|WashMovement|no|Enum|0-4
+43|WashWidth|yes|Slider|0-127
+44|MidiFeedback|no|Toggle|Bool
+45|MidiLog|no|Toggle|Bool
 
 
 [^1]: When the Set Color toggle is enabled, the Color Buttons all function as a Button (which set's the Color Button's Color).
