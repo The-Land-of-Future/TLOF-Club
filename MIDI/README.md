@@ -14,7 +14,7 @@ Furthermore there are different types of Midi Events: [https://creators.vrchat.c
 
 In Midi Mappings, where `Type` states:
 
-* Toggle(name) or Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable.
+* Toggle(name) or Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable. `MidiNoteOn` set's the toggle to on, `MidiNoteOff` set's the toggle to off
 * Enum(group): any Midi message with that channel, Number and Velocity will activate the respective control and deactivate the other controls in the same group.
 * Button: any Midi message with that channel, Number and Velocity activates the respective control.
 * Slider(name) or Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
@@ -379,7 +379,7 @@ Number|Name|Has Sections|Type|Data
 24|ScreenMapping|no|Enum|0-4
 25|SectionEnabled|yes|Toggle|Bool
 26|SpotBand|yes|Toggle|0-4
-27|SpotColor|yes|Toggle|0-15
+27|SpotColor|yes|Enum|0-15
 28|SpotEnabled|yes|Toggle|Bool
 29|SpotIntensity|no|Slider|0-127
 30|SpotMovement|no|Enum|0-7
