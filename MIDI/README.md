@@ -153,8 +153,8 @@ In Midi Mappings, where `Type` states:
 |0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global)|Button|
 |0|1|117|General|UI Larger|N/A (Panel Only)|Button|
 |0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
-|0|1|119|Midi Only|Log received and processed Midi events|Toggle(MidiLog)|
-|0|1|120|Midi Only|Midi Feedback|Toggle(MidiFeedback)|
+|0|1|119|Midi Only|Log received and processed Midi events|N/A (Stateless)|Toggle(MidiLog)|
+|0|1|120|Midi Only|Midi Feedback|N/A (Stateless)|Toggle(MidiFeedback)|
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
 |0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
 |0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
