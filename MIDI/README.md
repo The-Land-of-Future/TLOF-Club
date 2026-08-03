@@ -378,7 +378,7 @@ Number|Name|Has Sections|Type|Data
 23|Random|no|Enum|0-4
 24|ScreenMapping|no|Enum|0-4
 25|SectionEnabled|yes|Toggle|Bool
-26|SpotBand|yes|Toggle|0-4
+26|SpotBand|yes|Enum|0-4
 27|SpotColor|yes|Enum|0-15
 28|SpotEnabled|yes|Toggle|Bool
 29|SpotIntensity|no|Slider|0-127
