@@ -1,6 +1,6 @@
 # Midi
 
-There are two different Midi Mapping styles (which can be used interchangeably):
+There are two different Midi Mapping styles (which can be used side-by-side):
 
 * Mapping each button to one Midi channel, number and velocity
 * Mapping each logical setting to one Midi channel, number and velocity
@@ -14,10 +14,10 @@ Furthermore there are different types of Midi Events: [https://creators.vrchat.c
 
 In Midi Mappings, where `Type` states:
 
-* Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable.
+* Toggle(name) or Toggle: `MidiControlChange` messages toggle the state of the respective control, if applicable.
 * Enum(group): any Midi message with that channel, Number and Velocity will activate the respective control and deactivate the other controls in the same group.
 * Button: any Midi message with that channel, Number and Velocity activates the respective control.
-* Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
+* Slider(name) or Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
 
 
 
@@ -25,21 +25,21 @@ In Midi Mappings, where `Type` states:
 
 |Channel|Number|Velocity|Panel Section|Description|Based on What Selection|Type|
 |-|-|-|-|-|-|-|
-|0|0|0|Advanced|Section Floor|N/A (Panel Only)|Toggle|
-|0|0|1|Advanced|Section Dancer Podium|N/A (Panel Only)|Toggle|
-|0|0|2|Advanced|Section Screen Bottom|N/A (Panel Only)|Toggle|
-|0|0|3|Advanced|Section Screen Side|N/A (Panel Only)|Toggle|
-|0|0|4|Advanced|Section Screen Top|N/A (Panel Only)|Toggle|
-|0|0|5|Advanced|Section In Screen|N/A (Panel Only)|Toggle|
-|0|0|6|Advanced|Section Mirror Ball Inner|N/A (Panel Only)|Toggle|
-|0|0|7|Advanced|Section Mirror Ball Outer|N/A (Panel Only)|Toggle|
-|0|0|8|Advanced|Section Side Screen Top|N/A (Panel Only)|Toggle|
-|0|0|9|Advanced|Section Side Screen Bottom|N/A (Panel Only)|Toggle|
-|0|0|42|Macro|Apply|N/A (Panel Only)|Button|
-|0|0|43|Macro|Clear Apply|N/A (Panel Only)|Button|
-|0|0|44|Macro|Bypass Apply|N/A (Panel Only)|Toggle|
-|0|0|45|Macro|Apply Manually|N/A (Panel Only)|Toggle|
-|0|0|46|Macro|Set Macro Toggle|N/A (Panel Only)|Toggle|
+|0|0|0|Advanced|Section Floor|N/A (Panel/Local Only)|Toggle|
+|0|0|1|Advanced|Section Dancer Podium|N/A (Panel/Local Only)|Toggle|
+|0|0|2|Advanced|Section Screen Bottom|N/A (Panel/Local Only)|Toggle|
+|0|0|3|Advanced|Section Screen Side|N/A (Panel/Local Only)|Toggle|
+|0|0|4|Advanced|Section Screen Top|N/A (Panel/Local Only)|Toggle|
+|0|0|5|Advanced|Section In Screen|N/A (Panel/Local Only)|Toggle|
+|0|0|6|Advanced|Section Mirror Ball Inner|N/A (Panel/Local Only)|Toggle|
+|0|0|7|Advanced|Section Mirror Ball Outer|N/A (Panel/Local Only)|Toggle|
+|0|0|8|Advanced|Section Side Screen Top|N/A (Panel/Local Only)|Toggle|
+|0|0|9|Advanced|Section Side Screen Bottom|N/A (Panel/Local Only)|Toggle|
+|0|0|42|Macro|Apply|N/A (Panel/Local Only)|Button|
+|0|0|43|Macro|Clear Apply|N/A (Panel/Local Only)|Button|
+|0|0|44|Macro|Bypass Apply|N/A (Panel/Local Only)|Toggle|
+|0|0|45|Macro|Apply Manually|N/A (Panel/Local Only)|Toggle|
+|0|0|46|Macro|Set Macro Toggle|N/A (Panel/Local Only)|Toggle|
 |0|0|47-78|Macro|Macro 0-31|Set Macro Toggle|Button|
 |0|0|79|Effect|Confetti|N/A (Global Effect)|Button|
 |0|0|80|Effect|Co2 Down|N/A (Global Effect)|Button|
@@ -47,18 +47,18 @@ In Midi Mappings, where `Type` states:
 |0|0|82|Effect|Fire|N/A (Global Effect)|Button|
 |0|0|83|Effect|Bubbles|N/A (Global Effect)|Button|
 |0|0|84|Effect|Reset|N/A (Global Effect)|Button|
-|0|0|111|Advanced|Side Left|N/A (Panel Only)|Toggle|
-|0|0|112|Advanced|Side Right|N/A (Panel Only)|Toggle|
-|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle|
-|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle|
-|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle|
-|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle|
+|0|0|111|Advanced|Side Left|N/A (Panel/Local Only)|Toggle|
+|0|0|112|Advanced|Side Right|N/A (Panel/Local Only)|Toggle|
+|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle(Section Enabled)|
+|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle(Spot Enabled)|
+|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle(Wash Enabled)|
+|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle(Laser Enabled)|
 |0|1|4-19|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button[^1]|
-|0|1|20|Nop|No Operation|No Operation|Nop|
-|0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel Only)|Toggle|
-|0|1|22|General|Set Spot Color|N/A (Panel Only)|Toggle|
-|0|1|23|General|Set Wash Color|N/A (Panel Only)|Toggle|
-|0|1|24|General|Set Laser Color|N/A (Panel Only)|Toggle|
+|0|1|20|Midi Only|Write `[Neoluma][Midi] Pong` to Log|N/A (Stateless)|Button|
+|0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel/Local Only)|Toggle|
+|0|1|22|General|Set Spot Color|N/A (Panel/Local Only)|Toggle|
+|0|1|23|General|Set Wash Color|N/A (Panel/Local Only)|Toggle|
+|0|1|24|General|Set Laser Color|N/A (Panel/Local Only)|Toggle|
 |0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Enum(Wash Band)|
 |0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Enum(Wash Band)|
 |0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Enum(Wash Band)|
@@ -82,7 +82,7 @@ In Midi Mappings, where `Type` states:
 |0|1|45|General|Gobo: 5|Advanced Section \& Side|Enum(Gobo)|
 |0|1|46|General|Gobo: 6|Advanced Section \& Side|Enum(Gobo)|
 |0|1|47|General|Gobo: 7|Advanced Section \& Side|Enum(Gobo)|
-|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle|
+|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle(Gobo Spin Speed Reverse)|
 |0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global)|Enum(Wall Lines)|
 |0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global)|Enum(Wall Lines)|
 |0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global)|Enum(Wall Lines)|
@@ -92,14 +92,14 @@ In Midi Mappings, where `Type` states:
 |0|1|55|Wall Line Activation|Wall Lines: Flash|N/A (Global)|Enum(Wall Lines)|
 |0|1|56|Wall Line Activation|Wall Lines: RESERVED|N/A (Global)|Enum(Wall Lines)|
 |0|1|57|Advanced|Force Resync All|N/A (Global)|Button|
-|0|1|58|Advanced|Allow Portals|N/A (Global)|Toggle|
-|0|1|59|Advanced|Clean Light|N/A (Global)|Toggle|
-|0|1|60|Advanced|Very Poor Sign|N/A (Global)|Toggle|
+|0|1|58|Advanced|Allow Portals|N/A (Global)|Toggle(Allow Portals)|
+|0|1|59|Advanced|Clean Light|N/A (Global)|Toggle(Clean Light)|
+|0|1|60|Advanced|Very Poor Sign|N/A (Global)|Toggle(Very Poor Sign)|
 |0|1|61|Advanced|RESERVED|N/A (Global)|Toggle|
-|0|1|62|Activation|Disco Ball|N/A (Global)|Toggle|
-|0|1|63|Activation|Mirror Ball Inner|N/A (Global)|Toggle|
-|0|1|64|Activation|Mirror Ball Middle|N/A (Global)|Toggle|
-|0|1|65|Activation|Mirror Ball Outer|N/A (Global)|Toggle|
+|0|1|62|Activation|Disco Ball|N/A (Global)|Toggle(Disco Ball)|
+|0|1|63|Activation|Mirror Ball Inner|N/A (Global)|Toggle(Mirror Ball Inner)|
+|0|1|64|Activation|Mirror Ball Middle|N/A (Global)|Toggle(Mirror Ball Middle)|
+|0|1|65|Activation|Mirror Ball Outer|N/A (Global)|Toggle(Mirror Ball Outer)|
 |0|1|66|Movement|Spot Movement: Static|N/A (Global)|Enum(Spot Movement)|
 |0|1|67|Movement|Spot Movement: Wave Forward|N/A (Global)|Enum(Spot Movement)|
 |0|1|68|Movement|Spot Movement: Wave Backward|N/A (Global)|Enum(Spot Movement)|
@@ -112,11 +112,11 @@ In Midi Mappings, where `Type` states:
 |0|1|75|Movement|Wash Movement: Wash|N/A (Global)|Enum(Wash Movement)|
 |0|1|76|Movement|Wash Movement: Strike|N/A (Global)|Enum(Wash Movement)|
 |0|1|77|Movement|Wash Movement: RESERVED|N/A (Global)|Enum(Wash Movement)|
-|0|1|78|General|Random: Off|N/A (Global)|Enum(Off)|
-|0|1|79|General|Random: Wave|N/A (Global)|Enum(Wave)|
+|0|1|78|General|Random: Off|N/A (Global)|Enum(Random)|
+|0|1|79|General|Random: Wave|N/A (Global)|Enum(Random)|
 |0|1|80|General|Random: Random|N/A (Global)|Enum(Random)|
-|0|1|81|General|Random: All|N/A (Global)|Enum(All)|
-|0|1|82|General|Blackout|N/A (Global)|Toggle|
+|0|1|81|General|Random: All|N/A (Global)|Enum(Random)|
+|0|1|82|General|Blackout|N/A (Global)|Toggle(Blackout)|
 |0|1|83|Effect|Flasher: Off|N/A (Global)|Enum(Flasher)|
 |0|1|84|Effect|Flasher: Audio Link|N/A (Global)|Enum(Flasher)|
 |0|1|85|Effect|Flasher: Random Audio Link|N/A (Global)|Enum(Flasher)|
@@ -153,24 +153,26 @@ In Midi Mappings, where `Type` states:
 |0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global)|Button|
 |0|1|117|General|UI Larger|N/A (Panel Only)|Button|
 |0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
+|0|1|119|Midi Only|Log received and processed Midi events|Toggle(Midi Log)|
+|0|1|120|Midi Only|Midi Feedback|Toggle(Midi Feedback)|
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
 |0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
 |0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
-|0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider|
-|0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider|
-|0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider|
-|0|8|ALL|Wall Line Activation|Wall Line Speed|N/A (Global Slider)|Slider|
-|0|9|ALL|Wall Line Activation|Wall Line Tension|N/A (Global Slider)|Slider|
-|0|10|ALL|Wall Line Activation|Wall Line Brightness|N/A (Global Slider)|Slider|
-|0|11|ALL|Movement|Movement Speed|N/A (Global Slider)|Slider|
-|0|12|ALL|Effect|Flasher Speed|N/A (Global Slider)|Slider|
-|0|13|ALL|Effect|Moving Head Strobe Speed|N/A (Global Slider)|Slider|
-|0|14|ALL|Intensity|Global Intensity|N/A (Global Slider)|Slider|
-|0|15|ALL|Intensity|Spot Intensity|N/A (Global Slider)|Slider|
-|0|16|ALL|Intensity|Wash Intensity|N/A (Global Slider)|Slider|
-|0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider|
-|0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider|
-|0|19|ALL|Intensity|Lazer Intensity|N/A (Global Slider)|Slider|
+|0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider(Spot Width)|
+|0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider(Wash Width)|
+|0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider(Gobo Spin Speed)|
+|0|8|ALL|Wall Line Activation|Wall Line Speed|N/A (Global Slider)|Slider(Wall Line Speed)|
+|0|9|ALL|Wall Line Activation|Wall Line Tension|N/A (Global Slider)|Slider(Wall Line Tension)|
+|0|10|ALL|Wall Line Activation|Wall Line Brightness|N/A (Global Slider)|Slider(Wall Line Brightness)|
+|0|11|ALL|Movement|Movement Speed|N/A (Global Slider)|Slider(Movement Speed)|
+|0|12|ALL|Effect|Flasher Speed|N/A (Global Slider)|Slider(Flasher Speed)|
+|0|13|ALL|Effect|Moving Head Strobe Speed|N/A (Global Slider)|Slider(Moving Head Strobe Speed)|
+|0|14|ALL|Intensity|Global Intensity|N/A (Global Slider)|Slider(Global Intensity)|
+|0|15|ALL|Intensity|Spot Intensity|N/A (Global Slider)|Slider(Spot Intensity)|
+|0|16|ALL|Intensity|Wash Intensity|N/A (Global Slider)|Slider(Wash Intensity)|
+|0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider(Blinder Intensity)|
+|0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider(Flasher Intensity)|
+|0|19|ALL|Intensity|Laser Intensity|N/A (Global Slider)|Slider(Laser Intensity)|
 |0|20|ALL|AudioLink|Threshold Bass|N/A (Global Slider)|Slider|
 |0|21|ALL|AudioLink|Threshold Low Mid|N/A (Global Slider)|Slider|
 |0|22|ALL|AudioLink|Threshold Upper Mid|N/A (Global Slider)|Slider|
@@ -197,7 +199,7 @@ In Midi Mappings, where `Type` states:
 |-|-|-|-|-|-|
 |0|37|0-31|Macro|Use Macro 0-31|Button|
 |0|37|32-63|Macro|Set Macro 0-31|Button|
-|0|56|64-15|General|Set Color 0-15|Button|
+|0|56|64-80|General|Set Color 0-15|Button|
 
 ## For these next ones, each entry will be a range of 32.
 
@@ -242,10 +244,10 @@ Inside of the range of 0 to 31 these are the sections:
 
 |Channel|Number|Velocity|Panel Section|Description|Type|
 |-|-|-|-|-|-|
-|0|37|64-95|Activation|Section Enabled|Toggle|
-|0|37|96-127|Activation|Spot Enabled|Toggle|
-|0|38|0-31|Activation|Wash Enabled|Toggle|
-|0|38|32-63|Effect|Laser Enabled|Toggle|
+|0|37|64-95|Activation|Section Enabled|Toggle(Section Enabled)|
+|0|37|96-127|Activation|Spot Enabled|Toggle(Spot Enabled)|
+|0|38|0-31|Activation|Wash Enabled|Toggle(Wash Enabled)|
+|0|38|32-63|Effect|Laser Enabled|Toggle(Laser Enabled)|
 |0|38|64-65|Activation|Wash Band: Always on|Enum(Wash Band)|
 |0|38|96-127|Activation|Wash Band: Bass|Enum(Wash Band)|
 |0|39|0-31|Activation|Wash Band: Low Mid|Enum(Wash Band)|
@@ -269,7 +271,7 @@ Inside of the range of 0 to 31 these are the sections:
 |0|43|64-95|General|Gobo: 5|Enum(Gobo)|
 |0|43|96-127|General|Gobo: 6|Enum(Gobo)|
 |0|44|0-31|General|Gobo: 7|Enum(Gobo)|
-|0|44|32-63|General|Gobo Spin Speed Reverse|Toggle|
+|0|44|32-63|General|Gobo Spin Speed Reverse|Toggle(Gobo Spin Speed Reverse)|
 |0|44|64-95|General|Set Spot to Color: 0|Enum(Spot Color)|
 |0|44|96-127|General|Set Spot to Color: 1|Enum(Spot Color)|
 |0|45|0-31|General|Set Spot to Color: 2|Enum(Spot Color)|
@@ -302,25 +304,101 @@ Inside of the range of 0 to 31 these are the sections:
 |0|51|96-127|General|Set Wash to Color: 13|Enum(Wash Color)|
 |0|52|0-31|General|Set Wash to Color: 14|Enum(Wash Color)|
 |0|52|32-63|General|Set Wash to Color: 15|Enum(Wash Color)|
-|0|52|64-95|General|Set Lazer to Color: 0|Enum(Lazer Color)|
-|0|52|96-127|General|Set Lazer to Color: 1|Enum(Lazer Color)|
-|0|53|0-31|General|Set Lazer to Color: 2|Enum(Lazer Color)|
-|0|53|32-63|General|Set Lazer to Color: 3|Enum(Lazer Color)|
-|0|53|64-95|General|Set Lazer to Color: 4|Enum(Lazer Color)|
-|0|53|96-127|General|Set Lazer to Color: 5|Enum(Lazer Color)|
-|0|54|0-31|General|Set Lazer to Color: 6|Enum(Lazer Color)|
-|0|54|32-63|General|Set Lazer to Color: 7|Enum(Lazer Color)|
-|0|54|64-95|General|Set Lazer to Color: 8|Enum(Lazer Color)|
-|0|54|96-127|General|Set Lazer to Color: 9|Enum(Lazer Color)|
-|0|55|0-31|General|Set Lazer to Color: 10|Enum(Lazer Color)|
-|0|55|32-63|General|Set Lazer to Color: 11|Enum(Lazer Color)|
-|0|55|64-95|General|Set Lazer to Color: 12|Enum(Lazer Color)|
-|0|55|96-127|General|Set Lazer to Color: 13|Enum(Lazer Color)|
-|0|56|0-31|General|Set Lazer to Color: 14|Enum(Lazer Color)|
-|0|56|32-63|General|Set Lazer to Color: 15|Enum(Lazer Color)|
-|0|64-95|ALL|General|Spot Width|Slider|
-|0|96-127|ALL|General|Wash Width|Slider|
-|1|0-31|ALL|General|Gobo Spin Speed|Slider|
+|0|52|64-95|General|Set Laser to Color: 0|Enum(Laser Color)|
+|0|52|96-127|General|Set Laser to Color: 1|Enum(Laser Color)|
+|0|53|0-31|General|Set Laser to Color: 2|Enum(Laser Color)|
+|0|53|32-63|General|Set Laser to Color: 3|Enum(Laser Color)|
+|0|53|64-95|General|Set Laser to Color: 4|Enum(Laser Color)|
+|0|53|96-127|General|Set Laser to Color: 5|Enum(Laser Color)|
+|0|54|0-31|General|Set Laser to Color: 6|Enum(Laser Color)|
+|0|54|32-63|General|Set Laser to Color: 7|Enum(Laser Color)|
+|0|54|64-95|General|Set Laser to Color: 8|Enum(Laser Color)|
+|0|54|96-127|General|Set Laser to Color: 9|Enum(Laser Color)|
+|0|55|0-31|General|Set Laser to Color: 10|Enum(Laser Color)|
+|0|55|32-63|General|Set Laser to Color: 11|Enum(Laser Color)|
+|0|55|64-95|General|Set Laser to Color: 12|Enum(Laser Color)|
+|0|55|96-127|General|Set Laser to Color: 13|Enum(Laser Color)|
+|0|56|0-31|General|Set Laser to Color: 14|Enum(Laser Color)|
+|0|56|32-63|General|Set Laser to Color: 15|Enum(Laser Color)|
+|0|64-95|ALL|General|Spot Width|Slider(Spot Width)|
+|0|96-127|ALL|General|Wash Width|Slider(Wash Width)|
+|1|0-31|ALL|General|Gobo Spin Speed|Slider(Gobo Spin Speed)|
+
+
+# Midi Feedback
+
+Once the AudioLink Midi controller is active it will send `[Neoluma][Midi] Ready` to the VRChat log.
+If the Controller is Disabled (which can happen, if you lose permissions or the world is switched to DMX mode), it will send a message starting with `[Neoluma][Midi] Not Ready` to the VRChat log.
+
+
+Each Mapping, which has a name associated in it's type can produce Feedback, if it's enabled via MIDI Mappings.
+
+One Feedback line will start with `[Neoluma][Midi][Feedback] ` and will be followed by some Base64 encoded Data.
+The data will start with one unsigned 32-bit integer for a version number.
+For Version:
+- 0: The Feedback May contain many repetitions of the following entry: `<unsigned 16-bit Name as it's Mapped-Number><signed 16-bit number (positive for section, negative to treat as extra data)><32-bits of data>`
+
+Please note, that an attempt is being made to not log anything starting with or including `[Neoluma][Midi][Feedback] `, which doesn't follow this schema, but due to the many systems involved it may be possible for a malicious actor to theoretically log arbitrary pieces of data (e.g. via usernames, notifications, video player url's any many more), so NOTHING is bullet-proof!
+
+Possibly the best way to ensure the proper placement is via regex verifying the entire line of the VRChat log.
+A regex like this should probably extract the Base64 contents in it's first Capturing group: `^[0-9]{4}\.(?:0[1-9]|1[0-2])\.(?:[012][0-9]|3[01]) (?:[01][0-9]|2[0-4]):(?:[0-5][0-9]|60|61):(?:[0-5][0-9]|60|61) (?:Debug|Warning|Error)\s*-\s*\[Neoluma\]\[Midi\]\[Feedback\] ([-A-Za-z0-9+\/]*={0,3})`.
+[View On Regex101.com](https://regex101.com/?regex=%5E%5B0-9%5D%7B4%7D%5C.%28%3F%3A0%5B1-9%5D%7C1%5B0-2%5D%29%5C.%28%3F%3A%5B012%5D%5B0-9%5D%7C3%5B01%5D%29+%28%3F%3A%5B01%5D%5B0-9%5D%7C2%5B0-4%5D%29%3A%28%3F%3A%5B0-5%5D%5B0-9%5D%7C60%7C61%29%3A%28%3F%3A%5B0-5%5D%5B0-9%5D%7C60%7C61%29+%28%3F%3ADebug%7CWarning%7CError%29%5Cs*-%5Cs*%5C%5BNeoluma%5C%5D%5C%5BMidi%5C%5D%5C%5BFeedback%5C%5D+%28%5B-A-Za-z0-9%2B%5C%2F%5D*%3D%7B0%2C3%7D%29&testString=2026.08.01+21%3A12%3A34+Error++++++-++HTTP%2F1.1+404+Not+Found%0A2026.08.01+21%3A12%3A34+Debug++++++-++%5BBehaviour%5D+Using+default+fx+mask+%28all+muscles+disabled%2C+all+transforms+enabled%29%0A2026.08.01+21%3A12%3A34+Warning++++-++Recovered+0+Network+IDs+from+Avatar%0A2026.08.01+21%3A12%3A34+Error++++++-++%5BNeoluma%5D%5BMidi%5D%5BFeedback%5D+what%0A2026.08.01+21%3A12%3A34+Debug++++++-++%5BBehaviour%5D+Using+default+fx+mask+%28all+muscles+disabled%2C+all+transforms+enabled%29%0A2026.08.01+21%3A12%3A34+Warning++++-++Recovered+0+Network+IDs+from+Avatar&flags=gm&flavor=pcre2&delimiter=%2F).
+
+One could also alter the Regex to capture the Date, Time, Debug Level or to Match other logged pieces of Data to the Debug-Log.
+
+<!-- Command to generate the table from this file: `grep "^|" MIDI\README.md | grep "([^)]*)|$" -o | cut -b 2- | grep "[^)|]*" -o | sort -u | nl -n ln -s"|" -w1` -->
+
+Data types:
+- Bool: 0 for Disabled, otherwise Enabled
+
+Number|Name|Data
+-|-|-
+1|Allow Portals|Bool
+2|Blackout|Bool
+3|Blinder Intensity
+4|Clean Light|Bool
+5|Disco Ball|Bool
+6|Flasher|0-7
+7|Flasher Intensity
+8|Flasher Speed
+9|Global Intensity
+10|Gobo|0-7
+11|Gobo Spin Speed
+12|Gobo Spin Speed Reverse|Bool
+13|Laser Band|0-4
+14|Laser Color|0-15
+15|Laser Enabled|Bool
+16|Laser Intensity
+17|Mirror Ball Inner|Bool
+18|Mirror Ball Middle|Bool
+19|Mirror Ball Outer|Bool
+20|Movement Speed
+21|Moving Head Strobe|0-4
+22|Moving Head Strobe Speed
+23|Random|0-4
+24|Screen Mapping|0-4
+25|Section Enabled|Bool
+26|Spot Band|0-4
+27|Spot Color|0-15
+28|Spot Enabled|Bool
+29|Spot Intensity
+30|Spot Movement|0-7
+31|Spot Width
+32|Very Poor Sign|Bool
+33|Wall Line Brightness
+34|Wall Line Colors|0-15
+35|Wall Line Speed
+36|Wall Line Tension
+37|Wall Lines|0-7
+38|Wash Band|0-4
+39|Wash Color|0-15
+40|Wash Enabled|Bool
+41|Wash Intensity
+42|Wash Movement|0-4
+43|Wash Width
+44|MidiFeedback|Bool
+45|MidiLog|Bool
+
 
 [^1]: When the Set Color toggle is enabled, the Color Buttons all function as a Button (which set's the Color Button's Color).
-Otherwise the Color Buttons function as multiple Enums: Enum(Spot Color), if Set Spot Color is on; Enum(Wash Color), if Set Wash Color is on and Enum(Lazer Color), if Set Lazer Color is on
+Otherwise the Color Buttons function as multiple Enums: Enum(Spot Color), if Set Spot Color is on; Enum(Wash Color), if Set Wash Color is on and Enum(Laser Color), if Set Laser Color is on
