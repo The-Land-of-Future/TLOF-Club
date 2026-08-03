@@ -368,7 +368,7 @@ Number|Name|Has Sections|Type|Data
 13|LaserBand|yes|Enum|0-4
 14|LaserColor|yes|Enum|0-15
 15|LaserEnabled|yes|Toggle|Bool
-16|LaserIntensity|yes|Slider|0-127
+16|LaserIntensity|no|Slider|0-127
 17|MirrorBallInner|yes|Toggle|Bool
 18|MirrorBallMiddle|yes|Toggle|Bool
 19|MirrorBallOuter|yes|Toggle|Bool
