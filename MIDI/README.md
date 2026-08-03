@@ -389,7 +389,7 @@ Number|Name|Has Sections|Type|Data
 34|WallLineColors|no|Enum|0-15
 35|WallLineSpeed|no|Slider|0-127
 36|WallLineTension|no|Slider|0-127
-37|WallLines|no|Slider|0-7
+37|WallLines|no|Enum|0-7
 38|WashBand|yes|Enum|0-4
 39|WashColor|yes|Enum|0-15
 40|WashEnabled|yes|Toggle|Bool
