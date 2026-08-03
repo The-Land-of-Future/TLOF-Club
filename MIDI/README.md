@@ -145,16 +145,16 @@ In Midi Mappings, where `Type` states:
 |0|1|108|Wall Line Colors|Takefive|N/A (Global)|Enum(Wall Line Colors)|
 |0|1|109|Wall Line Colors|Garden|N/A (Global)|Enum(Wall Line Colors)|
 |0|1|110|Wall Line Colors|Energize|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|111|Wall Line Colors|Happy|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|112|Wall Line Colors|Poppinshower|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|113|Wall Line Colors|RGB|N/A (Global)|Enum(Wall Line Colors)|
-|0|1|114|Wall Line Colors|Turquise|N/A (Global)|Enum(Wall Line Colors)|
+|0|1|111|Wall Line Colors|Happy|N/A (Global)|Enum(WallLineColors)|
+|0|1|112|Wall Line Colors|Poppinshower|N/A (Global)|Enum(WallLineColors)|
+|0|1|113|Wall Line Colors|RGB|N/A (Global)|Enum(WallLineColors)|
+|0|1|114|Wall Line Colors|Turquise|N/A (Global)|Enum(WallLineColors)|
 |0|1|115|AudioLink|Reset Settings|N/A (Global)|Button|
 |0|1|116|AudioLink Smoothing|Reset Settings|N/A (Global)|Button|
 |0|1|117|General|UI Larger|N/A (Panel Only)|Button|
 |0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
-|0|1|119|Midi Only|Log received and processed Midi events|Toggle(Midi Log)|
-|0|1|120|Midi Only|Midi Feedback|Toggle(Midi Feedback)|
+|0|1|119|Midi Only|Log received and processed Midi events|Toggle(MidiLog)|
+|0|1|120|Midi Only|Midi Feedback|Toggle(MidiFeedback)|
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
 |0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
 |0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
@@ -336,7 +336,7 @@ Each Mapping, which has a name associated in it's type can produce Feedback, if 
 One Feedback line will start with `[Neoluma][Midi][Feedback] ` and will be followed by some Base64 encoded Data.
 The data will start with one unsigned 32-bit integer for a version number.
 For Version:
-- 0: The Feedback May contain many repetitions of the following entry: `<unsigned 16-bit Name as it's Mapped-Number><signed 16-bit number (positive for section, negative to treat as extra data)><32-bits of data>`
+- 0: The Feedback May contain many repetitions of the following entry: `<unsigned 16-bit Name as it's Mapped-Number><signed 16-bit number (positive for section, negative to treat as extra data special to the Mapped-Number)><unsigned 32-bit integer>`
 
 Please note, that an attempt is being made to not log anything starting with or including `[Neoluma][Midi][Feedback] `, which doesn't follow this schema, but due to the many systems involved it may be possible for a malicious actor to theoretically log arbitrary pieces of data (e.g. via usernames, notifications, video player url's any many more), so NOTHING is bullet-proof!
 
