@@ -359,7 +359,7 @@ Section Type:
 - SetColor: The section values 0-3 map to the toggles in channel 0, number 0, velocity 21-24
 - AudioLink: The section value 0-16 map to the sliders in channel 0, number 20-36
 
-Number|Name|Has Sections|Type|Data
+Number|Name|Section Type|Type|Data
 -|-|-|-|-
 1|AllowPortals|None|Toggle|Bool
 2|Blackout|None|Toggle|Bool
