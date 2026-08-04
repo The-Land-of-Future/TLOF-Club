@@ -20,26 +20,25 @@ In Midi Mappings, where `Type` states:
 * Slider(name) or Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
 
 
-
 # Mappings:
 
 |Channel|Number|Velocity|Panel Section|Description|Based on What Selection|Type|
 |-|-|-|-|-|-|-|
-|0|0|0|Advanced|Section Floor|N/A (Panel/Local Only)|Toggle|
-|0|0|1|Advanced|Section Dancer Podium|N/A (Panel/Local Only)|Toggle|
-|0|0|2|Advanced|Section Screen Bottom|N/A (Panel/Local Only)|Toggle|
-|0|0|3|Advanced|Section Screen Side|N/A (Panel/Local Only)|Toggle|
-|0|0|4|Advanced|Section Screen Top|N/A (Panel/Local Only)|Toggle|
-|0|0|5|Advanced|Section In Screen|N/A (Panel/Local Only)|Toggle|
-|0|0|6|Advanced|Section Mirror Ball Inner|N/A (Panel/Local Only)|Toggle|
-|0|0|7|Advanced|Section Mirror Ball Outer|N/A (Panel/Local Only)|Toggle|
-|0|0|8|Advanced|Section Side Screen Top|N/A (Panel/Local Only)|Toggle|
-|0|0|9|Advanced|Section Side Screen Bottom|N/A (Panel/Local Only)|Toggle|
+|0|0|0|Advanced|Section Floor|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|1|Advanced|Section Dancer Podium|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|2|Advanced|Section Screen Bottom|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|3|Advanced|Section Screen Side|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|4|Advanced|Section Screen Top|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|5|Advanced|Section In Screen|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|6|Advanced|Section Mirror Ball Inner|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|7|Advanced|Section Mirror Ball Outer|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|8|Advanced|Section Side Screen Top|N/A (Panel/Local Only)|Toggle(SectionToggles)|
+|0|0|9|Advanced|Section Side Screen Bottom|N/A (Panel/Local Only)|Toggle(SectionToggles)|
 |0|0|42|Macro|Apply|N/A (Panel/Local Only)|Button|
 |0|0|43|Macro|Clear Apply|N/A (Panel/Local Only)|Button|
-|0|0|44|Macro|Bypass Apply|N/A (Panel/Local Only)|Toggle|
-|0|0|45|Macro|Apply Manually|N/A (Panel/Local Only)|Toggle|
-|0|0|46|Macro|Set Macro Toggle|N/A (Panel/Local Only)|Toggle|
+|0|0|44|Macro|Bypass Apply|N/A (Panel/Local Only)|Toggle(MacroBypassApply)|
+|0|0|45|Macro|Apply Manually|N/A (Panel/Local Only)|Toggle(MacroApplyManually)|
+|0|0|46|Macro|Set Macro Toggle|N/A (Panel/Local Only)|Toggle(MacroSet)|
 |0|0|47-78|Macro|Macro 0-31|Set Macro Toggle|Button|
 |0|0|79|Effect|Confetti|N/A (Global Effect)|Button|
 |0|0|80|Effect|Co2 Down|N/A (Global Effect)|Button|
@@ -47,18 +46,18 @@ In Midi Mappings, where `Type` states:
 |0|0|82|Effect|Fire|N/A (Global Effect)|Button|
 |0|0|83|Effect|Bubbles|N/A (Global Effect)|Button|
 |0|0|84|Effect|Reset|N/A (Global Effect)|Button|
-|0|0|111|Advanced|Side Left|N/A (Panel/Local Only)|Toggle|
-|0|0|112|Advanced|Side Right|N/A (Panel/Local Only)|Toggle|
+|0|0|111|Advanced|Side Left|N/A (Panel/Local Only)|Toggle(SideToggles)|
+|0|0|112|Advanced|Side Right|N/A (Panel/Local Only)|Toggle(SideToggles)|
 |0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle(SectionEnabled)|
 |0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle(SpotEnabled)|
 |0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle(WashEnabled)|
 |0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle(LaserEnabled)|
 |0|1|4-19|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button[^1]|
-|0|1|20|Midi Only|Write `[Neoluma][Midi] Pong` to Log|N/A (Stateless)|Button|
-|0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel/Local Only)|Toggle|
-|0|1|22|General|Set Spot Color|N/A (Panel/Local Only)|Toggle|
-|0|1|23|General|Set Wash Color|N/A (Panel/Local Only)|Toggle|
-|0|1|24|General|Set Laser Color|N/A (Panel/Local Only)|Toggle|
+|0|1|20|Midi Only|Write `[Neoluma][Midi] Pong` to Log, if Ready|N/A (Stateless)|Button|
+|0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel/Local Only)|Toggle(SetColor)|
+|0|1|22|General|Set Spot Color|N/A (Panel/Local Only)|Toggle(SetColor)|
+|0|1|23|General|Set Wash Color|N/A (Panel/Local Only)|Toggle(SetColor)|
+|0|1|24|General|Set Laser Color|N/A (Panel/Local Only)|Toggle(SetColor)|
 |0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Enum(WashBand)|
 |0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Enum(WashBand)|
 |0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Enum(WashBand)|
@@ -155,9 +154,9 @@ In Midi Mappings, where `Type` states:
 |0|1|118|General|UI Smaller|N/A (Panel Only)|Button|
 |0|1|119|Midi Only|Log received and processed Midi events|N/A (Stateless)|Toggle(MidiLog)|
 |0|1|120|Midi Only|Midi Feedback|N/A (Stateless)|Toggle(MidiFeedback)|
-|0|2|ALL|General|Color R|N/A (Panel Only)|Slider|
-|0|3|ALL|General|Color G|N/A (Panel Only)|Slider|
-|0|4|ALL|General|Color B|N/A (Panel Only)|Slider|
+|0|2|ALL|General|Color R|N/A (Panel Only)|Slider(Color)|
+|0|3|ALL|General|Color G|N/A (Panel Only)|Slider(Color)|
+|0|4|ALL|General|Color B|N/A (Panel Only)|Slider(Color)|
 |0|5|ALL|General|Spot Width|Advanced Section \& Side|Slider(SpotWidth)|
 |0|6|ALL|General|Wash Width|Advanced Section \& Side|Slider(WashWidth)|
 |0|7|ALL|General|Gobo Spin Speed|Advanced Section \& Side|Slider(GoboSpinSpeed)|
@@ -173,23 +172,23 @@ In Midi Mappings, where `Type` states:
 |0|17|ALL|Intensity|Blinder Intensity|N/A (Global Slider)|Slider(BlinderIntensity)|
 |0|18|ALL|Intensity|Flasher Intensity|N/A (Global Slider)|Slider(FlasherIntensity)|
 |0|19|ALL|Intensity|Laser Intensity|N/A (Global Slider)|Slider(LaserIntensity)|
-|0|20|ALL|AudioLink|Threshold Bass|N/A (Global Slider)|Slider|
-|0|21|ALL|AudioLink|Threshold Low Mid|N/A (Global Slider)|Slider|
-|0|22|ALL|AudioLink|Threshold Upper Mid|N/A (Global Slider)|Slider|
-|0|23|ALL|AudioLink|Threshold Treble|N/A (Global Slider)|Slider|
-|0|24|ALL|AudioLink|X Divider Nothing <-> Bass|N/A (Global Slider)|Slider|
-|0|25|ALL|AudioLink|X Divider Bass <-> Low Mid|N/A (Global Slider)|Slider|
-|0|26|ALL|AudioLink|X Divider Low Mid <-> Upper Mid|N/A (Global Slider)|Slider|
-|0|27|ALL|AudioLink|X Divider Upper Mid <-> Treble|N/A (Global Slider)|Slider|
-|0|28|ALL|AudioLink|Gain|N/A (Global Slider)|Slider|
-|0|29|ALL|AudioLink|Treble|N/A (Global Slider)|Slider|
-|0|30|ALL|AudioLink|Bass|N/A (Global Slider)|Slider|
-|0|31|ALL|AudioLink|Hit Fade Length|N/A (Global Slider)|Slider|
-|0|32|ALL|AudioLink|Hit Fade Exp. Falloff|N/A (Global Slider)|Slider|
-|0|33|ALL|AudioLink Smoothing|Bass Smoothing|N/A (Global Slider)|Slider|
-|0|34|ALL|AudioLink Smoothing|Lower Mid Smoothing|N/A (Global Slider)|Slider|
-|0|35|ALL|AudioLink Smoothing|Upper Mid Smoothing|N/A (Global Slider)|Slider|
-|0|36|ALL|AudioLink Smoothing|Treble Smoothing|N/A (Global Slider)|Slider|
+|0|20|ALL|AudioLink|Threshold Bass|N/A (Global Slider)|Slider(AudioLink)|
+|0|21|ALL|AudioLink|Threshold Low Mid|N/A (Global Slider)|Slider(AudioLink)|
+|0|22|ALL|AudioLink|Threshold Upper Mid|N/A (Global Slider)|Slider(AudioLink)|
+|0|23|ALL|AudioLink|Threshold Treble|N/A (Global Slider)|Slider(AudioLink)|
+|0|24|ALL|AudioLink|X Divider Nothing <-> Bass|N/A (Global Slider)|Slider(AudioLink)|
+|0|25|ALL|AudioLink|X Divider Bass <-> Low Mid|N/A (Global Slider)|Slider(AudioLink)|
+|0|26|ALL|AudioLink|X Divider Low Mid <-> Upper Mid|N/A (Global Slider)|Slider(AudioLink)|
+|0|27|ALL|AudioLink|X Divider Upper Mid <-> Treble|N/A (Global Slider)|Slider(AudioLink)|
+|0|28|ALL|AudioLink|Gain|N/A (Global Slider)|Slider(AudioLink)|
+|0|29|ALL|AudioLink|Treble|N/A (Global Slider)|Slider(AudioLink)|
+|0|30|ALL|AudioLink|Bass|N/A (Global Slider)|Slider(AudioLink)|
+|0|31|ALL|AudioLink|Hit Fade Length|N/A (Global Slider)|Slider(AudioLink)|
+|0|32|ALL|AudioLink|Hit Fade Exp. Falloff|N/A (Global Slider)|Slider(AudioLink)|
+|0|33|ALL|AudioLink Smoothing|Bass Smoothing|N/A (Global Slider)|Slider(AudioLink)|
+|0|34|ALL|AudioLink Smoothing|Lower Mid Smoothing|N/A (Global Slider)|Slider(AudioLink)|
+|0|35|ALL|AudioLink Smoothing|Upper Mid Smoothing|N/A (Global Slider)|Slider(AudioLink)|
+|0|36|ALL|AudioLink Smoothing|Treble Smoothing|N/A (Global Slider)|Slider(AudioLink)|
 
 
 
@@ -351,53 +350,70 @@ One could also alter the Regex to capture the Date, Time, Debug Level or to Matc
 Data types:
 - Bool: 0 for Disabled, otherwise Enabled
 
+Section Type:
+- None: the section value has no meaning
+- Logical: The section values 0-31 map to the section and side values as described in the Logical Mappings
+- Section: The section values 0-9 map to the toggles in channel 0, number 0, velocity 0-9
+- Side: The section values 0-1 map to the toggles in channel 0, number 0, velocity 111-112
+- Color: The section value 0-3 map to the Sliders in channel 0, number 2-4
+- SetColor: The section values 0-3 map to the toggles in channel 0, number 0, velocity 21-24
+- AudioLink: The section value 0-16 map to the sliders in channel 0, number 20-36
+
 Number|Name|Has Sections|Type|Data
 -|-|-|-|-
-1|AllowPortals|no|Toggle|Bool
-2|Blackout|no|Toggle|Bool
-3|BlinderIntensity|no|Slider|0-127
-4|CleanLight|no|Toggle|Bool
-5|DiscoBall|no|Toggle|Bool
-6|Flasher|no|Enum|0-7
-7|FlasherIntensity|no|Slider|0-127
-8|FlasherSpeed|no|Slider|0-127
-9|GlobalIntensity|no|Slider|0-127
-10|Gobo|yes|Enum|0-7
-11|GoboSpinSpeed|yes|Slider|0-127
-12|GoboSpinSpeedReverse|yes|Toggle|Bool
-13|LaserBand|yes|Enum|0-4
-14|LaserColor|yes|Enum|0-15
-15|LaserEnabled|yes|Toggle|Bool
-16|LaserIntensity|no|Slider|0-127
-17|MirrorBallInner|no|Toggle|Bool
-18|MirrorBallMiddle|no|Toggle|Bool
-19|MirrorBallOuter|no|Toggle|Bool
-20|MovementSpeed|no|Slider|0-127
-21|MovingHeadStrobe|no|Enum|0-4
-22|MovingHeadStrobeSpeed|no|Slider|0-127
-23|Random|no|Enum|0-4
-24|ScreenMapping|no|Enum|0-4
-25|SectionEnabled|yes|Toggle|Bool
-26|SpotBand|yes|Enum|0-4
-27|SpotColor|yes|Enum|0-15
-28|SpotEnabled|yes|Toggle|Bool
-29|SpotIntensity|no|Slider|0-127
-30|SpotMovement|no|Enum|0-7
-31|SpotWidth|yes|Slider|0-127
-32|VeryPoorSign|no|Toggle|Bool
-33|WallLineBrightness|no|Slider|0-127
-34|WallLineColors|no|Enum|0-15
-35|WallLineSpeed|no|Slider|0-127
-36|WallLineTension|no|Slider|0-127
-37|WallLines|no|Enum|0-7
-38|WashBand|yes|Enum|0-4
-39|WashColor|yes|Enum|0-15
-40|WashEnabled|yes|Toggle|Bool
-41|WashIntensity|no|Slider|0-127
-42|WashMovement|no|Enum|0-4
-43|WashWidth|yes|Slider|0-127
-44|MidiFeedback|no|Toggle|Bool
-45|MidiLog|no|Toggle|Bool
+1|AllowPortals|None|Toggle|Bool
+2|Blackout|None|Toggle|Bool
+3|BlinderIntensity|None|Slider|0-127
+4|CleanLight|None|Toggle|Bool
+5|DiscoBall|None|Toggle|Bool
+6|Flasher|None|Enum|0-7
+7|FlasherIntensity|None|Slider|0-127
+8|FlasherSpeed|None|Slider|0-127
+9|GlobalIntensity|None|Slider|0-127
+10|Gobo|Logical|Enum|0-7
+11|GoboSpinSpeed|Logical|Slider|0-127
+12|GoboSpinSpeedReverse|Logical|Toggle|Bool
+13|LaserBand|Logical|Enum|0-4
+14|LaserColor|Logical|Enum|0-15
+15|LaserEnabled|Logical|Toggle|Bool
+16|LaserIntensity|None|Slider|0-127
+17|MirrorBallInner|None|Toggle|Bool
+18|MirrorBallMiddle|None|Toggle|Bool
+19|MirrorBallOuter|None|Toggle|Bool
+20|MovementSpeed|None|Slider|0-127
+21|MovingHeadStrobe|None|Enum|0-4
+22|MovingHeadStrobeSpeed|None|Slider|0-127
+23|Random|None|Enum|0-4
+24|ScreenMapping|None|Enum|0-4
+25|SectionEnabled|Logical|Toggle|Bool
+26|SpotBand|Logical|Enum|0-4
+27|SpotColor|Logical|Enum|0-15
+28|SpotEnabled|Logical|Toggle|Bool
+29|SpotIntensity|None|Slider|0-127
+30|SpotMovement|None|Enum|0-7
+31|SpotWidth|Logical|Slider|0-127
+32|VeryPoorSign|None|Toggle|Bool
+33|WallLineBrightness|None|Slider|0-127
+34|WallLineColors|None|Enum|0-15
+35|WallLineSpeed|None|Slider|0-127
+36|WallLineTension|None|Slider|0-127
+37|WallLines|None|Enum|0-7
+38|WashBand|Logical|Enum|0-4
+39|WashColor|Logical|Enum|0-15
+40|WashEnabled|Logical|Toggle|Bool
+41|WashIntensity|None|Slider|0-127
+42|WashMovement|None|Enum|0-4
+43|WashWidth|Logical|Slider|0-127
+44|MidiFeedback|None|Toggle|Bool
+45|MidiLog|None|Toggle|Bool
+46|SectionToggles|Section|Toggle|Bool
+47|SideToggles|Side|Toggle|Bool
+48|MacroBypassApply|None|Toggle|Bool
+49|MacroApplyManually|None|Toggle|Bool
+50|MacroSet|None|Toggle|Bool
+51|SetColor|SetColor|Toggle|Bool
+52|Color|Color|Slider|0-127
+53|AudioLink|AudioLink|Slider|0-127
 
 
 [^1]: When the Set Color toggle is enabled, the Color Buttons all function as a Button (which set's the Color Button's Color).
