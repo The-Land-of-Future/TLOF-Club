@@ -257,7 +257,7 @@ Inside of the range of 0 to 31 these are the sections:
 |0|37|96-127|Activation|Spot Enabled|Toggle(SpotEnabled)|
 |0|38|0-31|Activation|Wash Enabled|Toggle(WashEnabled)|
 |0|38|32-63|Effect|Laser Enabled|Toggle(LaserEnabled)|
-|0|38|64-65|Activation|Wash Band: Always on|Enum(WashBand)|
+|0|38|64-95|Activation|Wash Band: Always on|Enum(WashBand)|
 |0|38|96-127|Activation|Wash Band: Bass|Enum(WashBand)|
 |0|39|0-31|Activation|Wash Band: Low Mid|Enum(WashBand)|
 |0|39|32-63|Activation|Wash Band: Upper Mid|Enum(WashBand)|
