@@ -5,10 +5,9 @@ There are two different Midi Mapping styles (which can be used side-by-side):
 * Mapping each button to one Midi channel, number and velocity
 * Mapping each logical setting to one Midi channel, number and velocity
 
-Those two approaches are different, because some toggles (the yellow ones) toggle multiple logical settings (depending on what's set in the Advanced section).
-Therefore for each Midi Mappings it's notated, if it's a Midi-Mappings that depend on what is selected in the Panel, or not.
-
-
+Those two approaches are different, because some toggles (the yellow ones in the Lighting Panel) toggle multiple logical settings (often depending on what's set in the Advanced section).
+Therefore for each Midi Mapping it's notated, if it depends on what is selected in the Panel, or not.
+Some, if not most, of the toggles, which depend on what is selected in the Advanced Section, are basically only shortcuts to change a specific selection of logical mappings, as specified by the Section Toggles in Channel 0, Number 0, Velocity 0 to 9 and Side Toggles in Channel 0, Number 0, Velocity 111 to 112.
 
 Furthermore there are different types of Midi Events: [https://creators.vrchat.com/worlds/udon/midi/#midi-events](https://creators.vrchat.com/worlds/udon/midi/#midi-events).
 
@@ -19,7 +18,16 @@ In Midi Mappings, where `Type` states:
 * Button: any Midi message with that channel, Number and Velocity activates the respective control.
 * Slider(name) or Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
 
-Please note that some of the "Buttons" of the mappings below are basically only shortcuts to change a specific selection of logical mappings, as specified by the Section Toggles in Channel 0, Number 0, Velocity 0 to 9 and Side Toggles in Channel 0, Number 0, Velocity 111 to 112.
+
+## Unmapped Buttons:
+
+The only buttons in the panel that are (on purpose) not mapped are:
+- Color Chord for Audio Link (The map doesn't use Color Chord afaik)
+- DJ Spotlight Submit and Reset (you need to type in the name manually anyways)
+- Activate DMX (so that it cannot be hit accidentally)
+- Macro Page 1/Page2 (all the macro buttons are activatable. Those are only to compact the UI)
+- Macro Reapply Color (The reason that toggle was needed is just fixed now)
+- Import Macros (The Button only makes sense to press, if the text to import was changed beforehand, which has to be done manually)
 
 # Mappings:
 
