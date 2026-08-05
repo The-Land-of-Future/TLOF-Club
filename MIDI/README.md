@@ -261,11 +261,11 @@ Inside of the range of 0 to 31 these are the sections:
 |0|38|96-127|Activation|Wash Band: Bass|Enum(WashBand)|
 |0|39|0-31|Activation|Wash Band: Low Mid|Enum(WashBand)|
 |0|39|32-63|Activation|Wash Band: Upper Mid|Enum(WashBand)|
-|0|39|63-95|Activation|Wash Band: Treble|Enum(WashBand)|
-|0|39|69-127|Activation|Spot Band: Always on|Enum(SpotBand)|
+|0|39|64-95|Activation|Wash Band: Treble|Enum(WashBand)|
+|0|39|96-127|Activation|Spot Band: Always on|Enum(SpotBand)|
 |0|40|0-31|Activation|Spot Band: Bass|Enum(SpotBand)|
 |0|40|32-63|Activation|Spot Band: Low Mid|Enum(SpotBand)|
-|0|40|63-95|Activation|Spot Band: Upper Mid|Enum(SpotBand)|
+|0|40|64-95|Activation|Spot Band: Upper Mid|Enum(SpotBand)|
 |0|40|96-127|Activation|Spot Band: Treble|Enum(SpotBand)|
 |0|41|0-31|Activation|Laser Band: Always on|Enum(LaserBand)|
 |0|41|32-63|Activation|Laser Band: Bass|Enum(LaserBand)|
