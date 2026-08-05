@@ -208,7 +208,7 @@ The only buttons in the panel that are (on purpose) not mapped are:
 |-|-|-|-|-|-|
 |0|37|0-31|Macro|Use Macro 0-31|Button|
 |0|37|32-63|Macro|Set Macro 0-31|Button|
-|0|56|64-80|General|Set Color 0-15|Button|
+|0|56|64-79|General|Set Color 0-15|Button|
 
 ## For these next ones, each entry will be a range of 32.
 
