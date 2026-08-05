@@ -19,6 +19,7 @@ In Midi Mappings, where `Type` states:
 * Button: any Midi message with that channel, Number and Velocity activates the respective control.
 * Slider(name) or Slider: any Midi message to that Mapping will just set the Slider to be `(velocity/127)*100%` to the end (regardless of range). So if you send a velocity of 127, the slider will be maxed (`(127/127)*100% = 100%`).
 
+Please note that some of the "Buttons" of the mappings below are basically only shortcuts to change a specific selection of logical mappings, as specified by the Section Toggles in Channel 0, Number 0, Velocity 0 to 9 and Side Toggles in Channel 0, Number 0, Velocity 111 to 112.
 
 # Mappings:
 
@@ -48,40 +49,40 @@ In Midi Mappings, where `Type` states:
 |0|0|84|Effect|Reset|N/A (Global Effect)|Button|
 |0|0|111|Advanced|Side Left|N/A (Panel/Local Only)|Toggle(SideToggles)|
 |0|0|112|Advanced|Side Right|N/A (Panel/Local Only)|Toggle(SideToggles)|
-|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Toggle(SectionEnabled)|
-|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Toggle(SpotEnabled)|
-|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Toggle(WashEnabled)|
-|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Toggle(LaserEnabled)|
+|0|1|0|Activation|Section Enabled|Advanced Section \& Side|Button[^2]|
+|0|1|1|Activation|Spot Enabled|Advanced Section \& Side|Button[^2]|
+|0|1|2|Activation|Wash Enabled|Advanced Section \& Side|Button[^2]|
+|0|1|3|Effect|Laser Enabled|Advanced Section \& Side|Button[^2]|
 |0|1|4-19|General|Color 0-15|Advanced Section \& Side; General Set Spot, Wash, Laser Color; General Set Value to Color|Button[^1]|
 |0|1|20|Midi Only|Write `[Neoluma][Midi] Pong` to Log, if Ready|N/A (Stateless)|Button|
 |0|1|21|General|Set Value to Color (for Color Buttons)|N/A (Panel/Local Only)|Toggle(SetColor)|
 |0|1|22|General|Set Spot Color|N/A (Panel/Local Only)|Toggle(SetColor)|
 |0|1|23|General|Set Wash Color|N/A (Panel/Local Only)|Toggle(SetColor)|
 |0|1|24|General|Set Laser Color|N/A (Panel/Local Only)|Toggle(SetColor)|
-|0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Enum(WashBand)|
-|0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Enum(WashBand)|
-|0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Enum(WashBand)|
-|0|1|28|Activation|Wash Band: Upper Mid|Advanced Section \& Side|Enum(WashBand)|
-|0|1|29|Activation|Wash Band: Treble|Advanced Section \& Side|Enum(WashBand)|
-|0|1|30|Activation|Spot Band: Always on|Advanced Section \& Side|Enum(SpotBand)|
-|0|1|31|Activation|Spot Band: Bass|Advanced Section \& Side|Enum(SpotBand)|
-|0|1|32|Activation|Spot Band: Low Mid|Advanced Section \& Side|Enum(SpotBand)|
-|0|1|33|Activation|Spot Band: Upper Mid|Advanced Section \& Side|Enum(SpotBand)|
-|0|1|34|Activation|Spot Band: Treble|Advanced Section \& Side|Enum(SpotBand)|
-|0|1|35|Activation|Laser Band: Always on|Advanced Section \& Side|Enum(LaserBand)|
-|0|1|36|Activation|Laser Band: Bass|Advanced Section \& Side|Enum(LaserBand)|
-|0|1|37|Activation|Laser Band: Low Mid|Advanced Section \& Side|Enum(LaserBand)|
-|0|1|38|Activation|Laser Band: Upper Mid|Advanced Section \& Side|Enum(LaserBand)|
-|0|1|39|Activation|Laser Band: Treble|Advanced Section \& Side|Enum(LaserBand)|
-|0|1|40|General|Gobo: 0|Advanced Section \& Side|Enum(Gobo)|
-|0|1|41|General|Gobo: 1|Advanced Section \& Side|Enum(Gobo)|
-|0|1|42|General|Gobo: 2|Advanced Section \& Side|Enum(Gobo)|
-|0|1|43|General|Gobo: 3|Advanced Section \& Side|Enum(Gobo)|
-|0|1|44|General|Gobo: 4|Advanced Section \& Side|Enum(Gobo)|
-|0|1|45|General|Gobo: 5|Advanced Section \& Side|Enum(Gobo)|
-|0|1|46|General|Gobo: 6|Advanced Section \& Side|Enum(Gobo)|
-|0|1|47|General|Gobo: 7|Advanced Section \& Side|Enum(Gobo)|
-|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle(GoboSpinSpeedReverse)|
+|0|1|25|Activation|Wash Band: Always on|Advanced Section \& Side|Button[^2]|
+|0|1|26|Activation|Wash Band: Bass|Advanced Section \& Side|Button[^2]|
+|0|1|27|Activation|Wash Band: Low Mid|Advanced Section \& Side|Button[^2]|
+|0|1|28|Activation|Wash Band: Upper Mid|Advanced Section \& Side|Button[^2]|
+|0|1|29|Activation|Wash Band: Treble|Advanced Section \& Side|Button[^2]|
+|0|1|30|Activation|Spot Band: Always on|Advanced Section \& Side|Button[^2]|
+|0|1|31|Activation|Spot Band: Bass|Advanced Section \& Side|Button[^2]|
+|0|1|32|Activation|Spot Band: Low Mid|Advanced Section \& Side|Button[^2]|
+|0|1|33|Activation|Spot Band: Upper Mid|Advanced Section \& Side|Button[^2]|
+|0|1|34|Activation|Spot Band: Treble|Advanced Section \& Side|Button[^2]|
+|0|1|35|Activation|Laser Band: Always on|Advanced Section \& Side|Button[^2]|
+|0|1|36|Activation|Laser Band: Bass|Advanced Section \& Side|Button[^2]|
+|0|1|37|Activation|Laser Band: Low Mid|Advanced Section \& Side|Button[^2]|
+|0|1|38|Activation|Laser Band: Upper Mid|Advanced Section \& Side|Button[^2]|
+|0|1|39|Activation|Laser Band: Treble|Advanced Section \& Side|Button[^2]|
+|0|1|40|General|Gobo: 0|Advanced Section \& Side|Button[^2]|
+|0|1|41|General|Gobo: 1|Advanced Section \& Side|Button[^2]|
+|0|1|42|General|Gobo: 2|Advanced Section \& Side|Button[^2]|
+|0|1|43|General|Gobo: 3|Advanced Section \& Side|Button[^2]|
+|0|1|44|General|Gobo: 4|Advanced Section \& Side|Button[^2]|
+|0|1|45|General|Gobo: 5|Advanced Section \& Side|Button[^2]|
+|0|1|46|General|Gobo: 6|Advanced Section \& Side|Button[^2]|
+|0|1|47|General|Gobo: 7|Advanced Section \& Side|Button[^2]|
+|0|1|48|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Button[^2]|
 |0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global)|Enum(WallLines)|
 |0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global)|Enum(WallLines)|
 |0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global)|Enum(WallLines)|
@@ -419,3 +420,4 @@ Number|Name|Section Type|Type|Data
 
 [^1]: When the Set Color toggle is enabled, the Color Buttons all function as a Button (which set's the Color Button's Color).
 Otherwise the Color Buttons function as multiple Enums: Enum(Spot Color), if Set Spot Color is on; Enum(Wash Color), if Set Wash Color is on and Enum(Laser Color), if Set Laser Color is on
+[^2]: This Button set's the same setting across multiple logical toggles, which are specified by the state of the Section Toggles in Channel 0, Number 0, Velocity 0 to 9 and Side Toggles in Channel 0, Number 0, Velocity 111 to 112. Please note is is also possible to affect Nothing, if all Section or all Side Toggles are disabled.
