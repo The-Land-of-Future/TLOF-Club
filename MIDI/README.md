@@ -94,8 +94,8 @@ The only buttons in the panel that are (on purpose) not mapped are:
 |0|1|49|Wall Line Activation|Wall Lines: Fix|N/A (Global)|Enum(WallLines)|
 |0|1|50|Wall Line Activation|Wall Lines: Audio Link|N/A (Global)|Enum(WallLines)|
 |0|1|51|Wall Line Activation|Wall Lines: Wave Forward|N/A (Global)|Enum(WallLines)|
-|0|1|52|Wall Line Activation|Wall Lines: Wave Up|N/A (Global)|Enum(WallLines)|
-|0|1|53|Wall Line Activation|Wall Lines: Wave Center|N/A (Global)|Enum(WallLines)|
+|0|1|52|Wall Line Activation|Wall Lines: Wave Center|N/A (Global)|Enum(WallLines)|
+|0|1|53|Wall Line Activation|Wall Lines: Wave Up|N/A (Global)|Enum(WallLines)|
 |0|1|54|Wall Line Activation|Wall Lines: Wave Down|N/A (Global)|Enum(WallLines)|
 |0|1|55|Wall Line Activation|Wall Lines: Flash|N/A (Global)|Enum(WallLines)|
 |0|1|56|Wall Line Activation|Wall Lines: RESERVED|N/A (Global)|Enum(WallLines)|
