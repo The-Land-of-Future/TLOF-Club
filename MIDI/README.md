@@ -2,8 +2,10 @@
 
 ## Bitfocus Companion
 
-Website: https://bitfocus.io/companion
-Download: https://user.bitfocus.io/download (If you don't want to create an account, use https://bugmenot.com/view/bitfocus.io )
+Website: https://bitfocus.io/companion <br>
+Download: https://user.bitfocus.io/download <br>
+If you don't want to create an account, use https://bugmenot.com/view/bitfocus.io
+
 Module: https://github.com/bitfocus/companion-module-tlof-neoluma-midi-control
 
 Bitfocus Companion was originally created for the Elgato Stream Deck, but various other devices are starting to get supported by it.
