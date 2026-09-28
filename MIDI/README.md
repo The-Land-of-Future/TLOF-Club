@@ -1,4 +1,35 @@
-# Midi
+# Midi Software
+
+## Bitfocus Companion
+
+Website: https://bitfocus.io/companion
+Download: https://user.bitfocus.io/download (If you don't want to create an account, use https://bugmenot.com/view/bitfocus.io )
+Module: https://github.com/bitfocus/companion-module-tlof-neoluma-midi-control
+
+Bitfocus Companion was originally created for the Elgato Stream Deck, but various other devices are starting to get supported by it.
+You can e.g. get the APC mini mk2 button-field and sliders to work with https://github.com/bitfocus/companion-surface-midi/pull/3 .
+
+Getting started:
+1. Download loop-midi from here: https://www.tobias-erichsen.de/software/loopmidi.html
+2. Install it and Open it
+3. On the bottom right specify a name without spaces. e.g. `VRChat`
+4. Add the connection by clicking "+" on the bottom-right
+5. Add `--midi=[name]` to your VRChat Launch args, making sure to leave one space character between the last argument. If you named your connection e.g. `VRChat`, then you would add `--midi=VRChat`.
+6. Download "Companion" from the download link above
+7. Install it and Launch it
+8. Click "Launch GUI" or open the listed URL
+9. Click on "Modules" on the left-side
+10. ~~Search for "TLOF: NeoLuma Control"~~ Currently there is no version released, reviewed and accepted yet. In the Discord there is a version pinned in the general chat of Neoluma.
+11. Click on the result and click the "+" icon on the newest version
+12. Click on "Connections" on the left-side
+13. Search for "TLOF: NeoLuma Control"
+14. Hit Add
+15. Now click on the connection you just added. A window to edit the connection will either open or open up on the right.
+16. Select the Midi Port, that you created in step 3, in the "Midi Out" Dropdown
+17. Hit save (on the bottom middle or right)
+18. The setup to control NeoLuma via midi is now done. Connect your devices and add some buttons! 
+
+# Midi Mappings
 
 There are two different Midi Mapping styles (which can be used side-by-side):
 
