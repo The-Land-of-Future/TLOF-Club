@@ -159,7 +159,7 @@
             "name": "Use Macro",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Button", "feedback": null},
-            "value": [
+            "values": [
                 {"channel":0,"number": 37, "velocity": 0},
                 {"channel":0,"number": 37, "velocity": 1},
                 {"channel":0,"number": 37, "velocity": 2},
@@ -274,7 +274,7 @@
             "name": "Gobo",
             "affected-by": {"value": ["Advanced Section & Side"]},
             "type": {"value": "Button", "feedback": null},
-            "value":  [
+            "values":  [
                 {"channel":0, "number": 1, "velocity": 40},
                 {"channel":0, "number": 1, "velocity": 41},
                 {"channel":0, "number": 1, "velocity": 42},
@@ -291,7 +291,7 @@
             "name": "Wash Band",
             "affected-by": {"value": ["Advanced Section & Side"]},
             "type": {"value": "Button", "feedback": null},
-            "value": [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 25, "name": "Always on"},
                 {"channel":0, "number": 1, "velocity": 26, "name": "Bass"},
                 {"channel":0, "number": 1, "velocity": 27, "name": "Low Mid"},
@@ -305,7 +305,7 @@
             "name": "Spot Band",
             "affected-by": {"value": ["Advanced Section & Side"]},
             "type": {"value": "Button", "feedback": null},
-            "value": [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 30, "name": "Always on"},
                 {"channel":0, "number": 1, "velocity": 31, "name": "Bass"},
                 {"channel":0, "number": 1, "velocity": 32, "name": "Low Mid"},
@@ -319,7 +319,7 @@
             "name": "Laser Band",
             "affected-by": {"value": ["Advanced Section & Side"]},
             "type": {"value": "Button", "feedback": null},
-            "value": [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 35, "name": "Always on"},
                 {"channel":0, "number": 1, "velocity": 36, "name": "Bass"},
                 {"channel":0, "number": 1, "velocity": 37, "name": "Low Mid"},
@@ -516,7 +516,7 @@
             "name": "Wash Band",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "WashBand"},
-            "value": [
+            "values": [
                 {"channel":0, "number": 38, "velocity": {"start": 64, "end": 95}, "name": "Always on"},
                 {"channel":0, "number": 38, "velocity": {"start": 96, "end": 127}, "name": "Bass"},
                 {"channel":0, "number": 39, "velocity": {"start": 0, "end": 31}, "name": "Low Mid"},
@@ -530,7 +530,7 @@
             "name": "Spot Band",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "SpotBand"},
-            "value": [
+            "values": [
                 {"channel":0, "number": 39, "velocity": {"start": 96, "end": 127}, "name": "Always on"},
                 {"channel":0, "number": 40, "velocity": {"start": 0, "end": 31}, "name": "Bass"},
                 {"channel":0, "number": 40, "velocity": {"start": 32, "end": 63}, "name": "Low Mid"},
@@ -544,7 +544,7 @@
             "name": "Laser Band",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "LaserBand"},
-            "value": [
+            "values": [
                 {"channel":0, "number": 41, "velocity": {"start": 0, "end": 31}, "name": "Always on"},
                 {"channel":0, "number": 41, "velocity": {"start": 32, "end": 63}, "name": "Bass"},
                 {"channel":0, "number": 41, "velocity": {"start": 64, "end": 95}, "name": "Low Mid"},
@@ -558,7 +558,7 @@
             "name": "Gobo",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "Gobo"},
-            "value": [
+            "values": [
                 {"channel":0, "number": 42, "velocity": {"start": 32, "end": 63}, "name": "0"},
                 {"channel":0, "number": 42, "velocity": {"start": 64, "end": 95}, "name": "1"},
                 {"channel":0, "number": 42, "velocity": {"start": 96, "end": 127}, "name": "2"},
@@ -577,7 +577,7 @@
             "name": "Set Spot to Color",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "SpotColor"},
-            "value": [
+            "values": [
                 {"channel": 0,"number": 44, "velocity": {"start": 64, "end": 95}, "name": "0"},
                 {"channel": 0,"number": 44, "velocity": {"start": 96, "end": 127}, "name": "1"},
                 {"channel": 0,"number": 45, "velocity": {"start": 0, "end": 31}, "name": "2"},
@@ -603,7 +603,7 @@
             "name": "Set Wash to Color",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "WashColor"},
-            "value": [
+            "values": [
                 {"channel": 0,"number": 48, "velocity": {"start": 64, "end": 95}, "name": "0"},
                 {"channel": 0,"number": 48, "velocity": {"start": 96, "end": 127}, "name": "1"},
                 {"channel": 0,"number": 49, "velocity": {"start": 0, "end": 31}, "name": "2"},
@@ -629,7 +629,7 @@
             "name": "Set Laser to Color",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "LaserColor"},
-            "value": [
+            "values": [
                 {"channel": 0,"number": 52, "velocity": {"start": 64, "end": 95}, "name": "0"},
                 {"channel": 0,"number": 52, "velocity": {"start": 96, "end": 127}, "name": "1"},
                 {"channel": 0,"number": 53, "velocity": {"start": 0, "end": 31}, "name": "2"},
