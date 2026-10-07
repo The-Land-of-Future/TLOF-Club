@@ -32,38 +32,7 @@
         {"class": "physical",   "channel":0,"number": 1, "velocity": 22, "section": "General", "name": "Set Spot Color", "affected-by": {"value": [], "reason": "Panel/Local Only"}, "type": {"value": "Toggle", "feedback": "SetColor"}},
         {"class": "physical",   "channel":0,"number": 1, "velocity": 23, "section": "General", "name": "Set Wash Color", "affected-by": {"value": [], "reason": "Panel/Local Only"}, "type": {"value": "Toggle", "feedback": "SetColor"}},
         {"class": "physical",   "channel":0,"number": 1, "velocity": 24, "section": "General", "name": "Set Laser Color", "affected-by": {"value": [], "reason": "Panel/Local Only"}, "type": {"value": "Toggle", "feedback": "SetColor"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 25, "section": "Activation", "name": "Wash Band: Always on", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 26, "section": "Activation", "name": "Wash Band: Bass", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 27, "section": "Activation", "name": "Wash Band: Low Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 28, "section": "Activation", "name": "Wash Band: Upper Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 29, "section": "Activation", "name": "Wash Band: Treble", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 30, "section": "Activation", "name": "Spot Band: Always on", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 31, "section": "Activation", "name": "Spot Band: Bass", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 32, "section": "Activation", "name": "Spot Band: Low Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 33, "section": "Activation", "name": "Spot Band: Upper Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 34, "section": "Activation", "name": "Spot Band: Treble", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 35, "section": "Activation", "name": "Laser Band: Always on", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 36, "section": "Activation", "name": "Laser Band: Bass", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 37, "section": "Activation", "name": "Laser Band: Low Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 38, "section": "Activation", "name": "Laser Band: Upper Mid", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 39, "section": "Activation", "name": "Laser Band: Treble", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 40, "section": "General", "name": "Gobo: 0", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 41, "section": "General", "name": "Gobo: 1", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 42, "section": "General", "name": "Gobo: 2", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 43, "section": "General", "name": "Gobo: 3", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 44, "section": "General", "name": "Gobo: 4", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 45, "section": "General", "name": "Gobo: 5", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 46, "section": "General", "name": "Gobo: 6", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 47, "section": "General", "name": "Gobo: 7", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Button", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 48, "section": "General", "name": "Gobo Spin Speed Reverse", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Toggle", "feedback": null}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 49, "section": "Wall Line Activation", "name": "Wall Lines: Fix", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 50, "section": "Wall Line Activation", "name": "Wall Lines: Audio Link", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 51, "section": "Wall Line Activation", "name": "Wall Lines: Wave Forward", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 52, "section": "Wall Line Activation", "name": "Wall Lines: Wave Center", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 53, "section": "Wall Line Activation", "name": "Wall Lines: Wave Up", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 54, "section": "Wall Line Activation", "name": "Wall Lines: Wave Down", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 55, "section": "Wall Line Activation", "name": "Wall Lines: Flash", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
-        {"class": "physical",   "channel":0,"number": 1, "velocity": 56, "section": "Wall Line Activation", "name": "Wall Lines: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLines"}},
+        {"class": "physical",   "channel":0,"number": 1, "velocity": 48, "section": "General", "name": "Gobo Spin Speed Reverse", "affected-by": {"value": ["Advanced Section & Side"]}, "type": {"value": "Toggle", "feedback": null}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 57, "section": "Advanced", "name": "Force Resync All", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Button", "feedback": null}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 58, "section": "Advanced", "name": "Allow Portals", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "AllowPortals"}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 59, "section": "Advanced", "name": "Clean Light", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "CleanLight"}},
@@ -73,55 +42,7 @@
         {"class": "global",     "channel":0,"number": 1, "velocity": 63, "section": "Activation", "name": "Mirror Ball Inner", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "MirrorBallInner"}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 64, "section": "Activation", "name": "Mirror Ball Middle", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "MirrorBallMiddle"}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 65, "section": "Activation", "name": "Mirror Ball Outer", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "MirrorBallOuter"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 66, "section": "Movement", "name": "Spot Movement: Static", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 67, "section": "Movement", "name": "Spot Movement: Wave Forward", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 68, "section": "Movement", "name": "Spot Movement: Wave Backward", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 69, "section": "Movement", "name": "Spot Movement: Circle Backward", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 70, "section": "Movement", "name": "Spot Movement: Circle Forward", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 71, "section": "Movement", "name": "Spot Movement: Random", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 72, "section": "Movement", "name": "Spot Movement: Strike", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 73, "section": "Movement", "name": "Spot Movement: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "SpotMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 74, "section": "Movement", "name": "Wash Movement: Static", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WashMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 75, "section": "Movement", "name": "Wash Movement: Wash", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WashMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 76, "section": "Movement", "name": "Wash Movement: Strike", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WashMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 77, "section": "Movement", "name": "Wash Movement: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WashMovement"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 78, "section": "General", "name": "Random: Off", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Random"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 79, "section": "General", "name": "Random: Wave", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Random"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 80, "section": "General", "name": "Random: Random", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Random"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 81, "section": "General", "name": "Random: All", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Random"}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 82, "section": "General", "name": "Blackout", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Toggle", "feedback": "Blackout"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 83, "section": "Effect", "name": "Flasher: Off", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 84, "section": "Effect", "name": "Flasher: Audio Link", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 85, "section": "Effect", "name": "Flasher: Random Audio Link", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 86, "section": "Effect", "name": "Flasher: Hard Audio Link", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 87, "section": "Effect", "name": "Flasher: Random", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 88, "section": "Effect", "name": "Flasher: Hard", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 89, "section": "Effect", "name": "Flasher: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 90, "section": "Effect", "name": "Flasher: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "Flasher"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 91, "section": "Effect", "name": "Moving Head Strobe: Off", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "MovingHeadStrobe"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 92, "section": "Effect", "name": "Moving Head Strobe: Random", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "MovingHeadStrobe"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 93, "section": "Effect", "name": "Moving Head Strobe: Section Random", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "MovingHeadStrobe"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 94, "section": "Effect", "name": "Moving Head Strobe: Hard", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "MovingHeadStrobe"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 95, "section": "Advanced", "name": "Screen Mapping: Full", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "ScreenMapping"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 96, "section": "Advanced", "name": "Screen Mapping: Cropped DMX", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "ScreenMapping"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 97, "section": "Advanced", "name": "Screen Mapping: Mapped", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "ScreenMapping"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 98, "section": "Advanced", "name": "Screen Mapping: RESERVED", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "ScreenMapping"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 99, "section": "Wall Line Colors", "name": "Initialize", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 100, "section": "Wall Line Colors", "name": "Deepsea", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 101, "section": "Wall Line Colors", "name": "Skyhigh", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 102, "section": "Wall Line Colors", "name": "Lavender", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 103, "section": "Wall Line Colors", "name": "Lovepotion", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 104, "section": "Wall Line Colors", "name": "Yumekawa", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 105, "section": "Wall Line Colors", "name": "Sunset", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 106, "section": "Wall Line Colors", "name": "Goldenage", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 107, "section": "Wall Line Colors", "name": "Redlight", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 108, "section": "Wall Line Colors", "name": "Takefive", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 109, "section": "Wall Line Colors", "name": "Garden", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 110, "section": "Wall Line Colors", "name": "Energize", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 111, "section": "Wall Line Colors", "name": "Happy", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 112, "section": "Wall Line Colors", "name": "Poppinshower", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 113, "section": "Wall Line Colors", "name": "RGB", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
-        {"class": "global",     "channel":0,"number": 1, "velocity": 114, "section": "Wall Line Colors", "name": "Turquise", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Enum", "feedback": "WallLineColors"}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 115, "section": "AudioLink", "name": "Reset Settings", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Button", "feedback": null}},
         {"class": "global",     "channel":0,"number": 1, "velocity": 116, "section": "AudioLink Smoothing", "name": "Reset Settings", "affected-by": {"value": [], "reason": "Global"}, "type": {"value": "Button", "feedback": null}},
         {"class": "physical",   "channel":0,"number": 1, "velocity": 117, "section": "General", "name": "UI Larger", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Button", "feedback": null}},
@@ -132,9 +53,9 @@
         {"class": "physical",   "channel":0,"number": 2, "section": "General", "name": "Color R", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
         {"class": "physical",   "channel":0,"number": 3, "section": "General", "name": "Color G", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
         {"class": "physical",   "channel":0,"number": 4, "section": "General", "name": "Color B", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
-        {"class": "physical",   "channel":0,"number": 5, "section": "General", "name": "Spot Width", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Slider", "feedback": "SpotWidth"}},
-        {"class": "physical",   "channel":0,"number": 6, "section": "General", "name": "Wash Width", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Slider", "feedback": "WashWidth"}},
-        {"class": "physical",   "channel":0,"number": 7, "section": "General", "name": "Gobo Spin Speed", "affected-by": {"value": ["Advanced Section & Side"], "reason": ""}, "type": {"value": "Slider", "feedback": "GoboSpinSpeed"}},
+        {"class": "physical",   "channel":0,"number": 5, "section": "General", "name": "Spot Width", "affected-by": {"value": ["Advanced Section & Side"]}, "type": {"value": "Slider", "feedback": "SpotWidth"}},
+        {"class": "physical",   "channel":0,"number": 6, "section": "General", "name": "Wash Width", "affected-by": {"value": ["Advanced Section & Side"]}, "type": {"value": "Slider", "feedback": "WashWidth"}},
+        {"class": "physical",   "channel":0,"number": 7, "section": "General", "name": "Gobo Spin Speed", "affected-by": {"value": ["Advanced Section & Side"]}, "type": {"value": "Slider", "feedback": "GoboSpinSpeed"}},
         {"class": "global",     "channel":0,"number": 8, "section": "Wall Line Activation", "name": "Wall Line Speed", "affected-by": {"value": [], "reason": "Global Slider"}, "type": {"value": "Slider", "feedback": "WallLineSpeed"}},
         {"class": "global",     "channel":0,"number": 9, "section": "Wall Line Activation", "name": "Wall Line Tension", "affected-by": {"value": [], "reason": "Global Slider"}, "type": {"value": "Slider", "feedback": "WallLineTension"}},
         {"class": "global",     "channel":0,"number": 10, "section": "Wall Line Activation", "name": "Wall Line Brightness", "affected-by": {"value": [], "reason": "Global Slider"}, "type": {"value": "Slider", "feedback": "WallLineBrightness"}},
@@ -345,6 +266,202 @@
                 {"channel":0, "number": 56, "velocity": 85},
                 {"channel":0, "number": 56, "velocity": 86},
                 {"channel":0, "number": 56, "velocity": 87}
+            ]
+        },
+        {
+            "class": "physical",
+            "section": "General",
+            "name": "Gobo",
+            "affected-by": {"value": ["Advanced Section & Side"]},
+            "type": {"value": "Button", "feedback": null},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 40},
+                {"channel":0, "number": 1, "velocity": 41},
+                {"channel":0, "number": 1, "velocity": 42},
+                {"channel":0, "number": 1, "velocity": 43},
+                {"channel":0, "number": 1, "velocity": 44},
+                {"channel":0, "number": 1, "velocity": 45},
+                {"channel":0, "number": 1, "velocity": 46},
+                {"channel":0, "number": 1, "velocity": 47}
+            ]
+        },
+        {
+            "class": "physical",
+            "section": "Activation",
+            "name": "Wash Band",
+            "affected-by": {"value": ["Advanced Section & Side"]},
+            "type": {"value": "Button", "feedback": null},
+            "value": [
+                {"channel":0, "number": 1, "velocity": 25, "name": "Always on"},
+                {"channel":0, "number": 1, "velocity": 26, "name": "Bass"},
+                {"channel":0, "number": 1, "velocity": 27, "name": "Low Mid"},
+                {"channel":0, "number": 1, "velocity": 28, "name": "Upper Mid"},
+                {"channel":0, "number": 1, "velocity": 29, "name": "Treble"}
+            ]
+        },
+        {
+            "class": "physical",
+            "section": "Activation",
+            "name": "Spot Band",
+            "affected-by": {"value": ["Advanced Section & Side"]},
+            "type": {"value": "Button", "feedback": null},
+            "value": [
+                {"channel":0, "number": 1, "velocity": 30, "name": "Always on"},
+                {"channel":0, "number": 1, "velocity": 31, "name": "Bass"},
+                {"channel":0, "number": 1, "velocity": 32, "name": "Low Mid"},
+                {"channel":0, "number": 1, "velocity": 33, "name": "Upper Mid"},
+                {"channel":0, "number": 1, "velocity": 34, "name": "Treble"}
+            ]
+        },
+        {
+            "class": "physical",
+            "section": "Activation",
+            "name": "Laser Band",
+            "affected-by": {"value": ["Advanced Section & Side"]},
+            "type": {"value": "Button", "feedback": null},
+            "value": [
+                {"channel":0, "number": 1, "velocity": 35, "name": "Always on"},
+                {"channel":0, "number": 1, "velocity": 36, "name": "Bass"},
+                {"channel":0, "number": 1, "velocity": 37, "name": "Low Mid"},
+                {"channel":0, "number": 1, "velocity": 38, "name": "Upper Mid"},
+                {"channel":0, "number": 1, "velocity": 39, "name": "Treble"}
+            ]
+        }
+    ],
+    "enumMappings": [
+        {
+            "class": "physical",
+            "section": "Wall Line Activation",
+            "name": "Wall Lines",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "WallLines"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 49, "name": "Fix"},
+                {"channel":0, "number": 1, "velocity": 50, "name": "Audio Link"},
+                {"channel":0, "number": 1, "velocity": 51, "name": "Wave Forward"},
+                {"channel":0, "number": 1, "velocity": 52, "name": "Wave Center"},
+                {"channel":0, "number": 1, "velocity": 53, "name": "Wave Up"},
+                {"channel":0, "number": 1, "velocity": 54, "name": "Wave Down"},
+                {"channel":0, "number": 1, "velocity": 55, "name": "Flash"},
+                {"channel":0, "number": 1, "velocity": 56, "name": "RESERVED"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Movement",
+            "name": "Spot Movement",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "SpotMovement"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 66, "name": "Static"},
+                {"channel":0, "number": 1, "velocity": 67, "name": "Wave Forward"},
+                {"channel":0, "number": 1, "velocity": 68, "name": "Wave Backward"},
+                {"channel":0, "number": 1, "velocity": 69, "name": "Circle Backward"},
+                {"channel":0, "number": 1, "velocity": 70, "name": "Circle Forward"},
+                {"channel":0, "number": 1, "velocity": 71, "name": "Random"},
+                {"channel":0, "number": 1, "velocity": 72, "name": "Strike"},
+                {"channel":0, "number": 1, "velocity": 73, "name": "RESERVED"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Movement",
+            "name": "Wash Movement",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "WashMovement"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 74, "name": "Static"},
+                {"channel":0, "number": 1, "velocity": 75, "name": "Wash"},
+                {"channel":0, "number": 1, "velocity": 76, "name": "Strike"},
+                {"channel":0, "number": 1, "velocity": 77, "name": "RESERVED"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "General",
+            "name": "Random",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "Random"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 78, "name": "Off"},
+                {"channel":0, "number": 1, "velocity": 79, "name": "Wave"},
+                {"channel":0, "number": 1, "velocity": 80, "name": "Random"},
+                {"channel":0, "number": 1, "velocity": 81, "name": "All"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Effect",
+            "name": "Flasher",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "Flasher"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 83, "name": "Off"},
+                {"channel":0, "number": 1, "velocity": 84, "name": "Audio Link"},
+                {"channel":0, "number": 1, "velocity": 85, "name": "Random Audio Link"},
+                {"channel":0, "number": 1, "velocity": 86, "name": "Hard Audio Link"},
+                {"channel":0, "number": 1, "velocity": 87, "name": "Random"},
+                {"channel":0, "number": 1, "velocity": 88, "name": "Hard"},
+                {"channel":0, "number": 1, "velocity": 89, "name": "RESERVED"},
+                {"channel":0, "number": 1, "velocity": 90, "name": "RESERVED"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Effect",
+            "name": "Moving Head Strobe",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "MovingHeadStrobe"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 91, "name": "Off"},
+                {"channel":0, "number": 1, "velocity": 92, "name": "Random"},
+                {"channel":0, "number": 1, "velocity": 93, "name": "Section Random"},
+                {"channel":0, "number": 1, "velocity": 94, "name": "Hard"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Advanced",
+            "name": "Screen Mapping",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "ScreenMapping"},
+            "value":  [
+                {"channel":0,"number": 1, "velocity": 95, "section": "Advanced", "name": "Full"},
+                {"channel":0,"number": 1, "velocity": 96, "section": "Advanced", "name": "Cropped DMX"},
+                {"channel":0,"number": 1, "velocity": 97, "section": "Advanced", "name": "Mapped"},
+                {"channel":0,"number": 1, "velocity": 98, "section": "Advanced", "name": "RESERVED"}
+            ]
+        },
+
+        {
+            "class": "global",
+            "section": "Advanced",
+            "name": "Wall Line Colors",
+            "affected-by": {"value": [], "reason": "Global"},
+            "type": {"value": "Enum", "feedback": "WallLineColors"},
+            "value":  [
+                {"channel":0, "number": 1, "velocity": 99, "name": "Initialize"},
+                {"channel":0, "number": 1, "velocity": 100, "name": "Deepsea"},
+                {"channel":0, "number": 1, "velocity": 101, "name": "Skyhigh"},
+                {"channel":0, "number": 1, "velocity": 102, "name": "Lavender"},
+                {"channel":0, "number": 1, "velocity": 103, "name": "Lovepotion"},
+                {"channel":0, "number": 1, "velocity": 104, "name": "Yumekawa"},
+                {"channel":0, "number": 1, "velocity": 105, "name": "Sunset"},
+                {"channel":0, "number": 1, "velocity": 106, "name": "Goldenage"},
+                {"channel":0, "number": 1, "velocity": 107, "name": "Redlight"},
+                {"channel":0, "number": 1, "velocity": 108, "name": "Takefive"},
+                {"channel":0, "number": 1, "velocity": 109, "name": "Garden"},
+                {"channel":0, "number": 1, "velocity": 110, "name": "Energize"},
+                {"channel":0, "number": 1, "velocity": 111, "name": "Happy"},
+                {"channel":0, "number": 1, "velocity": 112, "name": "Poppinshower"},
+                {"channel":0, "number": 1, "velocity": 113, "name": "RGB"},
+                {"channel":0, "number": 1, "velocity": 114, "name": "Turquise"}
             ]
         }
     ],
