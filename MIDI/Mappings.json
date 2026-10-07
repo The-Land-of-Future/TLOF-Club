@@ -91,7 +91,7 @@
             "class": "physical",
             "section": "Macro",
             "name": "Macro",
-            "affected-by": {"value": ["Set Macro Toggle"]},
+            "affected-by": {"value": ["Set Macro Toggle"], "reason": null},
             "type":  {"value": "Button", "feedback":  null},
             "values": [
                 {"channel":0,"number": 0, "velocity":47},
@@ -132,7 +132,7 @@
             "class": "physical",
             "section": "General",
             "name": "Color",
-            "affected-by": {"value": ["Advanced Section & Side", "General Set Spot Color", "General Set Wash Color", "General Set Laser Color", "General Set Value to Color"]},
+            "affected-by": {"value": ["Advanced Section & Side", "General Set Spot Color", "General Set Wash Color", "General Set Laser Color", "General Set Value to Color"], "reason": null},
             "type": {"value": "Button", "feedback":  null},
             "values": [
                 {"channel":0,"number": 1, "velocity": 4},
@@ -335,7 +335,7 @@
             "name": "Wall Lines",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "WallLines"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 49, "name": "Fix"},
                 {"channel":0, "number": 1, "velocity": 50, "name": "Audio Link"},
                 {"channel":0, "number": 1, "velocity": 51, "name": "Wave Forward"},
@@ -353,7 +353,7 @@
             "name": "Spot Movement",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "SpotMovement"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 66, "name": "Static"},
                 {"channel":0, "number": 1, "velocity": 67, "name": "Wave Forward"},
                 {"channel":0, "number": 1, "velocity": 68, "name": "Wave Backward"},
@@ -371,7 +371,7 @@
             "name": "Wash Movement",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "WashMovement"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 74, "name": "Static"},
                 {"channel":0, "number": 1, "velocity": 75, "name": "Wash"},
                 {"channel":0, "number": 1, "velocity": 76, "name": "Strike"},
@@ -385,7 +385,7 @@
             "name": "Random",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "Random"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 78, "name": "Off"},
                 {"channel":0, "number": 1, "velocity": 79, "name": "Wave"},
                 {"channel":0, "number": 1, "velocity": 80, "name": "Random"},
@@ -399,7 +399,7 @@
             "name": "Flasher",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "Flasher"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 83, "name": "Off"},
                 {"channel":0, "number": 1, "velocity": 84, "name": "Audio Link"},
                 {"channel":0, "number": 1, "velocity": 85, "name": "Random Audio Link"},
@@ -417,7 +417,7 @@
             "name": "Moving Head Strobe",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "MovingHeadStrobe"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 91, "name": "Off"},
                 {"channel":0, "number": 1, "velocity": 92, "name": "Random"},
                 {"channel":0, "number": 1, "velocity": 93, "name": "Section Random"},
@@ -431,7 +431,7 @@
             "name": "Screen Mapping",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "ScreenMapping"},
-            "value":  [
+            "values": [
                 {"channel":0,"number": 1, "velocity": 95, "section": "Advanced", "name": "Full"},
                 {"channel":0,"number": 1, "velocity": 96, "section": "Advanced", "name": "Cropped DMX"},
                 {"channel":0,"number": 1, "velocity": 97, "section": "Advanced", "name": "Mapped"},
@@ -445,7 +445,7 @@
             "name": "Wall Line Colors",
             "affected-by": {"value": [], "reason": "Global"},
             "type": {"value": "Enum", "feedback": "WallLineColors"},
-            "value":  [
+            "values": [
                 {"channel":0, "number": 1, "velocity": 99, "name": "Initialize"},
                 {"channel":0, "number": 1, "velocity": 100, "name": "Deepsea"},
                 {"channel":0, "number": 1, "velocity": 101, "name": "Skyhigh"},
