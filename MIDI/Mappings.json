@@ -237,8 +237,8 @@
         },
         {
             "class": "logical",
-            "section": "Macro",
-            "name": "Set Macro",
+            "section": "General",
+            "name": "Set Color",
             "affected-by": { "value": [], "reason": "Logical Mapping"},
             "type": { "value": "Button", "feedback": null},
             "values": [
