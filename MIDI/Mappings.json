@@ -555,7 +555,7 @@
         },
         {
             "class": "logical",
-            "section": "Activation",
+            "section": "General",
             "name": "Gobo",
             "affected-by": {"value": [], "reason": "Logical Mapping"},
             "type": {"value": "Enum", "feedback": "Gobo"},
