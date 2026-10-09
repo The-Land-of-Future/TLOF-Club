@@ -197,6 +197,7 @@ The only buttons in the panel that are (on purpose) not mapped are:
 |0|1|119|Midi Only|Log received and processed Midi events|N/A (Stateless)|Toggle(MidiLog)|
 |0|1|120|Midi Only|Midi Feedback|N/A (Stateless)|Toggle(MidiFeedback)|
 |0|1|121|Midi Only|Dump All State as Feedback|N/A (Stateless)|Button|
+|0|1|122|General|Gobo Spin Speed Reverse|Advanced Section \& Side|Toggle|
 |0|2|ALL|General|Color R|N/A (Panel Only)|Slider(Color)|
 |0|3|ALL|General|Color G|N/A (Panel Only)|Slider(Color)|
 |0|4|ALL|General|Color B|N/A (Panel Only)|Slider(Color)|

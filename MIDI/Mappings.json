@@ -50,6 +50,7 @@
         {"class": "midi",       "channel":0,"number": 1, "velocity": 119, "section": "Midi Only", "name": "Log received and processed Midi events", "affected-by": {"value": [], "reason": "Stateless"}, "type": {"value": "Toggle", "feedback": "MidiLog"}},
         {"class": "midi",       "channel":0,"number": 1, "velocity": 120, "section": "Midi Only", "name": "Midi Feedback", "affected-by": {"value": [], "reason": "Stateless"}, "type": {"value": "Toggle", "feedback": "MidiFeedback"}},
         {"class": "midi",       "channel":0,"number": 1, "velocity": 121, "section": "Midi Only", "name": "Dump All State as Feedback", "affected-by": {"value": [], "reason": "Stateless"}, "type": {"value": "Button", "feedback": null}},
+        {"class": "physical",   "channel":0,"number": 1, "velocity": 122, "section": "General", "name": "Gobo Spin Speed Reverse", "affected-by": {"value": ["Advanced Section & Side"]}, "type": {"value": "Toggle", "feedback": null}},
         {"class": "physical",   "channel":0,"number": 2, "section": "General", "name": "Color R", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
         {"class": "physical",   "channel":0,"number": 3, "section": "General", "name": "Color G", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
         {"class": "physical",   "channel":0,"number": 4, "section": "General", "name": "Color B", "affected-by": {"value": [], "reason": "Panel Only"}, "type": {"value": "Slider", "feedback": "Color"}},
