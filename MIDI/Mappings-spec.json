@@ -1,0 +1,327 @@
+{
+  "type": "object",
+  "$defs": {
+    "affected-by": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "null"
+            },
+            "reason": { "type": "string"}
+          },
+          "required": [
+            "value",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "array",
+              "items": [ {"type": "string" } ],
+              "minItems": 1
+            },
+            "reason": { "type": "null"}
+          },
+          "required": [
+            "value",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "physical",
+        "midi",
+        "logical",
+        "global"
+      ]
+    },
+    "exact-enum-mapping": {
+      "type": "array",
+      "items": [{
+        "allOf": [
+          {
+            "$ref": "#/$defs/mapping"
+          },
+          {
+            "type": "object",
+            "properties": {
+              "values": {
+                "type": "array",
+                "items": [{
+                  "allOf": [
+                    {
+                      "$ref": "#/$defs/note-info"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }]
+              }
+            },
+            "required": [
+              "values"
+            ]
+          }
+        ]
+      }]
+    },
+    "feedback": {
+      "type": "object",
+      "properties": {
+        "number": {
+          "type": "number"
+        },
+        "name": {
+          "type": "string",
+          "enum": {"$data":  "/feedbackNames"}
+        },
+        "sectionType": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/type"
+        },
+        "data": {
+          "oneOf": [
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "const": "Bool"
+                },
+                "start": {
+                  "type": "number",
+                  "const": 0
+                },
+                "end": {
+                  "type": "number",
+                  "const": 1
+                }
+              },
+              "required": [
+                "type",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "const": "Range"
+                },
+                "start": {
+                  "type": "number",
+                  "const": 0
+                },
+                "end": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "type",
+                "start",
+                "end"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        }
+      },
+      "required": [
+        "number",
+        "name",
+        "sectionType",
+        "type",
+        "data"
+      ],
+      "additionalProperties": false
+    },
+    "feedback-or-null": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "enum": {"$data":  "/feedbackNames"}
+        }
+      ]
+    },
+    "mapping-type": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "$ref": "#/$defs/type"
+        },
+        "feedback": {
+          "$ref": "#/$defs/feedback-or-null"
+        }
+      },
+      "required": [
+        "value",
+        "feedback"
+      ],
+      "additionalProperties": false
+    },
+    "mapping": {
+      "type": "object",
+      "properties": {
+        "class": {
+          "$ref": "#/$defs/class"
+        },
+        "section": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "affectedBy": {
+          "$ref": "#/$defs/affected-by"
+        },
+        "type": {
+          "$ref": "#/$defs/mapping-type"
+        }
+      },
+      "required": [
+        "class",
+        "section",
+        "name",
+        "affectedBy",
+        "type"
+      ]
+    },
+    "note-info": {
+      "type": "object",
+      "properties": {
+        "channel": {
+          "type": "number"
+        },
+        "number": {
+          "type": "number"
+        },
+        "velocity": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "channel",
+        "number",
+        "velocity"
+      ]
+    },
+    "ranged-types": {
+      "type": "object",
+      "properties": {
+        "index": {
+          "type": "number"
+        },
+        "section": {
+          "type": "string",
+          "enum": {"$data":  "/sectionNames"}
+        },
+        "side": {
+          "enum": {"$data":  "/sideNames"}
+        }
+      },
+      "additionalProperties": false
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "Toggle",
+        "Button",
+        "Slider",
+        "Enum"
+      ]
+    }
+  },
+  "properties": {
+    "mappings": {
+      "type": "array",
+      "items": [{
+        "type": "object",
+        "allOf": [
+          {
+            "$ref": "#/$defs/mapping"
+          },
+          {
+            "$ref": "#/$defs/note-info"
+          }
+        ]
+      }],
+      "uniqueItems": true
+    },
+    "indexedMappings": {
+      "$ref": "#/$defs/exact-enum-mapping"
+    },
+    "enumMappings": {
+      "$ref": "#/$defs/exact-enum-mapping"
+    },
+    "sectionNames": {
+      "type": "array",
+      "items": [ { "type": "string" }]
+    },
+    "sideNames": {
+      "type": "array",
+      "items": [ { "type": "string" }]
+    },
+    "rangedNames": {
+      "type": "array",
+      "items": [{
+        "$ref": "#/$defs/ranged-types"
+      }]
+    },
+    "rangedMappings": {
+      "type": "array",
+      "$comment": "TODO"
+    },
+    "enumRangedMappings": {
+      "type": "array",
+      "$comment": "TODO"
+    },
+    "feedbackNames": {
+      "type": "array",
+      "items": [{
+        "type": "string"
+      }]
+    },
+    "feedback": {
+      "type": "array",
+      "items": [{
+        "$ref": "#/$defs/feedback"
+      }],
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "mappings",
+    "indexedMappings",
+    "enumMappings",
+    "sectionNames",
+    "sideNames",
+    "rangedNames",
+    "rangedMappings",
+    "enumRangedMappings",
+    "feedbackNames",
+    "feedback"
+  ],
+  "additionalProperties": false
+}

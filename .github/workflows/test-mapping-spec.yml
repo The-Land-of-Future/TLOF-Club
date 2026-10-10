@@ -1,0 +1,14 @@
+name: test-mapping-spec.yml
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+
+jobs:
+  verify-mapping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: |
+          npm install -j avj-cli
+          ajv test -s MIDI\Mappings-spec.json -d MIDI\Mappings.json --valid --data --all-errors --verbose --strict=true --strict-schema=true --strict-tuples=false --strict-types=true --strict-required=true
