@@ -3,12 +3,17 @@ on:
   pull_request:
   workflow_dispatch:
   push:
+    paths:
+      - MIDI/Mappings.json
+      - MIDI/Mappings-spec.json
 
 jobs:
   verify-mapping:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
-      - run: |
-          npm install -g ajv-cli
-          ajv test -s MIDI\Mappings-spec.json -d MIDI\Mappings.json --valid --data --all-errors --verbose --strict=true --strict-schema=true --strict-tuples=false --strict-types=true --strict-required=true
+      - name: Checkout Repo
+        uses: actions/checkout@v7
+      - name: Install ajv command
+        run: npm install -g ajv-cli
+      - name: Test Specification
+        run: ajv test -s MIDI/Mappings-spec.json -d MIDI/Mappings.json --valid --data --all-errors --verbose --strict=true --strict-schema=true --strict-tuples=false --strict-types=true --strict-required=true
