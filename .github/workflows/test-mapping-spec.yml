@@ -1,6 +1,9 @@
 name: test-mapping-spec.yml
 on:
   pull_request:
+    paths:
+      - MIDI/Mappings.json
+      - MIDI/Mappings-spec.json
   workflow_dispatch:
   push:
     paths:
